@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+
+        <Toni_Introduce>
+            <version>1.0.0.0</version>
+        </Toni_Introduce>
+
+    </modules>
+    <frontend>
+        <routers>
+            <introduce>
+                <use>standard</use>
+
+                <args>
+
+                <module>Toni_Introduce</module>
+
+                <frontName>introduce</frontName>
+
+                </args>
+            </introduce>
+        </routers>
+    </frontend>
+    <global>
+
+        <blocks>
+
+            <introduce>
+
+                <class>Toni_Introduce_Block</class>
+
+            </introduce>
+
+        </blocks>
+
+    </global>
+
+</config>
