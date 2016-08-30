@@ -26,14 +26,43 @@
     <global>
 
         <blocks>
+            <introduce>
+                <class>Toni_Introduce_Block</class>
+            </introduce>
+        </blocks>
 
+        <models>
             <introduce>
 
-                <class>Toni_Introduce_Block</class>
+                <class>Toni_Introduce_Model</class>
+                <resourceModel>introduce_resource</resourceModel>
 
             </introduce>
 
-        </blocks>
+            <introduce_resource>
+                <class>Toni_Introduce_Model_Resource</class>
+                <entities>
+                    <user>
+                        <table>introduce_user</table>
+                    </user>
+                </entities>
+            </introduce_resource>
+
+        </models>
+
+        <resources>
+
+            <introduce_setup>
+
+                <setup>
+
+                    <model>Toni_Introduce</model>
+
+                </setup>
+
+            </introduce_setup>
+
+        </resources>
 
     </global>
 
