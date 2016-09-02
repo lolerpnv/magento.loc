@@ -22,9 +22,31 @@
                 </args>
             </introduce>
         </routers>
+        <events>
+            <controller_action_predispatch_customer_account_createpost>
+
+                <observers>
+
+                    <introduce_intercept>
+
+                        <class>introduce/observer</class>
+
+                        <method>intercept</method>
+
+                    </introduce_intercept>
+
+                </observers>
+
+            </controller_action_predispatch_customer_account_createpost>
+
+        </events>
     </frontend>
     <global>
-
+        <helpers>
+            <introduce>
+                <class>Toni_Introduce_Helper</class>
+            </introduce>
+        </helpers>
         <blocks>
             <introduce>
                 <class>Toni_Introduce_Block</class>
@@ -56,7 +78,7 @@
 
                 <setup>
 
-                    <model>Toni_Introduce</model>
+                    <module>Toni_Introduce</module>
 
                 </setup>
 
@@ -66,4 +88,29 @@
 
     </global>
 
+    <crontab>
+        <jobs>
+            <introduce_ping>
+                <schedule>
+                    <cron_expr>*/1 * * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>introduce/service::ping</model>
+                </run>
+            </introduce_ping>
+        </jobs>
+    </crontab>
+    <default>
+
+        <introduce>
+
+            <settings>
+
+                <custom_message><![CDATA[Hello World]]></custom_message>
+
+            </settings>
+
+        </introduce>
+
+    </default>
 </config>

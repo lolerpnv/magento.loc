@@ -6,4 +6,10 @@ class Toni_Introduce_Model_Resource_User_Collection extends Mage_Core_Model_Reso
     $this->_init('introduce/user');
     }
 
+
+    public function joinAddresses()
+    {
+
+    }
+
 }

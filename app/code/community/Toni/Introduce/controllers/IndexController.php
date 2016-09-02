@@ -52,4 +52,27 @@ class Toni_Introduce_IndexController extends Mage_Core_Controller_Front_Action
         }
 
     }
+    public function test1Action()
+    {
+        //Mage::log("123", null, "toni.log", true);
+
+        $user=Mage::getModel("introduce/user");
+
+        $collection = $user->getCollection();
+        $collection
+            ->addFieldToFilter("firstname", array("in" => array("Pero", "lol")));
+
+
+        foreach ($collection as $item){
+            var_dump($item);
+        }
+
+        var_dump($collection);
+    }
+    public function setHelperAction() {
+
+        $data = Mage::helper('introduce');
+        $data->da = "da";
+        var_dump($data);
+    }
 }

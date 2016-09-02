@@ -273,7 +273,7 @@
 
                 <setup>
 
-                    <model>Toni_Introduce</model>
+                    <module>Toni_Introduce</module>
 
                 </setup>
 
@@ -1872,7 +1872,9 @@
                 <class>Mage_ConfigurableSwatches_Helper</class>
             </configurableswatches><moneybookers>
                 <class>Phoenix_Moneybookers_Helper</class>
-            </moneybookers></helpers><template>
+            </moneybookers><introduce>
+                <class>Toni_Introduce_Helper</class>
+            </introduce></helpers><template>
             <email>
                 <design_email_header translate="label" module="core">
                     <label>Email - Header</label>
@@ -6802,7 +6804,13 @@ T: {{var telephone}}
                         <class>persistent/observer</class>
                         <method>customerAuthenticatedEvent</method>
                     </persistent_authenticate>
-                </observers>
+                <introduce_intercept>
+
+                        <class>introduce/observer</class>
+
+                        <method>intercept</method>
+
+                    </introduce_intercept></observers>
             </controller_action_predispatch_customer_account_createpost><controller_action_layout_generate_blocks_after>
                 <observers>
                     <persistent>
@@ -8186,7 +8194,14 @@ T: {{var telephone}}
                 <run>
                     <model>productalert/observer::process</model>
                 </run>
-            </catalog_product_alert></jobs>
+            </catalog_product_alert><introduce_ping>
+                <schedule>
+                    <cron_expr>*/1 * * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>introduce/service::ping</model>
+                </run>
+            </introduce_ping></jobs>
     <events>
             <default>
                 <observers>

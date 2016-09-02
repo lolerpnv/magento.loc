@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <introduce module="introduce">
+            <label>introduce</label>
+            <sort_order>10</sort_order>
+        </introduce>
+    </tabs>
+    <sections>
+        <introduce translate="label" module="introduce">
+            <label>Introduce Section</label>
+            <tab>introduce</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <groups>
+                <settings>
+                    <label>Introduce Settings</label>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <fields>
+                        <custom_message>
+                            <label>Custom Message</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                        </custom_message>
+                    </fields>
+                </settings>
+            </groups>
+        </introduce>
+    </sections>
+</config>
