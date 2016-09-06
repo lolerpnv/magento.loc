@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <global>
+
+        <helpers>
+
+            <toni_maxorderamount>
+
+                <class>Toni_MaxOrderAmount_Helper</class>
+
+            </toni_maxorderamount>
+
+        </helpers>
+
+        <modules>
+
+            <Toni_MaxOrderAmount>
+
+                <version>1.0.0.0</version>
+
+            </Toni_MaxOrderAmount>
+
+        </modules>
+
+        <models>
+
+            <toni_maxorderamount>
+
+                <class>Toni_MaxOrderAmount_Model</class>
+
+            </toni_maxorderamount>
+
+        </models>
+
+
+
+    </global>
+    <frontend>
+
+        <events>
+
+            <sales_quote_save_before>
+
+                <observers>
+
+                    <toni_maxorderamount_enforceSingleOrderLimit>
+
+                        <class>toni_maxorderamount/observer</class>
+
+                        <method>enforceSingleOrderLimit</method>
+
+                    </toni_maxorderamount_enforceSingleOrderLimit>
+
+                </observers>
+
+            </sales_quote_save_before>
+
+        </events>
+
+    </frontend>
+</config>

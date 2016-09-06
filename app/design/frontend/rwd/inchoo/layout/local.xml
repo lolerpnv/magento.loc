@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+
+
+    <default>
+
+
+        <reference name="content">
+
+            <block type="core/template" name="hello" template="hello.phtml"/>
+
+        </reference>
+
+
+
+
+    </default>
+
+    <introduce_index_index>
+        <reference name="footer">
+            <block type="core/template" name="hello" template="hello.phtml" before="newsletter"/>
+        </reference>
+    </introduce_index_index>
+
+    <introduce_index_index2>
+        <update handle="toni" />
+    </introduce_index_index2>
+
+
+    <toni>
+        <reference name="footer">
+            <block type="core/template" name="hello" template="hello.phtml" before="newsletter"/>
+        </reference>
+    </toni>
+
+
+
+
+
+</layout>

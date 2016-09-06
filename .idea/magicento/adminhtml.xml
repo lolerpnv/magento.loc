@@ -160,7 +160,11 @@
                                         <sort_order>135</sort_order>
                                     </rss><configswatches>
                                         <title>ConfigurableSwatches</title>
-                                    </configswatches></children>
+                                    </configswatches><introduce translate="label" module="introduce">
+
+                                            <title>Introduce adminhtml</title>
+
+                                        </introduce></children>
                             <title>Configuration</title><sort_order>20</sort_order></config>
                         <index translate="title">
                                 <title>Index Management</title>
@@ -630,26 +634,7 @@
                         <title>External Page Cache</title>
                         <sort_order>0</sort_order>
                     </page_cache></children>
-            <title>Magento Admin</title><jes module="introduce">
-                        <label>introduce</label>
-                    <children>
-                        <system>
-                            <children>
-                                <config>
-                                    <children>
-
-                                        <introduce translate="label" module="introduce">
-
-                                            <title>Introduce adminhtml</title>
-
-                                        </introduce>
-
-                                    </children>
-                                </config>
-                            </children>
-                        </system>
-                    </children>
-                    </jes></admin>
+            <title>Magento Admin</title></admin>
         <all>
                 <title>Allow everything</title>
             </all></resources>
