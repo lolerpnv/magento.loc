@@ -2,8 +2,27 @@
 
 <config>
     <global>
+        <resources>
+
+            <toni_logger_setup>
+
+                <setup>
+
+                    <module>Toni_Logger</module>
+
+                </setup>
+
+            </toni_logger_setup>
+
+        </resources>
 
         <helpers>
+
+            <toni_logger>
+
+                <class>Toni_Logger_Helper</class>
+
+            </toni_logger>
 
             <toni_maxorderamount>
 
@@ -24,12 +43,31 @@
         </modules>
 
         <models>
+            <toni_logger>
 
-            <toni_maxorderamount>
+                <class>Toni_Logger_Model</class>
 
-                <class>Toni_MaxOrderAmount_Model</class>
+                <resourceModel>
 
-            </toni_maxorderamount>
+                    toni_logger_resource</resourceModel>
+
+            </toni_logger>
+
+            <toni_logger_resource>
+
+                <class>Toni_Logger_Model_Resource</class>
+
+                <entities>
+
+                    <logger>
+
+                        <table>toni_logger_logger</table>
+
+                    </logger>
+
+                </entities>
+
+            </toni_logger_resource>
 
         </models>
 

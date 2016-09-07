@@ -10,7 +10,6 @@ class Toni_MaxOrderAmount_Model_Observer
 
         $helper = Mage::helper('toni_maxorderamount');
 
-        $ss = $helper->isModuleEnabled();
         if (!$helper->isModuleEnabled()) {
 
             return;

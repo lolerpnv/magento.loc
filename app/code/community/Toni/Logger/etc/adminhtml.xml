@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<config>
+
+    <menu>
+
+        <system>
+
+            <children>
+
+                <tools>
+
+                    <children>
+
+                        <toni_logger translate="title"
+
+                                          module="toni_logger">
+
+                            <title>Logger</title>
+
+                            <action>adminhtml/toni_logger/index</action>
+
+                            <sort_order>25</sort_order>
+
+                        </toni_logger>
+
+                    </children>
+
+                </tools>
+
+            </children>
+
+        </system>
+
+    </menu>
+
+</config>
