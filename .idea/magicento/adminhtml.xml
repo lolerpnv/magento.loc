@@ -711,7 +711,15 @@
                             <title>Compilation</title>
                             <sort_order>1000</sort_order>
                             <action>adminhtml/compiler_process</action>
-                        </compiler></children></tools><design translate="title">
+                        </compiler><toni_logger translate="title" module="toni_logger">
+
+                            <title>Logger</title>
+
+                            <action>adminhtml/toni_logger/index</action>
+
+                            <sort_order>25</sort_order>
+
+                        </toni_logger></children></tools><design translate="title">
                     <title>Design</title>
                     <action>adminhtml/system_design</action>
                     <sort_order>30</sort_order>

@@ -1,17 +1,13 @@
 <?xml version="1.0"?>
 
 <config>
-
     <modules>
-
         <Toni_Logger>
-
-            <active>true</active>
-
-            <codePool>community</codePool>
-
+        <active>true</active>
+        <codePool>community</codePool>
+        <depends>
+            <Mage_Core/>
+        </depends>
         </Toni_Logger>
-
     </modules>
-
 </config>

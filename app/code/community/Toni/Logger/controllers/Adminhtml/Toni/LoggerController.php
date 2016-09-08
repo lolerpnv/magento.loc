@@ -1,8 +1,6 @@
 <?php
 
-class Toni_Logger_Adminhtml_Toni_LoggerController
-
-    extends Mage_Adminhtml_Controller_Action
+class Toni_Logger_Adminhtml_Toni_LoggerController extends Mage_Adminhtml_Controller_Action
 
 {
 
@@ -15,22 +13,15 @@ class Toni_Logger_Adminhtml_Toni_LoggerController
         $this->_addContent($this->getLayout()->createBlock('toni_logger/adminhtml_edit'));
 
         $this->renderLayout();
-
-}
-
+    }
 
 
     public function gridAction()
-
     {
 
         $this->getResponse()->setBody(
-
-            $this->getLayout()->createBlock(
-
-            'toni_logger/adminhtml_edit_grid')->toHtml()
-
-);
+            $this->getLayout()->createBlock('toni_logger/adminhtml_edit_grid')->toHtml()
+        );
 
 }
 

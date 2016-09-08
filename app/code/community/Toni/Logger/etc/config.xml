@@ -1,111 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <config>
-
     <modules>
-
         <Toni_Logger>
-
             <version>1.0.0.0</version>
-
         </Toni_Logger>
-
     </modules>
-
     <global>
-
         <blocks>
-
             <toni_logger>
-
                 <class>Toni_Logger_Block</class>
-
             </toni_logger>
-
         </blocks>
-
         <models>
 
             <toni_logger>
-
                 <class>Toni_Logger_Model</class>
-
                 <resourceModel>toni_logger_resource</resourceModel>
-
             </toni_logger>
 
             <toni_logger_resource>
-
                 <class>Toni_Logger_Model_Resource</class>
-
                 <entities>
-
-                    <logger>
-
+                    <toni_logger>
                         <table>toni_logger_logger</table>
-
-                    </logger>
-
+                    </toni_logger>
                 </entities>
-
             </toni_logger_resource>
-
         </models>
-
         <resources>
-
             <toni_logger_setup>
-
                 <setup>
-
                     <module>Toni_Logger</module>
-
                 </setup>
-
             </toni_logger_setup>
-
         </resources>
-
         <helpers>
-
             <toni_logger>
-
                 <class>Toni_Logger_Helper</class>
-
             </toni_logger>
-
         </helpers>
-
         <log>
-
             <core>
-
-                <!--<writer_model>Zend_Log_Writer_Stream
-
-                </writer_model>-->
-
-                <writer_model>
-
-                    Toni_Logger_Model_Log_Writer_Stream
-
-                </writer_model>
-
+                <writer_model>Toni_Logger_Model_Log_Writer_Stream</writer_model>
             </core>
-
         </log>
-
     </global>
-
     <admin>
         <routers>
             <adminhtml>
                 <args>
                     <modules>
-                        <Toni_Logger before="Mage_Adminhtml">
-
-                            Toni_Logger_Adminhtml
-
-                        </Toni_Logger>
+                        <toni_logger before="Mage_Adminhtml">Toni_Logger_Adminhtml</toni_logger>
                     </modules>
                 </args>
             </adminhtml>

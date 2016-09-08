@@ -12,9 +12,7 @@
 
                     <children>
 
-                        <toni_logger translate="title"
-
-                                          module="toni_logger">
+                        <toni_logger translate="title" module="toni_logger">
 
                             <title>Logger</title>
 
