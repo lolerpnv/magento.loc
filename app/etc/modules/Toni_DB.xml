@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Toni_DB>
+            <active>true</active>
+
+            <codePool>community</codePool>
+        </Toni_DB>
+    </modules>
+</config>

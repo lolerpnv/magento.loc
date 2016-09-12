@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <modules>
+        <Toni_DB>
+            <version>1.0.0.0</version>
+        </Toni_DB>
+    </modules>
+    <helpers>
+        <toni_db>
+            <class>Toni_DB_Helper</class>
+        </toni_db>
+    </helpers>
+    <frontend>
+        <routers>
+            <toni_db>
+                <use>standard</use>
+
+                <args>
+
+                    <module>Toni_DB</module>
+
+                    <frontName>db</frontName>
+
+                </args>
+            </toni_db>
+        </routers>
+    </frontend>
+
+</config>

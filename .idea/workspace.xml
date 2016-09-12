@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b049ecdc-c41e-4195-b1b4-06e7e8a42ef7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Logger/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/community/Toni/Logger/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Logger/sql/toni_logger_setup/install-1.0.0.0.php" afterPath="$PROJECT_DIR$/app/code/community/Toni/Logger/sql/toni_logger_setup/install-1.0.0.0.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/MaxOrderAmount/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/community/Toni/MaxOrderAmount/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Toni_MaxOrderAmount.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Toni_MaxOrderAmount.xml" />
-    </list>
+    <list default="true" id="b049ecdc-c41e-4195-b1b4-06e7e8a42ef7" name="Default" comment="" />
     <ignored path="magento.loc.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -27,61 +21,463 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Toni_MaxOrderAmount.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/etc/modules/Toni_MaxOrderAmount.xml">
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/code/community/Toni/DB/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="342">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Logger/etc/config.xml">
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="245">
+              <caret line="285" column="50" selection-start-line="285" selection-start-column="0" selection-end-line="287" selection-end-column="39" />
+              <folding>
+                <element signature="e#963#1101#0#PHP" expanded="false" />
+                <element signature="e#1178#1273#0#PHP" expanded="false" />
+                <element signature="e#1332#1373#0#PHP" expanded="false" />
+                <element signature="e#1614#1687#0#PHP" expanded="false" />
+                <element signature="e#1747#1815#0#PHP" expanded="false" />
+                <element signature="e#1867#1948#0#PHP" expanded="false" />
+                <element signature="e#2005#2081#0#PHP" expanded="false" />
+                <element signature="e#2115#2198#0#PHP" expanded="false" />
+                <element signature="e#2239#2310#0#PHP" expanded="false" />
+                <element signature="e#2357#2427#0#PHP" expanded="false" />
+                <element signature="e#2462#2647#0#PHP" expanded="false" />
+                <element signature="e#2654#2764#0#PHP" expanded="false" />
+                <element signature="e#2804#2895#0#PHP" expanded="false" />
+                <element signature="e#2927#2997#0#PHP" expanded="false" />
+                <element signature="n#_construct#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#3174#3493#0#PHP" expanded="false" />
+                <element signature="e#3431#3493#0#PHP" expanded="false" />
+                <element signature="e#3505#3587#0#PHP" expanded="false" />
+                <element signature="n#getUrlInstance#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#3639#3722#0#PHP" expanded="false" />
+                <element signature="e#3762#3852#0#PHP" expanded="false" />
+                <element signature="n#getUrlRewrite#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#3903#4033#0#PHP" expanded="false" />
+                <element signature="e#4080#4202#0#PHP" expanded="false" />
+                <element signature="n#getTreeModel#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#4319#4438#0#PHP" expanded="false" />
+                <element signature="n#getTreeModelInstance#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#4496#4624#0#PHP" expanded="false" />
+                <element signature="e#4670#4896#0#PHP" expanded="false" />
+                <element signature="n#move#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#4965#5103#0#PHP" expanded="false" />
+                <element signature="e#5122#5202#0#PHP" expanded="false" />
+                <element signature="e#5122#5232#0#PHP" expanded="false" />
+                <element signature="e#5243#5453#0#PHP" expanded="false" />
+                <element signature="e#5280#5442#0#PHP" expanded="false" />
+                <element signature="e#5463#5905#0#PHP" expanded="false" />
+                <element signature="e#5498#5657#0#PHP" expanded="false" />
+                <element signature="e#5669#5905#0#PHP" expanded="false" />
+                <element signature="e#5727#5894#0#PHP" expanded="false" />
+                <element signature="e#5915#6007#0#PHP" expanded="false" />
+                <element signature="e#6083#6322#0#PHP" expanded="false" />
+                <element signature="e#6415#7340#0#PHP" expanded="false" />
+                <element signature="e#6433#6596#0#PHP" expanded="false" />
+                <element signature="e#7239#7340#0#PHP" expanded="false" />
+                <element signature="e#7349#7660#0#PHP" expanded="false" />
+                <element signature="e#7446#7588#0#PHP" expanded="false" />
+                <element signature="e#7695#7773#0#PHP" expanded="false" />
+                <element signature="n#getDefaultAttributeSetId#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#7920#8019#0#PHP" expanded="false" />
+                <element signature="e#8091#8189#0#PHP" expanded="false" />
+                <element signature="e#8091#8228#0#PHP" expanded="false" />
+                <element signature="e#8269#8384#0#PHP" expanded="false" />
+                <element signature="n#getAttributes#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#8472#8531#0#PHP" expanded="false" />
+                <element signature="e#8578#8788#0#PHP" expanded="false" />
+                <element signature="e#8616#8778#0#PHP" expanded="false" />
+                <element signature="e#8661#8764#0#PHP" expanded="false" />
+                <element signature="e#8825#8960#0#PHP" expanded="false" />
+                <element signature="n#getProductsPosition#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#9017#9077#0#PHP" expanded="false" />
+                <element signature="e#9141#9301#0#PHP" expanded="false" />
+                <element signature="e#9336#9423#0#PHP" expanded="false" />
+                <element signature="n#getStoreIds#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#9472#9545#0#PHP" expanded="false" />
+                <element signature="e#9555#9641#0#PHP" expanded="false" />
+                <element signature="e#9651#9711#0#PHP" expanded="false" />
+                <element signature="e#9747#9823#0#PHP" expanded="false" />
+                <element signature="e#9963#10069#0#PHP" expanded="false" />
+                <element signature="e#10125#10232#0#PHP" expanded="false" />
+                <element signature="e#10241#10322#0#PHP" expanded="false" />
+                <element signature="e#10409#10491#0#PHP" expanded="false" />
+                <element signature="n#getLayoutUpdateHandle#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#10589#10719#0#PHP" expanded="false" />
+                <element signature="e#10669#10719#0#PHP" expanded="false" />
+                <element signature="e#10755#10904#0#PHP" expanded="false" />
+                <element signature="n#getStoreId#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#10952#11043#0#PHP" expanded="false" />
+                <element signature="e#11104#11216#0#PHP" expanded="false" />
+                <element signature="n#setStoreId#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#11272#11375#0#PHP" expanded="false" />
+                <element signature="e#11507#11571#0#PHP" expanded="false" />
+                <element signature="n#getUrl#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#11678#11772#0#PHP" expanded="false" />
+                <element signature="n#getUrlModel#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#11821#11959#0#PHP" expanded="false" />
+                <element signature="e#12004#12076#0#PHP" expanded="false" />
+                <element signature="n#getCategoryIdUrl#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#12292#12426#0#PHP" expanded="false" />
+                <element signature="e#12349#12425#0#PHP" expanded="false" />
+                <element signature="e#12515#12628#0#PHP" expanded="false" />
+                <element signature="n#formatUrlKey#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#12912#12978#0#PHP" expanded="false" />
+                <element signature="n#getImageUrl#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#13049#13165#0#PHP" expanded="false" />
+                <element signature="e#13198#13263#0#PHP" expanded="false" />
+                <element signature="n#getUrlPath#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#13355#13403#0#PHP" expanded="false" />
+                <element signature="e#13450#13639#0#PHP" expanded="false" />
+                <element signature="e#13709#13804#0#PHP" expanded="false" />
+                <element signature="n#getParentCategory#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#13859#14021#0#PHP" expanded="false" />
+                <element signature="e#14084#14159#0#PHP" expanded="false" />
+                <element signature="n#getParentId#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#14301#14377#0#PHP" expanded="false" />
+                <element signature="n#getParentIds#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#14501#14592#0#PHP" expanded="false" />
+                <element signature="n#getCustomDesignDate#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#14828#14907#0#PHP" expanded="false" />
+                <element signature="n#getDesignAttributes#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#14991#15107#0#PHP" expanded="false" />
+                <element signature="e#15143#15287#0#PHP" expanded="false" />
+                <element signature="n#_getAttribute#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#15353#15620#0#PHP" expanded="false" />
+                <element signature="e#15480#15620#0#PHP" expanded="false" />
+                <element signature="e#15512#15609#0#PHP" expanded="false" />
+                <element signature="e#15659#15837#0#PHP" expanded="false" />
+                <element signature="n#getAllChildren#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#15970#16094#0#PHP" expanded="false" />
+                <element signature="e#16034#16094#0#PHP" expanded="false" />
+                <element signature="e#16096#16144#0#PHP" expanded="false" />
+                <element signature="e#16595#16680#0#PHP" expanded="false" />
+                <element signature="n#getChildren#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#16810#16936#0#PHP" expanded="false" />
+                <element signature="n#getPathInStore#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#17141#17324#0#PHP" expanded="false" />
+                <element signature="e#17182#17281#0#PHP" expanded="false" />
+                <element signature="e#17374#17470#0#PHP" expanded="false" />
+                <element signature="n#checkId#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#17573#17758#0#PHP" expanded="false" />
+                <element signature="n#getPathIds#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#17849#17976#0#PHP" expanded="false" />
+                <element signature="e#18009#18068#0#PHP" expanded="false" />
+                <element signature="n#getLevel#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#18114#18211#0#PHP" expanded="false" />
+                <element signature="e#18263#18353#0#PHP" expanded="false" />
+                <element signature="n#verifyIds#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#18467#18551#0#PHP" expanded="false" />
+                <element signature="e#18671#18740#0#PHP" expanded="false" />
+                <element signature="n#getRequestPath#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#18792#18870#0#PHP" expanded="false" />
+                <element signature="e#18930#19004#0#PHP" expanded="false" />
+                <element signature="n#getName#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#19092#19182#0#PHP" expanded="false" />
+                <element signature="n#_beforeDelete#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#19275#19414#0#PHP" expanded="false" />
+                <element signature="e#19466#19535#0#PHP" expanded="false" />
+                <element signature="n#getAnchorsAbove#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#19654#19765#0#PHP" expanded="false" />
+                <element signature="e#19775#20350#0#PHP" expanded="false" />
+                <element signature="e#19915#20350#0#PHP" expanded="false" />
+                <element signature="e#19934#20136#0#PHP" expanded="false" />
+                <element signature="e#20150#20340#0#PHP" expanded="false" />
+                <element signature="e#20387#20467#0#PHP" expanded="false" />
+                <element signature="n#getProductCount#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#20765#20988#0#PHP" expanded="false" />
+                <element signature="n#getCategories#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#21131#21238#0#PHP" expanded="false" />
+                <element signature="e#21279#21370#0#PHP" expanded="false" />
+                <element signature="n#getParentCategories#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#21495#21588#0#PHP" expanded="false" />
+                <element signature="n#getChildrenCategories#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#21717#21810#0#PHP" expanded="false" />
+                <element signature="n#getChildrenCategoriesWithInactive#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#21963#22106#0#PHP" expanded="false" />
+                <element signature="n#getParentDesignCategory#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#22239#22324#0#PHP" expanded="false" />
+                <element signature="n#isInRootCategoryList#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#22451#22549#0#PHP" expanded="false" />
+                <element signature="n#getAvailableSortBy#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#22663#22725#0#PHP" expanded="false" />
+                <element signature="e#22734#22837#0#PHP" expanded="false" />
+                <element signature="e#22876#22999#0#PHP" expanded="false" />
+                <element signature="n#getAvailableSortByOptions#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#23206#23472#0#PHP" expanded="false" />
+                <element signature="e#23253#23462#0#PHP" expanded="false" />
+                <element signature="e#23320#23448#0#PHP" expanded="false" />
+                <element signature="e#23482#23563#0#PHP" expanded="false" />
+                <element signature="e#23609#23697#0#PHP" expanded="false" />
+                <element signature="n#getDefaultSortBy#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#23747#23935#0#PHP" expanded="false" />
+                <element signature="e#23821#23924#0#PHP" expanded="false" />
+                <element signature="e#24001#24125#0#PHP" expanded="false" />
+                <element signature="e#24162#24296#0#PHP" expanded="false" />
+                <element signature="n#validate#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+                <element signature="e#24400#24542#0#PHP" expanded="false" />
+                <element signature="n#afterCommitCallback#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Layer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Layer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+              <folding>
+                <element signature="e#963#1112#0#PHP" expanded="false" />
+                <element signature="e#1172#1241#0#PHP" expanded="false" />
+                <element signature="e#1293#1390#0#PHP" expanded="false" />
+                <element signature="e#1429#1533#0#PHP" expanded="false" />
+                <element signature="n#getAggregator#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+                <element signature="e#1650#1717#0#PHP" expanded="false" />
+                <element signature="n#getStateKey#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+                <element signature="e#1766#2042#0#PHP" expanded="false" />
+                <element signature="e#2088#2214#0#PHP" expanded="false" />
+                <element signature="n#getStateTags#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+                <element signature="e#2313#2447#0#PHP" expanded="false" />
+                <element signature="e#2342#2446#0#PHP" expanded="false" />
+                <element signature="e#2493#2633#0#PHP" expanded="false" />
+                <element signature="n#apply#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+                <element signature="e#4222#4421#0#PHP" expanded="false" />
+                <element signature="e#4430#4533#0#PHP" expanded="false" />
+                <element signature="e#4568#4732#0#PHP" expanded="false" />
+                <element signature="e#5274#5400#0#PHP" expanded="false" />
+                <element signature="n#setCurrentCategory#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+                <element signature="e#5465#5580#0#PHP" expanded="false" />
+                <element signature="e#5589#5782#0#PHP" expanded="false" />
+                <element signature="e#5791#5911#0#PHP" expanded="false" />
+                <element signature="e#5921#6055#0#PHP" expanded="false" />
+                <element signature="e#6090#6181#0#PHP" expanded="false" />
+                <element signature="n#getCurrentStore#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+                <element signature="e#6277#6444#0#PHP" expanded="false" />
+                <element signature="e#7254#7434#0#PHP" expanded="false" />
+                <element signature="n#_prepareAttribute#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+                <element signature="e#7613#7838#0#PHP" expanded="false" />
+                <element signature="e#7994#8093#0#PHP" expanded="false" />
+                <element signature="n#getState#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+                <element signature="e#8181#8413#0#PHP" expanded="false" />
+                <element signature="e#8449#8549#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Layer/View.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Action.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Controller/Action.php">
+      <file leaf-file-name="Collection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Resource/Product/Collection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+            <state relative-caret-position="335">
+              <caret line="1095" column="0" selection-start-line="1095" selection-start-column="0" selection-end-line="1095" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoggerController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Logger/controllers/Adminhtml/Toni/LoggerController.php">
+      <file leaf-file-name="Abstract.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Abstract.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="90" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
+            <state relative-caret-position="254">
+              <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install-1.0.0.0.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Logger/sql/toni_logger_setup/install-1.0.0.0.php">
+      <file leaf-file-name="Object.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Varien/Object.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1098">
-              <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="308">
+              <caret line="338" column="9" selection-start-line="338" selection-start-column="9" selection-end-line="338" selection-end-column="9" />
+              <folding>
+                <element signature="e#966#1105#0#PHP" expanded="false" />
+                <element signature="e#1156#1217#0#PHP" expanded="false" />
+                <element signature="e#1255#1360#0#PHP" expanded="false" />
+                <element signature="e#1406#1475#0#PHP" expanded="false" />
+                <element signature="e#1507#1575#0#PHP" expanded="false" />
+                <element signature="e#1617#1706#0#PHP" expanded="false" />
+                <element signature="e#1762#1826#0#PHP" expanded="false" />
+                <element signature="e#1867#1951#0#PHP" expanded="false" />
+                <element signature="e#1997#2078#0#PHP" expanded="false" />
+                <element signature="e#2125#2313#0#PHP" expanded="false" />
+                <element signature="n#__construct#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#2398#2479#0#PHP" expanded="false" />
+                <element signature="e#2522#2586#0#PHP" expanded="false" />
+                <element signature="n#_addFullNames#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#2836#3085#0#PHP" expanded="false" />
+                <element signature="e#2881#3075#0#PHP" expanded="false" />
+                <element signature="e#3097#3290#0#PHP" expanded="false" />
+                <element signature="n#_initOldFieldsMap#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#3352#3529#0#PHP" expanded="false" />
+                <element signature="n#_prepareSyncFieldsMap#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#3775#3876#0#PHP" expanded="false" />
+                <element signature="n#_construct#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#3930#4100#0#PHP" expanded="false" />
+                <element signature="n#isDeleted#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#4199#4280#0#PHP" expanded="false" />
+                <element signature="e#4316#4384#0#PHP" expanded="false" />
+                <element signature="n#hasDataChanges#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#4478#4590#0#PHP" expanded="false" />
+                <element signature="n#setIdFieldName#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#4709#4826#0#PHP" expanded="false" />
+                <element signature="n#getIdFieldName#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#4917#4982#0#PHP" expanded="false" />
+                <element signature="e#5025#5126#0#PHP" expanded="false" />
+                <element signature="e#5176#5286#0#PHP" expanded="false" />
+                <element signature="n#setId#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#5335#5495#0#PHP" expanded="false" />
+                <element signature="e#5437#5495#0#PHP" expanded="false" />
+                <element signature="e#5529#5683#0#PHP" expanded="false" />
+                <element signature="n#addData#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#5738#5825#0#PHP" expanded="false" />
+                <element signature="e#5859#6202#0#PHP" expanded="false" />
+                <element signature="e#6679#6851#0#PHP" expanded="false" />
+                <element signature="n#unsetData#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#6946#7251#0#PHP" expanded="false" />
+                <element signature="e#7013#7251#0#PHP" expanded="false" />
+                <element signature="e#7071#7241#0#PHP" expanded="false" />
+                <element signature="e#7285#7468#0#PHP" expanded="false" />
+                <element signature="n#unsetOldData#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#7527#7740#0#PHP" expanded="false" />
+                <element signature="e#7560#7674#0#PHP" expanded="false" />
+                <element signature="e#7685#7740#0#PHP" expanded="false" />
+                <element signature="e#7774#8176#0#PHP" expanded="false" />
+                <element signature="e#8491#8994#0#PHP" expanded="false" />
+                <element signature="e#8537#8606#0#PHP" expanded="false" />
+                <element signature="e#8623#8980#0#PHP" expanded="false" />
+                <element signature="e#8666#8753#0#PHP" expanded="false" />
+                <element signature="e#8811#8918#0#PHP" expanded="false" />
+                <element signature="e#8919#8980#0#PHP" expanded="false" />
+                <element signature="e#9407#9514#0#PHP" expanded="false" />
+                <element signature="e#9531#9620#0#PHP" expanded="false" />
+                <element signature="e#10075#10195#0#PHP" expanded="false" />
+                <element signature="e#10321#10470#0#PHP" expanded="false" />
+                <element signature="n#setDataUsingMethod#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#10649#10797#0#PHP" expanded="false" />
+                <element signature="n#getDataUsingMethod#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#10958#11114#0#PHP" expanded="false" />
+                <element signature="n#getDataSetDefault#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#11183#11269#0#PHP" expanded="false" />
+                <element signature="e#11316#11513#0#PHP" expanded="false" />
+                <element signature="n#hasData#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#11565#11654#0#PHP" expanded="false" />
+                <element signature="n#__toArray#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#11942#12013#0#PHP" expanded="false" />
+                <element signature="e#12050#12306#0#PHP" expanded="false" />
+                <element signature="e#12103#12296#0#PHP" expanded="false" />
+                <element signature="e#12232#12296#0#PHP" expanded="false" />
+                <element signature="e#12342#12452#0#PHP" expanded="false" />
+                <element signature="n#toArray#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#12579#12713#0#PHP" expanded="false" />
+                <element signature="n#_prepareArray#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#12797#12935#0#PHP" expanded="false" />
+                <element signature="e#12843#12925#0#PHP" expanded="false" />
+                <element signature="e#12968#13169#0#PHP" expanded="false" />
+                <element signature="n#__toXml#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#13321#13415#0#PHP" expanded="false" />
+                <element signature="e#13424#13501#0#PHP" expanded="false" />
+                <element signature="e#13628#13948#0#PHP" expanded="false" />
+                <element signature="e#13690#13874#0#PHP" expanded="false" />
+                <element signature="e#13787#13874#0#PHP" expanded="false" />
+                <element signature="e#13957#14035#0#PHP" expanded="false" />
+                <element signature="e#14068#14208#0#PHP" expanded="false" />
+                <element signature="n#toXml#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#14421#14567#0#PHP" expanded="false" />
+                <element signature="n#__toJson#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#14767#14877#0#PHP" expanded="false" />
+                <element signature="n#toJson#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#15002#15189#0#PHP" expanded="false" />
+                <element signature="e#15190#15275#0#PHP" expanded="false" />
+                <element signature="e#15403#15593#0#PHP" expanded="false" />
+                <element signature="n#toString#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#15649#15996#0#PHP" expanded="false" />
+                <element signature="e#15733#15996#0#PHP" expanded="false" />
+                <element signature="e#15827#15958#0#PHP" expanded="false" />
+                <element signature="e#16029#16161#0#PHP" expanded="false" />
+                <element signature="e#16630#16986#0#PHP" expanded="false" />
+                <element signature="e#17000#17317#0#PHP" expanded="false" />
+                <element signature="e#17331#17616#0#PHP" expanded="false" />
+                <element signature="e#17748#17850#0#PHP" expanded="false" />
+                <element signature="e#17979#18087#0#PHP" expanded="false" />
+                <element signature="n#__set#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#18224#18307#0#PHP" expanded="false" />
+                <element signature="n#isEmpty#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#18352#18413#0#PHP" expanded="false" />
+                <element signature="e#18447#18701#0#PHP" expanded="false" />
+                <element signature="n#_underscore#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#18758#18863#0#PHP" expanded="false" />
+                <element signature="n#_camelize#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#19207#19425#0#PHP" expanded="false" />
+                <element signature="n#serialize#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#19592#19679#0#PHP" expanded="false" />
+                <element signature="e#19689#19879#0#PHP" expanded="false" />
+                <element signature="e#19744#19869#0#PHP" expanded="false" />
+                <element signature="e#19960#20071#0#PHP" expanded="false" />
+                <element signature="n#getOrigData#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#20129#20196#0#PHP" expanded="false" />
+                <element signature="e#20286#20424#0#PHP" expanded="false" />
+                <element signature="n#setOrigData#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#20494#20630#0#PHP" expanded="false" />
+                <element signature="e#20570#20630#0#PHP" expanded="false" />
+                <element signature="e#20664#20779#0#PHP" expanded="false" />
+                <element signature="n#dataHasChangedFor#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#20970#21080#0#PHP" expanded="false" />
+                <element signature="n#setDataChanges#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#21210#21356#0#PHP" expanded="false" />
+                <element signature="n#debug#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#21428#21678#0#PHP" expanded="false" />
+                <element signature="e#21506#21594#0#PHP" expanded="false" />
+                <element signature="e#21713#22097#0#PHP" expanded="false" />
+                <element signature="e#21759#22087#0#PHP" expanded="false" />
+                <element signature="e#21837#21941#0#PHP" expanded="false" />
+                <element signature="e#21942#22087#0#PHP" expanded="false" />
+                <element signature="e#22132#22324#0#PHP" expanded="false" />
+                <element signature="n#offsetSet#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#22429#22623#0#PHP" expanded="false" />
+                <element signature="n#offsetExists#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#22728#22897#0#PHP" expanded="false" />
+                <element signature="n#offsetUnset#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#22994#23180#0#PHP" expanded="false" />
+                <element signature="n#offsetGet#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#23314#23416#0#PHP" expanded="false" />
+                <element signature="n#isDirty#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#23472#23535#0#PHP" expanded="false" />
+                <element signature="e#23544#23601#0#PHP" expanded="false" />
+                <element signature="e#23658#23794#0#PHP" expanded="false" />
+                <element signature="n#flagDirty#0;n#Varien_Object#0;n#!!top" expanded="false" />
+                <element signature="e#23859#24182#0#PHP" expanded="false" />
+                <element signature="e#23894#24003#0#PHP" expanded="false" />
+                <element signature="e#24014#24182#0#PHP" expanded="false" />
+                <element signature="e#24033#24172#0#PHP" expanded="false" />
+                <element signature="e#24106#24172#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/code/community/Toni/MaxOrderAmount/etc/config.xml">
+      <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/controllers/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="209">
+              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,16 +499,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/code/community/Toni/Introduce/Model/Observer.php" />
-        <option value="$PROJECT_DIR$/app/code/community/Toni/Introduce/Model/Service.php" />
-        <option value="$PROJECT_DIR$/cron.php" />
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Sales/etc/adminhtml.xml" />
-        <option value="$PROJECT_DIR$/app/code/community/Toni/Introduce/etc/adminhtml.xml" />
-        <option value="$PROJECT_DIR$/app/code/community/Toni/Introduce/sql/introduce_setup/install-1.0.0.1.php" />
-        <option value="$PROJECT_DIR$/app/code/community/Toni/Introduce/etc/config.xml" />
-        <option value="$PROJECT_DIR$/app/code/community/Toni/Introduce/Helper/Data.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/Toni/Introduce/template.phtml" />
-        <option value="$PROJECT_DIR$/app/code/community/Toni/Introduce/Block/Template.php" />
         <option value="$PROJECT_DIR$/app/design/frontend/rwd/inchoo/etc/widget.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/rwd/inchoo/etc/theme.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/rwd/inchoo/page/3columns.phtml" />
@@ -154,6 +540,16 @@
         <option value="$PROJECT_DIR$/app/etc/modules/Toni_MaxOrderAmount.xml" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Logger/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/MaxOrderAmount/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Core/Model/Layout.php" />
+        <option value="$PROJECT_DIR$/var/debug/pdo_mysql.log" />
+        <option value="$PROJECT_DIR$/lib/Varien/Db/Adapter/Pdo/Mysql.php" />
+        <option value="$PROJECT_DIR$/app/etc/modules/Toni_DB.xml" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/List.php" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Layer.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Toni/DB/Helper/Data.php" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Catalog/controllers/CategoryController.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Toni/DB/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/community/Toni/DB/controllers/IndexController.php" />
       </list>
     </option>
   </component>
@@ -230,7 +626,171 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="var" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Varien" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Varien" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Db" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Varien" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Db" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adapter" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Varien" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Db" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adapter" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pdo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,7 +886,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemId" value="Catalog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,11 +916,83 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemId" value="Catalog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Category" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -387,6 +1019,202 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Toni" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toni" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Introduce" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toni" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Introduce" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toni" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toni" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toni" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toni" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -509,18 +1337,18 @@
       <workItem from="1473224969941" duration="15354000" />
       <workItem from="1473247117349" duration="2554000" />
       <workItem from="1473311378455" duration="22012000" />
-      <workItem from="1473657098016" duration="1092000" />
+      <workItem from="1473657098016" duration="26360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166685000" />
+    <option name="totallyTimeSpent" value="191953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17250673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17250673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -531,7 +1359,7 @@
       <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29471543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4512195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -580,68 +1408,241 @@
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Helper/Product.php</url>
-          <line>327</line>
-          <option name="timeStamp" value="139" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Helper/Product.php</url>
-          <line>461</line>
-          <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/code/community/Toni/Logger/sql/toni_logger_setup/install-1.0.0.0.php</url>
           <line>6</line>
           <option name="timeStamp" value="145" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/catalog/product/view.phtml</url>
+          <line>34</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/Abstract.php</url>
+          <line>361</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Layer.php</url>
+          <line>127</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/design/frontend/default/iphone/template/catalog/product/list.phtml</url>
+          <line>34</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Layer.php</url>
+          <line>293</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/community/Toni/DB/controllers/IndexController.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="148" />
+      <option name="time" value="189" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Introduce/etc/system.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/App.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="78" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="78" />
+        <state relative-caret-position="209">
+          <caret line="865" column="0" selection-start-line="865" selection-start-column="0" selection-end-line="865" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Logger/sql/toni_logger_setup/sas.html" />
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Logger/Model/Resource/Logger.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Store.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="218">
+          <caret line="373" column="0" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Introduce/Model/Resource/User.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Resource/Abstract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="451">
+          <caret line="697" column="0" selection-start-line="697" selection-start-column="0" selection-end-line="697" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Logger/Model/Resource/Logger/Collection.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Eav/Model/Entity/Abstract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        <state relative-caret-position="209">
+          <caret line="511" column="0" selection-start-line="511" selection-start-column="0" selection-end-line="511" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/controllers/CategoryController.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Eav/Model/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="468" column="0" selection-start-line="468" selection-start-column="0" selection-end-line="468" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Eav/Model/Resource/Entity/Attribute/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="421" column="26" selection-start-line="421" selection-start-column="26" selection-end-line="421" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Zend/Db/Adapter/Pdo/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="44" column="68" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Zend/Db/Adapter/Pdo/Mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/debug/pdo_mysql.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35782">
+          <caret line="2788" column="0" selection-start-line="813" selection-start-column="45" selection-end-line="813" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="292" column="0" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/modules/Toni_Introduce.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/modules/Toni_DB.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/email/catalog/product/list.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="e#977#1052#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/iphone/template/catalog/product/list.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="34" column="60" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="60" />
+          <folding>
+            <element signature="e#980#1055#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Logger/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Helper/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Varien/Db/Helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1047">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/category/view.phtml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/list.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+        <state relative-caret-position="126">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Introduce/etc/system.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Layer/Filter/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-538">
+          <caret line="213" column="34" selection-start-line="213" selection-start-column="34" selection-end-line="213" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Helper/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2317">
+          <caret line="367" column="40" selection-start-line="367" selection-start-column="40" selection-end-line="367" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Front/Action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Varien/Data/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10566">
+          <caret line="610" column="5" selection-start-line="610" selection-start-column="5" selection-end-line="610" selection-end-column="5" />
+          <folding>
+            <marker date="1472549088413" expanded="true" signature="14117:14201" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -649,179 +1650,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/list.phtml">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Layout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        <state relative-caret-position="47">
+          <caret line="455" column="0" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Helper/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2397">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/List.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/catalog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="81" column="43" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Logger/Block/Adminhtml/Edit/Grid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="919">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Logger/Block/Adminhtml/Edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Varien/Db/Adapter/Pdo/Mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="2866" column="0" selection-start-line="2866" selection-start-column="0" selection-end-line="2866" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Resource/Setup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/share/phpmyadmin/js/whitelist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/share/phpmyadmin/phpmyadmin.css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/share/phpmyadmin/js/get_scripts.js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/share/phpmyadmin/js/get_image.js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/share/phpmyadmin/js/messages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/share/phpmyadmin/sql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Varien/Autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Logger/etc/adminhtml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/modules/Toni_Logger.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Zend/Xml/Security.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2754">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/XmlConnect/Model/ConfigData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Varien/Simplexml/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="549" column="22" selection-start-line="549" selection-start-column="22" selection-end-line="549" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Api/Model/Wsdl/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="490" column="25" selection-start-line="490" selection-start-column="25" selection-end-line="490" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/XmlConnect/Model/Resource/ConfigData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-892">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="1617" column="0" selection-start-line="1617" selection-start-column="0" selection-end-line="1617" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Resource.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="274" column="111" selection-start-line="274" selection-start-column="111" selection-end-line="274" selection-end-column="111" />
-          <folding />
+        <state relative-caret-position="209">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding>
+            <element signature="e#963#1098#0#PHP" expanded="false" />
+            <element signature="e#1187#1258#0#PHP" expanded="false" />
+            <element signature="e#1334#1432#0#PHP" expanded="false" />
+            <element signature="e#1473#1591#0#PHP" expanded="false" />
+            <element signature="e#1802#1935#0#PHP" expanded="false" />
+            <element signature="e#1995#2531#0#PHP" expanded="false" />
+            <element signature="e#2138#2224#0#PHP" expanded="false" />
+            <element signature="e#2337#2517#0#PHP" expanded="false" />
+            <element signature="e#2719#2939#0#PHP" expanded="false" />
+            <element signature="e#3122#3215#0#PHP" expanded="false" />
+            <element signature="e#3280#3369#0#PHP" expanded="false" />
+            <element signature="n#getLayer#0;n#Mage_Catalog_Block_Product_List#0;n#!!top" expanded="false" />
+            <element signature="e#3465#3515#0#PHP" expanded="false" />
+            <element signature="e#3579#3697#0#PHP" expanded="false" />
+            <element signature="n#getLoadedProductCollection#0;n#Mage_Catalog_Block_Product_List#0;n#!!top" expanded="false" />
+            <element signature="e#3811#3885#0#PHP" expanded="false" />
+            <element signature="n#getMode#0;n#Mage_Catalog_Block_Product_List#0;n#!!top" expanded="false" />
+            <element signature="n#_beforeToHtml#0;n#Mage_Catalog_Block_Product_List#0;n#!!top" expanded="false" />
+            <element signature="e#4372#4477#0#PHP" expanded="false" />
+            <element signature="e#4486#4575#0#PHP" expanded="false" />
+            <element signature="e#4584#4685#0#PHP" expanded="false" />
+            <element signature="e#4694#4777#0#PHP" expanded="false" />
+            <element signature="e#4932#5069#0#PHP" expanded="false" />
+            <element signature="e#4993#5068#0#PHP" expanded="false" />
+            <element signature="e#5172#5275#0#PHP" expanded="false" />
+            <element signature="n#getToolbarBlock#0;n#Mage_Catalog_Block_Product_List#0;n#!!top" expanded="false" />
+            <element signature="e#5328#5500#0#PHP" expanded="false" />
+            <element signature="e#5389#5490#0#PHP" expanded="false" />
+            <element signature="e#5627#5706#0#PHP" expanded="false" />
+            <element signature="n#getAdditionalHtml#0;n#Mage_Catalog_Block_Product_List#0;n#!!top" expanded="false" />
+            <element signature="e#5814#5888#0#PHP" expanded="false" />
+            <element signature="n#getToolbarHtml#0;n#Mage_Catalog_Block_Product_List#0;n#!!top" expanded="false" />
+            <element signature="n#addAttribute#0;n#Mage_Catalog_Block_Product_List#0;n#!!top" expanded="false" />
+            <element signature="n#getPriceBlockTemplate#0;n#Mage_Catalog_Block_Product_List#0;n#!!top" expanded="false" />
+            <element signature="e#6378#6475#0#PHP" expanded="false" />
+            <element signature="n#_getConfig#0;n#Mage_Catalog_Block_Product_List#0;n#!!top" expanded="false" />
+            <element signature="e#6582#6748#0#PHP" expanded="false" />
+            <element signature="n#prepareSortableFieldsByCategory#0;n#Mage_Catalog_Block_Product_List#0;n#!!top" expanded="false" />
+            <element signature="e#6822#6946#0#PHP" expanded="false" />
+            <element signature="e#7034#7441#0#PHP" expanded="false" />
+            <element signature="e#7073#7431#0#PHP" expanded="false" />
+            <element signature="e#7144#7280#0#PHP" expanded="false" />
+            <element signature="e#7297#7417#0#PHP" expanded="false" />
+            <element signature="e#7476#7576#0#PHP" expanded="false" />
+            <element signature="n#getCacheTags#0;n#Mage_Catalog_Block_Product_List#0;n#!!top" expanded="false" />
+            <element signature="e#7633#7755#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -829,80 +1729,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-          <folding>
-            <marker date="1472708801324" expanded="false" signature="1035:1081" ph="..." />
-            <marker date="1472708801324" expanded="true" signature="1082:1505" ph="..." />
-            <marker date="1472708801324" expanded="false" signature="1096:1144" ph="..." />
-            <marker date="1472708801324" expanded="true" signature="1145:1324" ph="..." />
-            <marker date="1472708801324" expanded="false" signature="1158:1257" ph="..." />
-            <marker date="1472708801324" expanded="true" signature="1258:1318" ph="..." />
-            <marker date="1472708801324" expanded="true" signature="1327:1499" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/controllers/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="55" column="51" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/share/phpmyadmin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Introduce/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="80" column="51" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Zend/Controller/Request/Http.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Helper/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5598">
-          <caret line="334" column="15" selection-start-line="334" selection-start-column="15" selection-end-line="334" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/inchoo/layout/page.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Introduce/etc/adminhtml.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -910,74 +1741,575 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/catalog/product/view.phtml">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/DB/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="159">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Contacts/Helper/Data.php">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Introduce/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        <state relative-caret-position="972">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Contacts/controllers/IndexController.php">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/DB/Helper/Data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="892">
-          <caret line="118" column="80" selection-start-line="118" selection-start-column="80" selection-end-line="118" selection-end-column="80" />
+        <state relative-caret-position="90">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Logger/sql/toni_logger_setup/install-1.0.0.0.php">
+    <entry file="file://$PROJECT_DIR$/lib/Zend/Controller/Request/Http.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1098">
-          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+        <state relative-caret-position="290">
+          <caret line="727" column="0" selection-start-line="727" selection-start-column="0" selection-end-line="727" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/modules/Toni_MaxOrderAmount.xml">
+    <entry file="file://$PROJECT_DIR$/app/Mage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="227">
+          <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Logger/controllers/Adminhtml/Toni/LoggerController.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Resource/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="90" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
+        <state relative-caret-position="209">
+          <caret line="484" column="0" selection-start-line="484" selection-start-column="0" selection-end-line="484" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Controller/Action.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Request/Http.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+        <state relative-caret-position="317">
+          <caret line="466" column="0" selection-start-line="466" selection-start-column="0" selection-end-line="466" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Logger/etc/config.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Varien/Action.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="389">
+          <caret line="308" column="0" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/MaxOrderAmount/etc/config.xml">
+    <entry file="file://$PROJECT_DIR$/lib/Zend/Db/Adapter/Abstract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="272">
+          <caret line="793" column="30" selection-start-line="793" selection-start-column="30" selection-end-line="793" selection-end-column="30" />
+          <folding>
+            <marker date="1472549088401" expanded="true" signature="18612:18781" ph="INSERT INTO ${$this-&gt;quoteIdentifier($table, true)}... " />
+            <marker date="1472549088401" expanded="true" signature="21702:21714" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Varien/Data/Collection/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Varien/Db/Select.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="420" column="0" selection-start-line="420" selection-start-column="0" selection-end-line="420" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Zend/Db/Select.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="275" column="0" selection-start-line="275" selection-start-column="0" selection-end-line="275" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Resource/Product/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="1095" column="0" selection-start-line="1095" selection-start-column="0" selection-end-line="1095" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Layer/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="285" column="50" selection-start-line="285" selection-start-column="0" selection-end-line="287" selection-end-column="39" />
+          <folding>
+            <element signature="e#963#1101#0#PHP" expanded="false" />
+            <element signature="e#1178#1273#0#PHP" expanded="false" />
+            <element signature="e#1332#1373#0#PHP" expanded="false" />
+            <element signature="e#1614#1687#0#PHP" expanded="false" />
+            <element signature="e#1747#1815#0#PHP" expanded="false" />
+            <element signature="e#1867#1948#0#PHP" expanded="false" />
+            <element signature="e#2005#2081#0#PHP" expanded="false" />
+            <element signature="e#2115#2198#0#PHP" expanded="false" />
+            <element signature="e#2239#2310#0#PHP" expanded="false" />
+            <element signature="e#2357#2427#0#PHP" expanded="false" />
+            <element signature="e#2462#2647#0#PHP" expanded="false" />
+            <element signature="e#2654#2764#0#PHP" expanded="false" />
+            <element signature="e#2804#2895#0#PHP" expanded="false" />
+            <element signature="e#2927#2997#0#PHP" expanded="false" />
+            <element signature="n#_construct#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#3174#3493#0#PHP" expanded="false" />
+            <element signature="e#3431#3493#0#PHP" expanded="false" />
+            <element signature="e#3505#3587#0#PHP" expanded="false" />
+            <element signature="n#getUrlInstance#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#3639#3722#0#PHP" expanded="false" />
+            <element signature="e#3762#3852#0#PHP" expanded="false" />
+            <element signature="n#getUrlRewrite#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#3903#4033#0#PHP" expanded="false" />
+            <element signature="e#4080#4202#0#PHP" expanded="false" />
+            <element signature="n#getTreeModel#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#4319#4438#0#PHP" expanded="false" />
+            <element signature="n#getTreeModelInstance#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#4496#4624#0#PHP" expanded="false" />
+            <element signature="e#4670#4896#0#PHP" expanded="false" />
+            <element signature="n#move#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#4965#5103#0#PHP" expanded="false" />
+            <element signature="e#5122#5202#0#PHP" expanded="false" />
+            <element signature="e#5122#5232#0#PHP" expanded="false" />
+            <element signature="e#5243#5453#0#PHP" expanded="false" />
+            <element signature="e#5280#5442#0#PHP" expanded="false" />
+            <element signature="e#5463#5905#0#PHP" expanded="false" />
+            <element signature="e#5498#5657#0#PHP" expanded="false" />
+            <element signature="e#5669#5905#0#PHP" expanded="false" />
+            <element signature="e#5727#5894#0#PHP" expanded="false" />
+            <element signature="e#5915#6007#0#PHP" expanded="false" />
+            <element signature="e#6083#6322#0#PHP" expanded="false" />
+            <element signature="e#6415#7340#0#PHP" expanded="false" />
+            <element signature="e#6433#6596#0#PHP" expanded="false" />
+            <element signature="e#7239#7340#0#PHP" expanded="false" />
+            <element signature="e#7349#7660#0#PHP" expanded="false" />
+            <element signature="e#7446#7588#0#PHP" expanded="false" />
+            <element signature="e#7695#7773#0#PHP" expanded="false" />
+            <element signature="n#getDefaultAttributeSetId#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#7920#8019#0#PHP" expanded="false" />
+            <element signature="e#8091#8189#0#PHP" expanded="false" />
+            <element signature="e#8091#8228#0#PHP" expanded="false" />
+            <element signature="e#8269#8384#0#PHP" expanded="false" />
+            <element signature="n#getAttributes#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#8472#8531#0#PHP" expanded="false" />
+            <element signature="e#8578#8788#0#PHP" expanded="false" />
+            <element signature="e#8616#8778#0#PHP" expanded="false" />
+            <element signature="e#8661#8764#0#PHP" expanded="false" />
+            <element signature="e#8825#8960#0#PHP" expanded="false" />
+            <element signature="n#getProductsPosition#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#9017#9077#0#PHP" expanded="false" />
+            <element signature="e#9141#9301#0#PHP" expanded="false" />
+            <element signature="e#9336#9423#0#PHP" expanded="false" />
+            <element signature="n#getStoreIds#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#9472#9545#0#PHP" expanded="false" />
+            <element signature="e#9555#9641#0#PHP" expanded="false" />
+            <element signature="e#9651#9711#0#PHP" expanded="false" />
+            <element signature="e#9747#9823#0#PHP" expanded="false" />
+            <element signature="e#9963#10069#0#PHP" expanded="false" />
+            <element signature="e#10125#10232#0#PHP" expanded="false" />
+            <element signature="e#10241#10322#0#PHP" expanded="false" />
+            <element signature="e#10409#10491#0#PHP" expanded="false" />
+            <element signature="n#getLayoutUpdateHandle#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#10589#10719#0#PHP" expanded="false" />
+            <element signature="e#10669#10719#0#PHP" expanded="false" />
+            <element signature="e#10755#10904#0#PHP" expanded="false" />
+            <element signature="n#getStoreId#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#10952#11043#0#PHP" expanded="false" />
+            <element signature="e#11104#11216#0#PHP" expanded="false" />
+            <element signature="n#setStoreId#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#11272#11375#0#PHP" expanded="false" />
+            <element signature="e#11507#11571#0#PHP" expanded="false" />
+            <element signature="n#getUrl#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#11678#11772#0#PHP" expanded="false" />
+            <element signature="n#getUrlModel#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#11821#11959#0#PHP" expanded="false" />
+            <element signature="e#12004#12076#0#PHP" expanded="false" />
+            <element signature="n#getCategoryIdUrl#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#12292#12426#0#PHP" expanded="false" />
+            <element signature="e#12349#12425#0#PHP" expanded="false" />
+            <element signature="e#12515#12628#0#PHP" expanded="false" />
+            <element signature="n#formatUrlKey#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#12912#12978#0#PHP" expanded="false" />
+            <element signature="n#getImageUrl#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#13049#13165#0#PHP" expanded="false" />
+            <element signature="e#13198#13263#0#PHP" expanded="false" />
+            <element signature="n#getUrlPath#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#13355#13403#0#PHP" expanded="false" />
+            <element signature="e#13450#13639#0#PHP" expanded="false" />
+            <element signature="e#13709#13804#0#PHP" expanded="false" />
+            <element signature="n#getParentCategory#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#13859#14021#0#PHP" expanded="false" />
+            <element signature="e#14084#14159#0#PHP" expanded="false" />
+            <element signature="n#getParentId#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#14301#14377#0#PHP" expanded="false" />
+            <element signature="n#getParentIds#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#14501#14592#0#PHP" expanded="false" />
+            <element signature="n#getCustomDesignDate#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#14828#14907#0#PHP" expanded="false" />
+            <element signature="n#getDesignAttributes#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#14991#15107#0#PHP" expanded="false" />
+            <element signature="e#15143#15287#0#PHP" expanded="false" />
+            <element signature="n#_getAttribute#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#15353#15620#0#PHP" expanded="false" />
+            <element signature="e#15480#15620#0#PHP" expanded="false" />
+            <element signature="e#15512#15609#0#PHP" expanded="false" />
+            <element signature="e#15659#15837#0#PHP" expanded="false" />
+            <element signature="n#getAllChildren#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#15970#16094#0#PHP" expanded="false" />
+            <element signature="e#16034#16094#0#PHP" expanded="false" />
+            <element signature="e#16096#16144#0#PHP" expanded="false" />
+            <element signature="e#16595#16680#0#PHP" expanded="false" />
+            <element signature="n#getChildren#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#16810#16936#0#PHP" expanded="false" />
+            <element signature="n#getPathInStore#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#17141#17324#0#PHP" expanded="false" />
+            <element signature="e#17182#17281#0#PHP" expanded="false" />
+            <element signature="e#17374#17470#0#PHP" expanded="false" />
+            <element signature="n#checkId#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#17573#17758#0#PHP" expanded="false" />
+            <element signature="n#getPathIds#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#17849#17976#0#PHP" expanded="false" />
+            <element signature="e#18009#18068#0#PHP" expanded="false" />
+            <element signature="n#getLevel#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#18114#18211#0#PHP" expanded="false" />
+            <element signature="e#18263#18353#0#PHP" expanded="false" />
+            <element signature="n#verifyIds#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#18467#18551#0#PHP" expanded="false" />
+            <element signature="e#18671#18740#0#PHP" expanded="false" />
+            <element signature="n#getRequestPath#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#18792#18870#0#PHP" expanded="false" />
+            <element signature="e#18930#19004#0#PHP" expanded="false" />
+            <element signature="n#getName#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#19092#19182#0#PHP" expanded="false" />
+            <element signature="n#_beforeDelete#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#19275#19414#0#PHP" expanded="false" />
+            <element signature="e#19466#19535#0#PHP" expanded="false" />
+            <element signature="n#getAnchorsAbove#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#19654#19765#0#PHP" expanded="false" />
+            <element signature="e#19775#20350#0#PHP" expanded="false" />
+            <element signature="e#19915#20350#0#PHP" expanded="false" />
+            <element signature="e#19934#20136#0#PHP" expanded="false" />
+            <element signature="e#20150#20340#0#PHP" expanded="false" />
+            <element signature="e#20387#20467#0#PHP" expanded="false" />
+            <element signature="n#getProductCount#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#20765#20988#0#PHP" expanded="false" />
+            <element signature="n#getCategories#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#21131#21238#0#PHP" expanded="false" />
+            <element signature="e#21279#21370#0#PHP" expanded="false" />
+            <element signature="n#getParentCategories#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#21495#21588#0#PHP" expanded="false" />
+            <element signature="n#getChildrenCategories#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#21717#21810#0#PHP" expanded="false" />
+            <element signature="n#getChildrenCategoriesWithInactive#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#21963#22106#0#PHP" expanded="false" />
+            <element signature="n#getParentDesignCategory#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#22239#22324#0#PHP" expanded="false" />
+            <element signature="n#isInRootCategoryList#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#22451#22549#0#PHP" expanded="false" />
+            <element signature="n#getAvailableSortBy#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#22663#22725#0#PHP" expanded="false" />
+            <element signature="e#22734#22837#0#PHP" expanded="false" />
+            <element signature="e#22876#22999#0#PHP" expanded="false" />
+            <element signature="n#getAvailableSortByOptions#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#23206#23472#0#PHP" expanded="false" />
+            <element signature="e#23253#23462#0#PHP" expanded="false" />
+            <element signature="e#23320#23448#0#PHP" expanded="false" />
+            <element signature="e#23482#23563#0#PHP" expanded="false" />
+            <element signature="e#23609#23697#0#PHP" expanded="false" />
+            <element signature="n#getDefaultSortBy#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#23747#23935#0#PHP" expanded="false" />
+            <element signature="e#23821#23924#0#PHP" expanded="false" />
+            <element signature="e#24001#24125#0#PHP" expanded="false" />
+            <element signature="e#24162#24296#0#PHP" expanded="false" />
+            <element signature="n#validate#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+            <element signature="e#24400#24542#0#PHP" expanded="false" />
+            <element signature="n#afterCommitCallback#0;n#Mage_Catalog_Model_Category#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Varien/Db/Adapter/Pdo/Mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+          <folding>
+            <marker date="1473667422608" expanded="true" signature="22421:22455" ph="ALTER TABLE " />
+            <marker date="1473667422608" expanded="true" signature="27673:27707" ph="ALTER TABLE " />
+            <marker date="1473667422608" expanded="true" signature="28824:28841" ph="ALTER TABLE " />
+            <marker date="1473667422608" expanded="true" signature="30099:30136" ph="ALTER TABLE " />
+            <marker date="1473667422608" expanded="true" signature="31316:31350" ph="ALTER TABLE " />
+            <marker date="1473667422608" expanded="true" signature="43499:43542" ph="SELECT COUNT... %s" />
+            <marker date="1473667422608" expanded="true" signature="43668:43702" ph="DELETE FROM " />
+            <marker date="1473667422608" expanded="true" signature="61776:61800" ph="ALTER TABLE " />
+            <marker date="1473667422608" expanded="true" signature="62236:62263" ph="ALTER TABLE " />
+            <marker date="1473667422608" expanded="true" signature="62748:62780" ph="ALTER TABLE " />
+            <marker date="1473667422608" expanded="true" signature="84208:84229" ph="DROP TABLE I... " />
+            <marker date="1473667422608" expanded="true" signature="86444:86471" ph="ALTER TABLE " />
+            <marker date="1473667422608" expanded="true" signature="88314:88328" ph="ALTER TABLE " />
+            <marker date="1473667422608" expanded="true" signature="91457:91474" ph="ALTER TABLE " />
+            <marker date="1473667422608" expanded="true" signature="92754:92822" ph="ALTER TABLE " />
+            <marker date="1473667422608" expanded="true" signature="114161:114188" ph="ALTER TABLE " />
+            <marker date="1473667422608" expanded="true" signature="114624:114650" ph="ALTER TABLE " />
+            <marker date="1473667422608" expanded="true" signature="117513:117547" ph="Select must part" />
+            <marker date="1473667422608" expanded="true" signature="125766:125795" ph="INSERT INTO " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Varien/Object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="338" column="9" selection-start-line="338" selection-start-column="9" selection-end-line="338" selection-end-column="9" />
+          <folding>
+            <element signature="e#966#1105#0#PHP" expanded="false" />
+            <element signature="e#1156#1217#0#PHP" expanded="false" />
+            <element signature="e#1255#1360#0#PHP" expanded="false" />
+            <element signature="e#1406#1475#0#PHP" expanded="false" />
+            <element signature="e#1507#1575#0#PHP" expanded="false" />
+            <element signature="e#1617#1706#0#PHP" expanded="false" />
+            <element signature="e#1762#1826#0#PHP" expanded="false" />
+            <element signature="e#1867#1951#0#PHP" expanded="false" />
+            <element signature="e#1997#2078#0#PHP" expanded="false" />
+            <element signature="e#2125#2313#0#PHP" expanded="false" />
+            <element signature="n#__construct#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#2398#2479#0#PHP" expanded="false" />
+            <element signature="e#2522#2586#0#PHP" expanded="false" />
+            <element signature="n#_addFullNames#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#2836#3085#0#PHP" expanded="false" />
+            <element signature="e#2881#3075#0#PHP" expanded="false" />
+            <element signature="e#3097#3290#0#PHP" expanded="false" />
+            <element signature="n#_initOldFieldsMap#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#3352#3529#0#PHP" expanded="false" />
+            <element signature="n#_prepareSyncFieldsMap#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#3775#3876#0#PHP" expanded="false" />
+            <element signature="n#_construct#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#3930#4100#0#PHP" expanded="false" />
+            <element signature="n#isDeleted#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#4199#4280#0#PHP" expanded="false" />
+            <element signature="e#4316#4384#0#PHP" expanded="false" />
+            <element signature="n#hasDataChanges#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#4478#4590#0#PHP" expanded="false" />
+            <element signature="n#setIdFieldName#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#4709#4826#0#PHP" expanded="false" />
+            <element signature="n#getIdFieldName#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#4917#4982#0#PHP" expanded="false" />
+            <element signature="e#5025#5126#0#PHP" expanded="false" />
+            <element signature="e#5176#5286#0#PHP" expanded="false" />
+            <element signature="n#setId#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#5335#5495#0#PHP" expanded="false" />
+            <element signature="e#5437#5495#0#PHP" expanded="false" />
+            <element signature="e#5529#5683#0#PHP" expanded="false" />
+            <element signature="n#addData#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#5738#5825#0#PHP" expanded="false" />
+            <element signature="e#5859#6202#0#PHP" expanded="false" />
+            <element signature="e#6679#6851#0#PHP" expanded="false" />
+            <element signature="n#unsetData#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#6946#7251#0#PHP" expanded="false" />
+            <element signature="e#7013#7251#0#PHP" expanded="false" />
+            <element signature="e#7071#7241#0#PHP" expanded="false" />
+            <element signature="e#7285#7468#0#PHP" expanded="false" />
+            <element signature="n#unsetOldData#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#7527#7740#0#PHP" expanded="false" />
+            <element signature="e#7560#7674#0#PHP" expanded="false" />
+            <element signature="e#7685#7740#0#PHP" expanded="false" />
+            <element signature="e#7774#8176#0#PHP" expanded="false" />
+            <element signature="e#8491#8994#0#PHP" expanded="false" />
+            <element signature="e#8537#8606#0#PHP" expanded="false" />
+            <element signature="e#8623#8980#0#PHP" expanded="false" />
+            <element signature="e#8666#8753#0#PHP" expanded="false" />
+            <element signature="e#8811#8918#0#PHP" expanded="false" />
+            <element signature="e#8919#8980#0#PHP" expanded="false" />
+            <element signature="e#9407#9514#0#PHP" expanded="false" />
+            <element signature="e#9531#9620#0#PHP" expanded="false" />
+            <element signature="e#10075#10195#0#PHP" expanded="false" />
+            <element signature="e#10321#10470#0#PHP" expanded="false" />
+            <element signature="n#setDataUsingMethod#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#10649#10797#0#PHP" expanded="false" />
+            <element signature="n#getDataUsingMethod#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#10958#11114#0#PHP" expanded="false" />
+            <element signature="n#getDataSetDefault#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#11183#11269#0#PHP" expanded="false" />
+            <element signature="e#11316#11513#0#PHP" expanded="false" />
+            <element signature="n#hasData#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#11565#11654#0#PHP" expanded="false" />
+            <element signature="n#__toArray#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#11942#12013#0#PHP" expanded="false" />
+            <element signature="e#12050#12306#0#PHP" expanded="false" />
+            <element signature="e#12103#12296#0#PHP" expanded="false" />
+            <element signature="e#12232#12296#0#PHP" expanded="false" />
+            <element signature="e#12342#12452#0#PHP" expanded="false" />
+            <element signature="n#toArray#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#12579#12713#0#PHP" expanded="false" />
+            <element signature="n#_prepareArray#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#12797#12935#0#PHP" expanded="false" />
+            <element signature="e#12843#12925#0#PHP" expanded="false" />
+            <element signature="e#12968#13169#0#PHP" expanded="false" />
+            <element signature="n#__toXml#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#13321#13415#0#PHP" expanded="false" />
+            <element signature="e#13424#13501#0#PHP" expanded="false" />
+            <element signature="e#13628#13948#0#PHP" expanded="false" />
+            <element signature="e#13690#13874#0#PHP" expanded="false" />
+            <element signature="e#13787#13874#0#PHP" expanded="false" />
+            <element signature="e#13957#14035#0#PHP" expanded="false" />
+            <element signature="e#14068#14208#0#PHP" expanded="false" />
+            <element signature="n#toXml#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#14421#14567#0#PHP" expanded="false" />
+            <element signature="n#__toJson#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#14767#14877#0#PHP" expanded="false" />
+            <element signature="n#toJson#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#15002#15189#0#PHP" expanded="false" />
+            <element signature="e#15190#15275#0#PHP" expanded="false" />
+            <element signature="e#15403#15593#0#PHP" expanded="false" />
+            <element signature="n#toString#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#15649#15996#0#PHP" expanded="false" />
+            <element signature="e#15733#15996#0#PHP" expanded="false" />
+            <element signature="e#15827#15958#0#PHP" expanded="false" />
+            <element signature="e#16029#16161#0#PHP" expanded="false" />
+            <element signature="e#16630#16986#0#PHP" expanded="false" />
+            <element signature="e#17000#17317#0#PHP" expanded="false" />
+            <element signature="e#17331#17616#0#PHP" expanded="false" />
+            <element signature="e#17748#17850#0#PHP" expanded="false" />
+            <element signature="e#17979#18087#0#PHP" expanded="false" />
+            <element signature="n#__set#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#18224#18307#0#PHP" expanded="false" />
+            <element signature="n#isEmpty#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#18352#18413#0#PHP" expanded="false" />
+            <element signature="e#18447#18701#0#PHP" expanded="false" />
+            <element signature="n#_underscore#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#18758#18863#0#PHP" expanded="false" />
+            <element signature="n#_camelize#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#19207#19425#0#PHP" expanded="false" />
+            <element signature="n#serialize#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#19592#19679#0#PHP" expanded="false" />
+            <element signature="e#19689#19879#0#PHP" expanded="false" />
+            <element signature="e#19744#19869#0#PHP" expanded="false" />
+            <element signature="e#19960#20071#0#PHP" expanded="false" />
+            <element signature="n#getOrigData#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#20129#20196#0#PHP" expanded="false" />
+            <element signature="e#20286#20424#0#PHP" expanded="false" />
+            <element signature="n#setOrigData#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#20494#20630#0#PHP" expanded="false" />
+            <element signature="e#20570#20630#0#PHP" expanded="false" />
+            <element signature="e#20664#20779#0#PHP" expanded="false" />
+            <element signature="n#dataHasChangedFor#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#20970#21080#0#PHP" expanded="false" />
+            <element signature="n#setDataChanges#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#21210#21356#0#PHP" expanded="false" />
+            <element signature="n#debug#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#21428#21678#0#PHP" expanded="false" />
+            <element signature="e#21506#21594#0#PHP" expanded="false" />
+            <element signature="e#21713#22097#0#PHP" expanded="false" />
+            <element signature="e#21759#22087#0#PHP" expanded="false" />
+            <element signature="e#21837#21941#0#PHP" expanded="false" />
+            <element signature="e#21942#22087#0#PHP" expanded="false" />
+            <element signature="e#22132#22324#0#PHP" expanded="false" />
+            <element signature="n#offsetSet#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#22429#22623#0#PHP" expanded="false" />
+            <element signature="n#offsetExists#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#22728#22897#0#PHP" expanded="false" />
+            <element signature="n#offsetUnset#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#22994#23180#0#PHP" expanded="false" />
+            <element signature="n#offsetGet#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#23314#23416#0#PHP" expanded="false" />
+            <element signature="n#isDirty#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#23472#23535#0#PHP" expanded="false" />
+            <element signature="e#23544#23601#0#PHP" expanded="false" />
+            <element signature="e#23658#23794#0#PHP" expanded="false" />
+            <element signature="n#flagDirty#0;n#Varien_Object#0;n#!!top" expanded="false" />
+            <element signature="e#23859#24182#0#PHP" expanded="false" />
+            <element signature="e#23894#24003#0#PHP" expanded="false" />
+            <element signature="e#24014#24182#0#PHP" expanded="false" />
+            <element signature="e#24033#24172#0#PHP" expanded="false" />
+            <element signature="e#24106#24172#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Layer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding>
+            <element signature="e#963#1112#0#PHP" expanded="false" />
+            <element signature="e#1172#1241#0#PHP" expanded="false" />
+            <element signature="e#1293#1390#0#PHP" expanded="false" />
+            <element signature="e#1429#1533#0#PHP" expanded="false" />
+            <element signature="n#getAggregator#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+            <element signature="e#1650#1717#0#PHP" expanded="false" />
+            <element signature="n#getStateKey#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+            <element signature="e#1766#2042#0#PHP" expanded="false" />
+            <element signature="e#2088#2214#0#PHP" expanded="false" />
+            <element signature="n#getStateTags#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+            <element signature="e#2313#2447#0#PHP" expanded="false" />
+            <element signature="e#2342#2446#0#PHP" expanded="false" />
+            <element signature="e#2493#2633#0#PHP" expanded="false" />
+            <element signature="n#apply#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+            <element signature="e#4222#4421#0#PHP" expanded="false" />
+            <element signature="e#4430#4533#0#PHP" expanded="false" />
+            <element signature="e#4568#4732#0#PHP" expanded="false" />
+            <element signature="e#5274#5400#0#PHP" expanded="false" />
+            <element signature="n#setCurrentCategory#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+            <element signature="e#5465#5580#0#PHP" expanded="false" />
+            <element signature="e#5589#5782#0#PHP" expanded="false" />
+            <element signature="e#5791#5911#0#PHP" expanded="false" />
+            <element signature="e#5921#6055#0#PHP" expanded="false" />
+            <element signature="e#6090#6181#0#PHP" expanded="false" />
+            <element signature="n#getCurrentStore#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+            <element signature="e#6277#6444#0#PHP" expanded="false" />
+            <element signature="e#7254#7434#0#PHP" expanded="false" />
+            <element signature="n#_prepareAttribute#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+            <element signature="e#7613#7838#0#PHP" expanded="false" />
+            <element signature="e#7994#8093#0#PHP" expanded="false" />
+            <element signature="n#getState#0;n#Mage_Catalog_Model_Layer#0;n#!!top" expanded="false" />
+            <element signature="e#8181#8413#0#PHP" expanded="false" />
+            <element signature="e#8449#8549#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/DB/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
