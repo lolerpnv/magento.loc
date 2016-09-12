@@ -4,25 +4,25 @@
     <global>
         <resources>
 
-            <toni_logger_setup>
+            <toni_maxorderamount_setup>
 
                 <setup>
 
-                    <module>Toni_Logger</module>
+                    <module>Toni_MaxOrderAmount</module>
 
                 </setup>
 
-            </toni_logger_setup>
+            </toni_maxorderamount_setup>
 
         </resources>
 
         <helpers>
 
-            <toni_logger>
+            <toni_maxorderamount>
 
-                <class>Toni_Logger_Helper</class>
+                <class>Toni_MaxOrderAmount_Helper</class>
 
-            </toni_logger>
+            </toni_maxorderamount>
 
             <toni_maxorderamount>
 
@@ -43,31 +43,31 @@
         </modules>
 
         <models>
-            <toni_logger>
+            <toni_maxorderamount>
 
-                <class>Toni_Logger_Model</class>
+                <class>Toni_MaxOrderAmount_Model</class>
 
                 <resourceModel>
 
-                    toni_logger_resource</resourceModel>
+                    toni_maxorderamount_resource</resourceModel>
 
-            </toni_logger>
+            </toni_maxorderamount>
 
-            <toni_logger_resource>
+            <toni_maxorderamount_resource>
 
-                <class>Toni_Logger_Model_Resource</class>
+                <class>Toni_MaxOrderAmount_Model_Resource</class>
 
                 <entities>
 
-                    <logger>
+                    <maxorderamount>
 
-                        <table>toni_logger_logger</table>
+                        <table>toni_maxorderamount_maxorderamount</table>
 
-                    </logger>
+                    </maxorderamount>
 
                 </entities>
 
-            </toni_logger_resource>
+            </toni_maxorderamount_resource>
 
         </models>
 

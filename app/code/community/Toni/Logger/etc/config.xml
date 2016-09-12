@@ -8,43 +8,65 @@
     </modules>
     <global>
         <blocks>
+
             <toni_logger>
+
                 <class>Toni_Logger_Block</class>
+
             </toni_logger>
+
         </blocks>
         <models>
 
             <toni_logger>
+
                 <class>Toni_Logger_Model</class>
+
                 <resourceModel>toni_logger_resource</resourceModel>
+
             </toni_logger>
 
             <toni_logger_resource>
+
                 <class>Toni_Logger_Model_Resource</class>
+
                 <entities>
-                    <toni_logger>
+
+                    <logger>
+
                         <table>toni_logger_logger</table>
-                    </toni_logger>
+
+                    </logger>
+
                 </entities>
+
             </toni_logger_resource>
+
         </models>
+
         <resources>
+
             <toni_logger_setup>
+
                 <setup>
+
                     <module>Toni_Logger</module>
+
                 </setup>
+
             </toni_logger_setup>
+
         </resources>
+
         <helpers>
+
             <toni_logger>
+
                 <class>Toni_Logger_Helper</class>
+
             </toni_logger>
+
         </helpers>
-        <log>
-            <core>
-                <writer_model>Toni_Logger_Model_Log_Writer_Stream</writer_model>
-            </core>
-        </log>
     </global>
     <admin>
         <routers>
