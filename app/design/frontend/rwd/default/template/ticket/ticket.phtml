@@ -1,0 +1,33 @@
+<div class="page-title">
+    <h2>Tickets</h2>
+</div>
+<table>
+    <?php
+    $tickets = $this->getTickets();?>
+    <tr>
+        <?php
+        if(!empty($tickets)) {
+        foreach ($tickets as $ticket) {
+            echo $ticket;
+            }
+        } else {
+            echo "You have no open tickets";
+        }
+            ?>
+    </tr>
+    <!--tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+    </tr-->
+
+</table>
+<br/>
+<a href="">
+    <span class="button">
+        Add Tickets
+    </span>
+</a>
+<?php
+
+
+?>

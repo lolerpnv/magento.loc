@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+
+    <modules>
+
+        <Toni_Ticket>
+
+            <active>true</active>
+
+            <codePool>community</codePool>
+
+        </Toni_Ticket>
+
+    </modules>
+
+</config>

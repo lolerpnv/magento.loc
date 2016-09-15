@@ -3,10 +3,47 @@ class Toni_DB_IndexController extends Mage_Core_Controller_Front_Action
 {
     public function  IndexAction() {
 
-        /** @var Mage_Catalog_Model_Category $category */
-        $category = Mage::getModel('catalog/category')
+
+       //var_dump(Mage::getSingleton('catalog/config')->getProductAttributes());
+       //die;
+
+        /** @var Mage_Catalog_Model_Category $category
+         * @var Mage_Catalog_Model_Product $collection
+         */
+        /*$category = Mage::getModel('catalog/category')
             ->setStoreId(Mage::app()->getStore()->getId())
-            ->load(18);
+            ->load(16);*/
+        $att = Mage::getSingleton('catalog/config')->getProductAttributes();
+
+
+        $collection = Mage::getModel('catalog/product')->getCollection()
+            //->addAttributeToSelect($att[1])
+            //->addCategoryFilter($category)
+            ->addAttributeToFilter('sir', array('eq' => 1))
+            //->addMinimalPrice()
+
+            ;
+
+
+
+
+
+        $collection->load();
+
+        foreach ($collection as $product) {
+            var_dump($product->getData());
+        }
+
+
+        return;
+
+
+
+
+
+
+
+
 
         //$collection = $category->getProductCollection();
 
@@ -29,11 +66,12 @@ class Toni_DB_IndexController extends Mage_Core_Controller_Front_Action
 
         //$setIds = $collection->getSetIds();
         //$collection->addIsFilterableFilter();
-        $collection->load();
 
-        foreach($collection as $product) {
+        echo sizeof($collection);
+
+        /*foreach($collection as $product) {
             var_dump($product->debug());
-        }
+        }*/
 
         //var_dump($collection);
 

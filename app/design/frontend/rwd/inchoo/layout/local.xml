@@ -6,11 +6,11 @@
     <default>
 
 
-        <reference name="content">
+        <!--reference name="content">
 
             <block type="core/template" name="hello" template="hello.phtml"/>
 
-        </reference>
+        </reference-->
 
 
 

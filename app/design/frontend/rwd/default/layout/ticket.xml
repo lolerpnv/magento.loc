@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+    <ticket_ticket_ticket>
+        <update handle="customer_account"/>
+        <reference name="content">
+            <block type="ticket/ticket" name="main.ticket.block" as="main.ticket.block" template="ticket/ticket.phtml"/>
+            <block type="ticket/table" name="table.ticket.block" as="table.ticket.block" template="ticket/table.phtml"/>
+        </reference>
+    </ticket_ticket_ticket>
+    <customer_account>
+        <reference name="customer_account_navigation">
+            <action method="addLink" translate="label" module="toni_ticket"><name>ticket</name><path>ticket/ticket/ticket/</path><label>My Tickets</label></action>
+        </reference>
+    </customer_account>
+</layout>

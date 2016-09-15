@@ -1,0 +1,51 @@
+<?php
+/*
+ * $installer
+ */
+
+
+$installer = $this;
+
+$installer->startSetup();
+try {
+    $table = $installer->getConnection()
+        ->newTable($installer->getTable('ticket/ticket'))
+        ->addColumn('entity_id',
+
+            Varien_Db_Ddl_Table::TYPE_INTEGER, null, array(
+                'identity'  => true,
+                'unsigned'  => true,
+                'nullable'  => false,
+                'primary'   => true,), 'Id')
+        ->addColumn('user_id',
+            Varien_Db_Ddl_Table::TYPE_INTEGER
+            , null, array(
+                'unsigned' => true,
+                'nullable' => false)
+        )
+        ->addForeignKey($installer->getFkName('ticket/ticket', 'user_id', 'customer_entity', 'entity_id'),
+            'user_id', $installer->getTable('customer_entity'), 'entity_id',
+            Varien_Db_Ddl_Table::ACTION_CASCADE,
+            Varien_Db_Ddl_Table::ACTION_CASCADE)
+        ->addColumn('message', Varien_Db_Ddl_Table::TYPE_TEXT,
+
+            null, array(
+
+                'nullable' => false,
+
+            ), 'Message')
+        ->addColumn('timestamp', Varien_Db_Ddl_Table::TYPE_CHAR,
+
+            25, array(
+
+                'nullable' => false,
+
+            ), 'Timestamp');
+
+    $installer->getConnection()->createTable($table);
+
+    $installer->endSetup();
+}
+catch (Exception $e){
+    echo $e;
+}
