@@ -7,11 +7,13 @@
         </Toni_Ticket>
     </modules>
     <global>
+
         <helpers>
             <toni_ticket>
                 <class>Toni_Ticket_Helper</class>
             </toni_ticket>
         </helpers>
+
         <blocks>
             <ticket>
                 <class>Toni_Ticket_Block</class>
@@ -38,6 +40,12 @@
                         <table>ticket_ticket</table>
 
                     </ticket>
+
+                    <response>
+
+                        <table>ticket_response</table>
+
+                    </response>
 
                 </entities>
 

@@ -1,0 +1,23 @@
+<?php
+/**
+ * @var Toni_Ticket_Block_View $this
+ * @var Toni_Ticket_Model_Ticket $ticket
+ */
+
+$ticket = $this->getTicket();
+
+
+?>
+<div class="page-title">
+    <h1><?php echo $this->__('Ticket #').$ticket->getEntityId(); ?></h1>
+</div>
+
+<div class="container">
+    <h3 class="notice-text">
+        <?php echo $ticket->getTicketSubject(); ?>
+    </h3>
+    <div class="textarea">
+        <?php echo $ticket->getTicketMessage() ?>
+    </div>
+    <?php echo $this->getChildHtml('response.ticket.block'); ?>
+</div>

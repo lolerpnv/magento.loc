@@ -37,32 +37,32 @@ class Toni_Logger_Model_Log_Writer_Stream extends Zend_Log_Writer_Stream
         $logger->setPriorityName($event['priorityName']);
 
 
-if (is_string(self::$_flfp)) {
+    if (is_string(self::$_flfp)) {
 
-    $logger->setFile(self::$_flfp);
+        $logger->setFile(self::$_flfp);
 
-}
-
-
-
-try {
-
-    $logger->save();
-
-} catch (Exception $e) {
-
-//echo $e->getMessage(); exit;
-
-    /* Silently die... */
-
-}
+    }
 
 
 
-/* Now pass the execution to original parent code */
+    try {
 
-return parent::_write($event);
+        $logger->save();
 
-}
+    } catch (Exception $e) {
+
+    //echo $e->getMessage(); exit;
+
+        /* Silently die... */
+
+    }
+
+
+
+    /* Now pass the execution to original parent code */
+
+    return parent::_write($event);
+
+    }
 
 }

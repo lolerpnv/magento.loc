@@ -1,33 +1,40 @@
+<?php
+/** @var Toni_Ticket_Block_Ticket $this
+ * @var Toni_Ticket_Model_Ticket $ticket
+ */
+?>
+
 <div class="page-title">
     <h2>Tickets</h2>
 </div>
-<table>
-    <?php
-    $tickets = $this->getTickets();?>
-    <tr>
-        <?php
-        if(!empty($tickets)) {
-        foreach ($tickets as $ticket) {
-            echo $ticket;
-            }
-        } else {
-            echo "You have no open tickets";
-        }
-            ?>
-    </tr>
-    <!--tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-    </tr-->
-
+<?php $tickets = $this->getTickets()->getItems();
+if(!empty($tickets)): ?>
+<table class="data table-orders" >
+    <col width="1" />
+    <col width="1" />
+    <col width="1" />
+        <thead>
+        <tr>
+            <th class="number"><?php echo $this->__("Ticket Id")?></th>
+        <th class="textarea"><?php echo $this->__("Message")?></th>
+        <th > </th>
+        </tr>
+    </thead>
+    <tbody>
+    <?php foreach ($tickets as $ticket): ?>
+        <tr>
+            <td class="number"><?php echo $ticket->getEntityId(); ?></td>
+            <td class="textarea"><?php echo $ticket->getMessage(); ?></td>
+            <th class="a-center view"><span class="nobr"> <a href="<?php echo $this->getTicketViewUrl($ticket); ?>" class="current">View Ticket</a></span></th>
+        </tr>
+    <?php endforeach; ?>
+    </tbody>
 </table>
-<br/>
-<a href="">
+<?php else: echo "<span class='text' >You have no open tickets</span>"; endif; ?>
+<br/><br/>
+<a href="<?php echo $this->getNewTicketUrl(); ?>">
     <span class="button">
         Add Tickets
     </span>
 </a>
-<?php
 
-
-?>

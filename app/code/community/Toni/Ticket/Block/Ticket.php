@@ -1,16 +1,17 @@
 <?php
+
+/**
+ * @var Toni_Ticket_Model_Ticket $ticket
+ */
 class Toni_Ticket_Block_Ticket extends Mage_Core_Block_Template
 {
     public function __construct() {
+        $tickets = Mage::getResourceModel('ticket/ticket_collection')
+                    ->addFieldToSelect('*')
+                    //->addFieldToFilter('customer_id', Mage::getSingleton('customer/session')->getCustomer()->getId())
+                    ->load()
+        ;
 
-        $tickets = Array();
-        try{
-            $var = Mage::getResourceModel('ticket/ticket');
-            echo $var;
-        } catch (Exception $e){
-            echo $e;
-            die;
-        }
         /*$tickets = Mage::getResourceModel('ticket/ticket_collection')
             ->addFieldToSelect('*')
             ->addFieldToFilter('customer_id', Mage::getSingleton('customer/session')->getCustomer()->getId())
@@ -18,8 +19,15 @@ class Toni_Ticket_Block_Ticket extends Mage_Core_Block_Template
             ->setOrder('created_at', 'desc')
         ;
 */
-
-
         $this->setTickets($tickets);
+    }
+    public function getTicketViewUrl($ticket) {
+        return $this->getUrl("*/*/view",array('entity_id' => $ticket->getEntityId()));
+    }
+    public function getNewTicketUrl() {
+        return $this->getUrl("*/*/newticket");
+    }
+    public function getPostNewTicketUrl() {
+        return $this->getUrl("*/*/postnew");
     }
 }
