@@ -23,7 +23,9 @@ class Toni_Logger_Model_Log_Writer_Stream extends Zend_Log_Writer_Stream
     protected function _write($event)
 
     {
-
+        /**
+         * @var Toni_Logger_Model_Logger $logger
+         */
         $logger = Mage::getModel('toni_logger/logger');
 
 

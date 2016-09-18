@@ -9,22 +9,22 @@
         <ul class="form-list">
             <li class="fields">
                 <div class="field">
-                    <label for="subject" class="required"><em>*</em><?php echo Mage::helper('ticket')->__('Subject') ?></label>
+                    <label for="subject" class="required"><em>*</em><?php echo Mage::helper('toni_ticket')->__('Subject') ?></label>
                     <div class="input-box">
-                        <input name="subject" id="subject" title="<?php echo Mage::helper('core')->quoteEscape(Mage::helper('ticket')->__('Subject')) ?>" value="<?php echo $this->escapeHtml($this->helper('ticket')->__('subject')) ?>" class="input-text required-entry" type="text" />
+                        <input name="subject" id="subject" title="<?php echo Mage::helper('core')->quoteEscape(Mage::helper('toni_ticket')->__('Subject')) ?>" value="<?php echo $this->escapeHtml($this->helper('toni_ticket')->__('Subject')) ?>" class="input-text required-entry" type="text" />
                     </div>
                 </div>
                 <div class="field">
-                    <label for="message" class="required"><em>*</em><?php echo Mage::helper('ticket')->__('Message') ?></label>
+                    <label for="message" class="required"><em>*</em><?php echo Mage::helper('toni_ticket')->__('Message') ?></label>
                     <div class="input-box">
-                        <input name="message" id="message" title="<?php echo Mage::helper('core')->quoteEscape(Mage::helper('ticket')->__('Message')) ?>" value="<?php echo $this->escapeHtml($this->helper('ticket')->__('message')) ?>" class="input-text required-entry validate-email"  />
+                        <input name="message" id="message" title="<?php echo Mage::helper('core')->quoteEscape(Mage::helper('toni_ticket')->__('Message')) ?>" value="<?php echo $this->escapeHtml($this->helper('toni_ticket')->__('Message')) ?>" class="input-text required-entry validate-email"  />
                     </div>
                 </div>
             </li>
         </ul>
     </div>
-    <span class="button">
+    <button class="button" type="submit" >
         Create New Ticket
-    </span>
+    </button>
 
 </form>

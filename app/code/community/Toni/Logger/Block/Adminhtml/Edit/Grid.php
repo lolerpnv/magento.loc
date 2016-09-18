@@ -26,9 +26,7 @@ class Toni_Logger_Block_Adminhtml_Edit_Grid extends Mage_Adminhtml_Block_Widget_
 
 {
 
-    $collection = Mage::getModel('toni_logger/logger')
-
-        ->getCollection();
+    $collection = Mage::getModel('toni_logger/logger')->getCollection();
 
 
 
@@ -42,56 +40,46 @@ class Toni_Logger_Block_Adminhtml_Edit_Grid extends Mage_Adminhtml_Block_Widget_
 
 
 
-    protected function _prepareColumns()
+    protected function _prepareColumns() {
 
-{
+        $this->addColumn('entity_id', array(
 
-    $this->addColumn('entity_id', array(
+                'header' => Mage::helper('toni_logger')->__('ID'),
 
-            'header' => Mage::helper('toni_logger')->__('ID'),
+            'sortable' => true,
+            'index' => 'entity_id',
 
-        'sortable' => true,
-        'index' => 'entity_id',
-
-));
+    ));
 
 
 
-$this->addColumn('timestamp', array(
+    $this->addColumn('timestamp', array(
 
-        'header' => Mage::helper('toni_logger')->__('Timestamp'),
+            'header' => Mage::helper('toni_logger')->__('Timestamp'),
 
-    'index' => 'timestamp',
-    'type' => 'text',
-    'width' => '170px',
+        'index' => 'timestamp',
+        'type' => 'text',
+        'width' => '170px',
 
-));
+    ));
 
-$this->addColumn('message', array(
+    $this->addColumn('message', array(
 
-        'header' => Mage::helper('toni_logger')->__('Message'),
+            'header' => Mage::helper('toni_logger')->__('Message'),
 
-    'index' => 'message',
-    'type' => 'text',
+        'index' => 'message',
+        'type' => 'text',
 
-));
-
-
-
-return parent::_prepareColumns();
-
+    ));
+    return parent::_prepareColumns();
 }
 
 
 
     public function getGridUrl()
+    {
 
-{
-
-    return $this->getUrl('*/*/grid', array('_current' =>
-
-        true));
-
-}
+        return $this->getUrl('*/*/grid', array('_current' => true));
+    }
 
 }

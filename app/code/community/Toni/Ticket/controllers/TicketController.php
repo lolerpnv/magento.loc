@@ -20,6 +20,20 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
     public function newticketAction() {
         $this->_initLayout();
     }
+    public function postnewAction() {
+        //Save
+
+        $ticket = Mage::getModel('toni_ticket/ticket');
+
+        $ticket->setSubject("HardcodedTicket");
+        $ticket->setUser_id(138);
+        $ticket->save();
+
+
+        //Redirect
+        Mage::getSingleton('customer/session')->addSuccess(Mage::helper('contacts')->__('Your inquiry was submitted and will be responded to as soon as possible. Thank you for contacting us.'));
+        $this->_redirect('*/*/ticket');
+    }
     public function _initLayout() {
         $this->loadLayout();
         $this->_initLayoutMessages('catalog/session');
