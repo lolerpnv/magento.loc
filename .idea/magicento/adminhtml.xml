@@ -1094,45 +1094,45 @@
                     <depends><module>Mage_Sales</module></depends>
                 </quote></children>
          </promo><sales translate="title" module="sales">
-            <title>Sales</title>
-            <sort_order>20</sort_order>
+            
+            
             <depends><module>Mage_Sales</module></depends>
             <children>
                 <order translate="title" module="sales">
-                    <title>Orders</title>
-                    <action>adminhtml/sales_order</action>
-                    <sort_order>10</sort_order>
-                </order>
+                    
+                    
+                    
+                <title>Orders</title><action>adminhtml/sales_order</action><sort_order>10</sort_order></order>
                 <invoice translate="title" module="sales">
-                    <title>Invoices</title>
-                    <action>adminhtml/sales_invoice</action>
-                    <sort_order>20</sort_order>
-                </invoice>
+                    
+                    
+                    
+                <title>Invoices</title><action>adminhtml/sales_invoice</action><sort_order>20</sort_order></invoice>
                 <shipment translate="title" module="sales">
-                    <title>Shipments</title>
-                    <action>adminhtml/sales_shipment</action>
-                    <sort_order>30</sort_order>
-                </shipment>
+                    
+                    
+                    
+                <title>Shipments</title><action>adminhtml/sales_shipment</action><sort_order>30</sort_order></shipment>
                 <creditmemo translate="title" module="sales">
-                    <title>Credit Memos</title>
-                    <action>adminhtml/sales_creditmemo</action>
-                    <sort_order>40</sort_order>
-                </creditmemo>
+                    
+                    
+                    
+                <title>Credit Memos</title><action>adminhtml/sales_creditmemo</action><sort_order>40</sort_order></creditmemo>
                 <transactions translate="title" module="sales">
-                    <title>Transactions</title>
-                    <action>adminhtml/sales_transactions</action>
-                    <sort_order>50</sort_order>
-                </transactions>
+                    
+                    
+                    
+                <title>Transactions</title><action>adminhtml/sales_transactions</action><sort_order>50</sort_order></transactions>
                 <recurring_profile translate="title" module="sales">
-                    <title>Recurring Profiles (beta)</title>
-                    <action>adminhtml/sales_recurring_profile</action>
-                    <sort_order>60</sort_order>
-                </recurring_profile>
+                    
+                    
+                    
+                <title>Recurring Profiles (beta)</title><action>adminhtml/sales_recurring_profile</action><sort_order>60</sort_order></recurring_profile>
                 <billing_agreement translate="title" module="sales">
-                    <title>Billing Agreements</title>
-                    <action>adminhtml/sales_billing_agreement</action>
-                    <sort_order>70</sort_order>
-                </billing_agreement>
+                    
+                    
+                    
+                <title>Billing Agreements</title><action>adminhtml/sales_billing_agreement</action><sort_order>70</sort_order></billing_agreement>
             <checkoutagreement translate="title" module="checkout">
                     <sort_order>100</sort_order>
                     <title>Terms and conditions</title>
@@ -1163,7 +1163,7 @@
                         </classes_product>
                     </children>
                 </tax></children>
-         </sales><newsletter translate="title" module="newsletter">
+         <title>Sales</title><sort_order>20</sort_order></sales><newsletter translate="title" module="newsletter">
             <title>Newsletter</title>
             <sort_order>60</sort_order>
             <children>
@@ -1184,28 +1184,4 @@
                     <action>adminhtml/newsletter_problem/</action>
                 </problem>
             </children>
-        </newsletter><ticket>
-
-            <children>
-
-                <tools>
-
-                    <children>
-
-                        <toni_logger translate="title" module="toni_logger">
-
-                            <title>Logger</title>
-
-                            <action>adminhtml/toni_logger/index</action>
-
-                            <sort_order>25</sort_order>
-
-                        </toni_logger>
-
-                    </children>
-
-                </tools>
-
-            </children>
-
-        </ticket></menu></config>
+        </newsletter></menu></config>

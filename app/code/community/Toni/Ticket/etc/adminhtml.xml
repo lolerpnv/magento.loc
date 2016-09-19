@@ -1,15 +1,23 @@
 <?xml version="1.0"?>
 
 <config>
-
     <menu>
-
-        <toni_ticket lable="title" module="toni_ticket">
-            <title>Ticket</title>
-
-
-        </toni_ticket>
-
+        <ticket translate="title" module="toni_ticket">
+            <title>Tickets</title>
+            <sort_order>20</sort_order>
+            <depends><module>Toni_Ticket</module></depends>
+            <children>
+                <open translate="title" module="sales">
+                    <title>Open</title>
+                    <action>adminhtml/ticket/index</action>
+                    <sort_order>10</sort_order>
+                </open>
+                <closed translate="title" module="toni_ticket">
+                    <title>Closed</title>
+                    <action>adminhtml/sales_order</action>
+                    <sort_order>10</sort_order>
+                </closed>
+            </children>
+        </ticket>
     </menu>
-
 </config>

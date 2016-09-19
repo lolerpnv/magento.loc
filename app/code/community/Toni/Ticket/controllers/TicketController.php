@@ -83,4 +83,11 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
         }
         $this->renderLayout();
     }
+    public function isItMine($ticket_id) {
+        $ticket = Mage::getModel('ticket/ticket');
+        $ticket->getCollection()
+            ->addFieldToSelect('*')
+            ->addFieldToFilter('user_id', Mage::getSingleton('customer/session')->getCustomer()->getId())
+            ->load();
+    }
 }

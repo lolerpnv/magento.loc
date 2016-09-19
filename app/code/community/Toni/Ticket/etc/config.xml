@@ -94,7 +94,7 @@
             <adminhtml>
                 <args>
                     <modules>
-                        <ticket before="Mage_Adminhtml">Toni_Ticket_Adminhtml</ticket>
+                        <ticket after="Mage_Adminhtml">Toni_Ticket_Adminhtml</ticket>
                     </modules>
                 </args>
             </adminhtml>
