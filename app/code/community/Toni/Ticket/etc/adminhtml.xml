@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<config>
+
+    <menu>
+
+        <toni_ticket lable="title" module="toni_ticket">
+            <title>Ticket</title>
+
+
+        </toni_ticket>
+
+    </menu>
+
+</config>

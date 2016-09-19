@@ -12,7 +12,7 @@
         <update handle="customer_account"/>
         <reference name="content">
             <block type="ticket/view" name="view.ticket.block" as="view.ticket.block" template="ticket/view.phtml">
-                <block type="ticket/response" name="response.ticket.block" as="response.ticket.block" template="ticket/response.phtml"/>
+                <block type="ticket/view" name="response.ticket.block" as="response.ticket.block" template="ticket/response.phtml"/>
             </block>
         </reference>
 

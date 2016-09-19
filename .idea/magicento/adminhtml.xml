@@ -1184,4 +1184,28 @@
                     <action>adminhtml/newsletter_problem/</action>
                 </problem>
             </children>
-        </newsletter></menu></config>
+        </newsletter><ticket>
+
+            <children>
+
+                <tools>
+
+                    <children>
+
+                        <toni_logger translate="title" module="toni_logger">
+
+                            <title>Logger</title>
+
+                            <action>adminhtml/toni_logger/index</action>
+
+                            <sort_order>25</sort_order>
+
+                        </toni_logger>
+
+                    </children>
+
+                </tools>
+
+            </children>
+
+        </ticket></menu></config>

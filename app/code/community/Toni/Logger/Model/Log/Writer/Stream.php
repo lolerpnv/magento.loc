@@ -21,7 +21,6 @@ class Toni_Logger_Model_Log_Writer_Stream extends Zend_Log_Writer_Stream
 
 
     protected function _write($event)
-
     {
         /**
          * @var Toni_Logger_Model_Logger $logger
@@ -44,9 +43,6 @@ class Toni_Logger_Model_Log_Writer_Stream extends Zend_Log_Writer_Stream
         $logger->setFile(self::$_flfp);
 
     }
-
-
-
     try {
 
         $logger->save();

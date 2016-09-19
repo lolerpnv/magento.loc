@@ -1,42 +1,28 @@
 <?php
 
 class Toni_Logger_Block_Adminhtml_Edit_Grid extends Mage_Adminhtml_Block_Widget_Grid
-
 {
+    public function __construct() {
 
-    public function __construct()
+        parent::__construct();
 
-{
+        $this->setId('toni_logger');
 
-    parent::__construct();
+        $this->setDefaultSort('entity_id');
 
+        $this->setUseAjax(true);
+    }
 
+    protected function _prepareCollection() {
 
-    $this->setId('toni_logger');
+        $collection = Mage::getModel('toni_logger/logger')->getCollection();
 
-    $this->setDefaultSort('entity_id');
+        $this->setCollection($collection);
 
-    $this->setUseAjax(true);
+        parent::_prepareCollection();
 
-}
-
-
-
-    protected function _prepareCollection()
-
-{
-
-    $collection = Mage::getModel('toni_logger/logger')->getCollection();
-
-
-
-    $this->setCollection($collection);
-
-    parent::_prepareCollection();
-
-    return $this;
-
-}
+        return $this;
+    }
 
 
 
@@ -44,14 +30,11 @@ class Toni_Logger_Block_Adminhtml_Edit_Grid extends Mage_Adminhtml_Block_Widget_
 
         $this->addColumn('entity_id', array(
 
-                'header' => Mage::helper('toni_logger')->__('ID'),
-
+            'header' => Mage::helper('toni_logger')->__('ID'),
             'sortable' => true,
             'index' => 'entity_id',
 
     ));
-
-
 
     $this->addColumn('timestamp', array(
 
@@ -65,8 +48,7 @@ class Toni_Logger_Block_Adminhtml_Edit_Grid extends Mage_Adminhtml_Block_Widget_
 
     $this->addColumn('message', array(
 
-            'header' => Mage::helper('toni_logger')->__('Message'),
-
+        'header' => Mage::helper('toni_logger')->__('Message'),
         'index' => 'message',
         'type' => 'text',
 

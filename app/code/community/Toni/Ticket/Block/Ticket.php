@@ -2,13 +2,15 @@
 
 /**
  * @var Toni_Ticket_Model_Ticket $ticket
+ * @var Toni_Ticket_Model_Resource_Ticket_Collection $tickets
  */
 class Toni_Ticket_Block_Ticket extends Mage_Core_Block_Template
 {
     public function __construct() {
         $tickets = Mage::getResourceModel('ticket/ticket_collection')
                     ->addFieldToSelect('*')
-                    //->addFieldToFilter('customer_id', Mage::getSingleton('customer/session')->getCustomer()->getId())
+                    ->addFieldToFilter('user_id', Mage::getSingleton('customer/session')->getCustomer()->getId())
+                    ->addFieldToFilter('active',1)
                     ->load()
         ;
 

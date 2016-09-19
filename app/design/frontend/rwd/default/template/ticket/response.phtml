@@ -1,1 +1,15 @@
-RESPONSE
+<?php
+/**
+ * @var Toni_Ticket_Model_Response $response
+ */
+$responses = $this->getResponses();
+if(empty($responses)):
+    echo "<span class='text' >You have no responses to this ticket</span>";
+else :
+    foreach ($responses as $response):?>
+        <span class="text">
+            <?php echo "<br/>".$response->getCreator().":<br/>".$response->getMessage() ?>
+        </span>
+<?php endforeach; ?>
+<?php endif; ?>
+

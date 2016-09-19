@@ -30,6 +30,11 @@ try {
                 'ticket_id',$installer->getTable('ticket/ticket'),'entity_id',
                 Varien_Db_Ddl_Table::ACTION_CASCADE,
                 Varien_Db_Ddl_Table::ACTION_CASCADE)
+        ->addColumn('creator',
+            Varien_Db_Ddl_Table::TYPE_VARCHAR,
+            null, array(
+                'nullable' => false,
+            ), 'Response')
         ->addColumn('response',
                 Varien_Db_Ddl_Table::TYPE_TEXT,
                 null, array(
@@ -38,6 +43,7 @@ try {
         ->addColumn('timestamp', Varien_Db_Ddl_Table::TYPE_TIMESTAMP,
                 25, array(
                 'nullable' => false,
+                'default'=> Varien_Db_Ddl_Table::TIMESTAMP_UPDATE
                 ), 'Timestamp');
 
     $installer->getConnection()->createTable($table);

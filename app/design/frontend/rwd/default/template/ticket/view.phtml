@@ -21,3 +21,14 @@ $ticket = $this->getTicket();
     </div>
     <?php echo $this->getChildHtml('response.ticket.block'); ?>
 </div>
+<form action="<?php echo $this->getCloseTicketUrl(); ?>" method="post">
+    <input type="hidden" id="entity_id" name="entity_id" value="<?php echo $ticket->getEntityId(); ?>"/>
+    <button class="button" type="submit">Close Ticket</button>
+</form>
+<form action="<?php echo $this->getNewResponseUrl(); ?>" method="post">
+    <input type="hidden" name="entity_id" id="entity_id" value="<?php echo $ticket->getEntityId(); ?>"
+    <div class="input-box">
+        <textarea name="response" id="response" title="<?php echo Mage::helper('core')->quoteEscape(Mage::helper('contacts')->__('Response')) ?>" class="required-entry input-text" cols="5" rows="3"></textarea>
+    </div>
+    <button class="button" type="submit">New Response</button>
+</form>
