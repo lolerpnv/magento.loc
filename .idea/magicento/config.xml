@@ -269,7 +269,15 @@
                 <setup>
                     <module>Phoenix_Moneybookers</module>
                 </setup>
-            </moneybookers_setup><introduce_setup>
+            </moneybookers_setup><toni_ticket_setup>
+
+                <setup>
+
+                    <module>Toni_Ticket</module>
+
+                </setup>
+
+            </toni_ticket_setup><introduce_setup>
 
                 <setup>
 
@@ -277,7 +285,15 @@
 
                 </setup>
 
-            </introduce_setup><db>
+            </introduce_setup><toni_logger_setup>
+
+                <setup>
+
+                    <module>Toni_Logger</module>
+
+                </setup>
+
+            </toni_logger_setup><db>
                 <table_prefix />
             </db></resources>
         <resource>
@@ -1731,7 +1747,33 @@
                 <class>Mage_ConfigurableSwatches_Model_Resource</class>
             </configurableswatches_resource><moneybookers>
                 <class>Phoenix_Moneybookers_Model</class>
-            </moneybookers><inchoo_php7>
+            </moneybookers><ticket>
+
+                <class>Toni_Ticket_Model</class>
+
+                <resourceModel>ticket_resource</resourceModel>
+
+            </ticket><ticket_resource>
+
+                <class>Toni_Ticket_Model_Resource</class>
+
+                <entities>
+
+                    <ticket>
+
+                        <table>ticket_ticket</table>
+
+                    </ticket>
+
+                    <response>
+
+                        <table>ticket_response</table>
+
+                    </response>
+
+                </entities>
+
+            </ticket_resource><inchoo_php7>
                 <class>Inchoo_PHP7_Model</class>
             </inchoo_php7><introduce>
 
@@ -1745,7 +1787,27 @@
                         <table>introduce_user</table>
                     </user>
                 </entities>
-            </introduce_resource></models>
+            </introduce_resource><toni_logger>
+
+                <class>Toni_Logger_Model</class>
+
+                <resourceModel>toni_logger_resource</resourceModel>
+
+            </toni_logger><toni_logger_resource>
+
+                <class>Toni_Logger_Model_Resource</class>
+
+                <entities>
+
+                    <logger>
+
+                        <table>toni_logger_logger</table>
+
+                    </logger>
+
+                </entities>
+
+            </toni_logger_resource></models>
     <blocks>
             <core>
                 <class>Mage_Core_Block</class>
@@ -1826,9 +1888,15 @@
                 <class>Mage_CurrencySymbol_Block</class>
             </currencysymbol><configurableswatches>
                 <class>Mage_ConfigurableSwatches_Block</class>
-            </configurableswatches><moneybookers><class>Phoenix_Moneybookers_Block</class></moneybookers><introduce>
+            </configurableswatches><moneybookers><class>Phoenix_Moneybookers_Block</class></moneybookers><ticket>
+                <class>Toni_Ticket_Block</class>
+            </ticket><introduce>
                 <class>Toni_Introduce_Block</class>
-            </introduce></blocks><helpers>
+            </introduce><toni_logger>
+
+                <class>Toni_Logger_Block</class>
+
+            </toni_logger></blocks><helpers>
             <core>
                 <encryption_model>Mage_Core_Model_Encryption</encryption_model>
             <rewrite>
@@ -1872,9 +1940,15 @@
                 <class>Mage_ConfigurableSwatches_Helper</class>
             </configurableswatches><moneybookers>
                 <class>Phoenix_Moneybookers_Helper</class>
-            </moneybookers><introduce>
+            </moneybookers><toni_ticket>
+                <class>Toni_Ticket_Helper</class>
+            </toni_ticket><introduce>
                 <class>Toni_Introduce_Helper</class>
-            </introduce></helpers><template>
+            </introduce><toni_logger>
+
+                <class>Toni_Logger_Helper</class>
+
+            </toni_logger></helpers><template>
             <email>
                 <design_email_header translate="label" module="core">
                     <label>Email - Header</label>
@@ -5952,7 +6026,15 @@ T: {{var telephone}}
             <settings>
                 <activationstatus>0</activationstatus>
             </settings>
-        </moneybookers></default><varien>
+        </moneybookers><introduce>
+
+            <settings>
+
+                <custom_message><![CDATA[Hello World]]></custom_message>
+
+            </settings>
+
+        </introduce></default><varien>
         <class>Varien</class>
     </varien><modules>
         <Mage_Core>
@@ -6084,13 +6166,19 @@ T: {{var telephone}}
              <version>1.0.0.0.0</version>
         </Mage_CurrencySymbol><Mage_ConfigurableSwatches>
             <version>1.3.1</version>
-        </Mage_ConfigurableSwatches><Phoenix_Moneybookers>
+        </Mage_ConfigurableSwatches><Toni_DB>
+            <version>1.0.0.0</version>
+        </Toni_DB><Phoenix_Moneybookers>
             <version>1.6.0.0</version>
-        </Phoenix_Moneybookers><Inchoo_PHP7>
+        </Phoenix_Moneybookers><Toni_Ticket>
+            <version>1.0.0.0</version>
+        </Toni_Ticket><Inchoo_PHP7>
             <version>1.0.5</version>
         </Inchoo_PHP7><Toni_Introduce>
             <version>1.0.0.0</version>
-        </Toni_Introduce></modules><frontend>
+        </Toni_Introduce><Toni_Logger>
+            <version>1.0.0.0</version>
+        </Toni_Logger></modules><frontend>
         <routers>
             <core>
                 <use>standard</use>
@@ -6279,13 +6367,33 @@ T: {{var telephone}}
                     <module>Mage_Centinel</module>
                     <frontName>centinel</frontName>
                 </args>
-            </centinel><moneybookers>
+            </centinel><toni_db>
+                <use>standard</use>
+
+                <args>
+
+                    <module>Toni_DB</module>
+
+                    <frontName>db</frontName>
+
+                </args>
+            </toni_db><moneybookers>
                 <use>standard</use>
                 <args>
                     <module>Phoenix_Moneybookers</module>
                     <frontName>moneybookers</frontName>
                 </args>
-            </moneybookers><introduce>
+            </moneybookers><ticket>
+                <use>standard</use>
+
+                <args>
+
+                    <module>Toni_Ticket</module>
+
+                    <frontName>ticket</frontName>
+
+                </args>
+            </ticket><introduce>
                 <use>standard</use>
 
                 <args>
@@ -6562,7 +6670,9 @@ T: {{var telephone}}
                     <file>configurableswatches.xml</file>
                 </configurableswatches><moneybookers>
                     <file>moneybookers.xml</file>
-                </moneybookers></updates>
+                </moneybookers><ticket module="ticket">
+                    <file>ticket.xml</file>
+                </ticket></updates>
         </layout>
     <events>
             <controller_action_noroute>
@@ -7879,7 +7989,9 @@ T: {{var telephone}}
                     <file>currencysymbol.xml</file>
                 </currencysymbol><moneybookers>
                     <file>moneybookers.xml</file>
-                </moneybookers></updates>
+                </moneybookers><ticket>
+                    <file>ticket.xml</file>
+                </ticket></updates>
         </layout><cms>
             <browser>
                 <dirs>
@@ -8232,7 +8344,7 @@ T: {{var telephone}}
                 <args>
                     <modules>
                         <oauth before="Mage_Adminhtml">Mage_Oauth_Adminhtml</oauth>
-                    <widget before="Mage_Adminhtml">Mage_Widget_Adminhtml</widget><Mage_Index before="Mage_Adminhtml">Mage_Index_Adminhtml</Mage_Index><Mage_Bundle before="Mage_Adminhtml">Mage_Bundle_Adminhtml</Mage_Bundle><captcha>Mage_Captcha_Adminhtml</captcha><Mage_Downloadable before="Mage_Adminhtml">Mage_Downloadable_Adminhtml</Mage_Downloadable><Mage_Paygate before="Mage_Adminhtml">Mage_Paygate_Adminhtml</Mage_Paygate><Mage_Paypal before="Mage_Adminhtml">Mage_Paypal_Adminhtml</Mage_Paypal><connect before="Mage_Adminhtml">Mage_Connect_Adminhtml</connect><Mage_Compiler before="Mage_Adminhtml">Mage_Compiler_Adminhtml</Mage_Compiler><importexport before="Mage_Adminhtml">Mage_ImportExport_Adminhtml</importexport><Mage_Authorizenet before="Mage_Adminhtml">Mage_Authorizenet_Adminhtml</Mage_Authorizenet><api2 before="Mage_Adminhtml">Mage_Api2_Adminhtml</api2><Mage_PageCache before="Mage_Adminhtml">Mage_PageCache_Adminhtml</Mage_PageCache><Mage_Centinel before="Mage_Adminhtml">Mage_Centinel_Adminhtml</Mage_Centinel><currencysymbol>Mage_CurrencySymbol_Adminhtml</currencysymbol><moneybookers after="Mage_Adminhtml">Phoenix_Moneybookers</moneybookers></modules>
+                    <widget before="Mage_Adminhtml">Mage_Widget_Adminhtml</widget><Mage_Index before="Mage_Adminhtml">Mage_Index_Adminhtml</Mage_Index><Mage_Bundle before="Mage_Adminhtml">Mage_Bundle_Adminhtml</Mage_Bundle><captcha>Mage_Captcha_Adminhtml</captcha><Mage_Downloadable before="Mage_Adminhtml">Mage_Downloadable_Adminhtml</Mage_Downloadable><Mage_Paygate before="Mage_Adminhtml">Mage_Paygate_Adminhtml</Mage_Paygate><Mage_Paypal before="Mage_Adminhtml">Mage_Paypal_Adminhtml</Mage_Paypal><connect before="Mage_Adminhtml">Mage_Connect_Adminhtml</connect><Mage_Compiler before="Mage_Adminhtml">Mage_Compiler_Adminhtml</Mage_Compiler><importexport before="Mage_Adminhtml">Mage_ImportExport_Adminhtml</importexport><Mage_Authorizenet before="Mage_Adminhtml">Mage_Authorizenet_Adminhtml</Mage_Authorizenet><api2 before="Mage_Adminhtml">Mage_Api2_Adminhtml</api2><Mage_PageCache before="Mage_Adminhtml">Mage_PageCache_Adminhtml</Mage_PageCache><Mage_Centinel before="Mage_Adminhtml">Mage_Centinel_Adminhtml</Mage_Centinel><currencysymbol>Mage_CurrencySymbol_Adminhtml</currencysymbol><moneybookers after="Mage_Adminhtml">Phoenix_Moneybookers</moneybookers><ticket after="Mage_Adminhtml">Toni_Ticket_Adminhtml</ticket><toni_logger before="Mage_Adminhtml">Toni_Logger_Adminhtml</toni_logger></modules>
                 <module>Mage_Adminhtml</module><frontName><![CDATA[admin]]></frontName></args>
             <use>admin</use></adminhtml>
         </routers>
@@ -8594,7 +8706,11 @@ T: {{var telephone}}
                 </default>
             </web>
         </admin>
-    </websites><phoenix>
+    </websites><helpers>
+        <toni_db>
+            <class>Toni_DB_Helper</class>
+        </toni_db>
+    </helpers><phoenix>
         <moneybookers>
             <verify_url>http://www.phoenix-medien.de/index.php?id=105</verify_url>
         </moneybookers>
