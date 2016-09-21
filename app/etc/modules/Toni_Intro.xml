@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Toni_Intro>
+
+        <active>true</active>
+
+        <codePool>community</codePool>
+
+        </Toni_Intro>
+    </modules>
+</config>

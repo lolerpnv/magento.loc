@@ -81,8 +81,6 @@ class Toni_Ticket_Adminhtml_TicketController extends Mage_Adminhtml_Controller_A
         Mage::register('AdminTest', $model);
 
         $this->loadLayout();
-        $this->_addContent($this->getLayout()->createBlock('ticket/gridtest_grid'));
-        $this->_addContent($this->getLayout()->createBlock('ticket/gridtest_responsesGrid'));
         $this->_addContent($this->getLayout()->createBlock('ticket/gridtest_edit'));
         $this->renderLayout();
     }

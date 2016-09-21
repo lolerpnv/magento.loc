@@ -5,7 +5,6 @@
       <sourceFolder url="file://$MODULE_DIR$/app" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/js" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lib" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/downloader" />
       <excludeFolder url="file://$MODULE_DIR$/media" />
       <excludeFolder url="file://$MODULE_DIR$/var" />
     </content>
