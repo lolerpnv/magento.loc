@@ -61,6 +61,7 @@ class Toni_Ticket_Adminhtml_TicketController extends Mage_Adminhtml_Controller_A
     public function editAction() {
         $id = $this->getRequest()->getParam('id');
         $model = Mage::getModel('ticket/ticket');
+        $response = Mage::getModel('ticket/response');
 
         if ($id) {
             $model->load($id);
@@ -71,6 +72,13 @@ class Toni_Ticket_Adminhtml_TicketController extends Mage_Adminhtml_Controller_A
                 $this->_redirect('*/*/');
                 return;
             }
+            $response = $response->getCollection()
+                ->addFieldToSelect('*')
+                ->addFieldToFilter('ticket_id',$id)
+                ->load();
+        }
+        else {
+            $this->_redirect('*/*/index');
         }
 
         $data = $this->_getSession()->getFormData(true);
@@ -79,14 +87,15 @@ class Toni_Ticket_Adminhtml_TicketController extends Mage_Adminhtml_Controller_A
         }
 
         Mage::register('AdminTest', $model);
+        Mage::register('AdmintestResponses',$response->getData());
 
         $this->loadLayout();
         $this->_addContent($this->getLayout()->createBlock('ticket/gridtest_edit'));
         $this->renderLayout();
     }
 
-    public function newAction() {
-        $this->_forward('edit');
+    public function newTicketAction() {
+
     }
 
     public function saveAction()
@@ -94,8 +103,9 @@ class Toni_Ticket_Adminhtml_TicketController extends Mage_Adminhtml_Controller_A
         $redirectBack = $this->getRequest()->getParam('back', false);
         if ($data = $this->getRequest()->getPost()) {
 
-            $id = $this->getRequest()->getParam('id');
+            $id = $this->getRequest()->getParam('ticket_id');
             $model = Mage::getModel('ticket/ticket');
+            $response = Mage::getModel('ticket/response');
             if ($id) {
                 $model->load($id);
                 if (!$model->getId()) {
@@ -107,11 +117,12 @@ class Toni_Ticket_Adminhtml_TicketController extends Mage_Adminhtml_Controller_A
                 }
             }
 
-            // save model
+            // save response
             try {
-                $model->addData($data);
+                $data['creator'] = 'admin';
+                $response->addData($data);
                 $this->_getSession()->setFormData($data);
-                $model->save();
+                $response->save();
                 $this->_getSession()->setFormData(false);
                 $this->_getSession()->addSuccess(
                     Mage::helper('toni_ticket')->__('The AdminTest has been saved.')
@@ -126,7 +137,7 @@ class Toni_Ticket_Adminhtml_TicketController extends Mage_Adminhtml_Controller_A
             }
 
             if ($redirectBack) {
-                $this->_redirect('*/*/edit', array('id' => $model->getId()));
+                $this->_redirect('*/*/edit', array('id' => $data['ticket_id']));
                 return;
             }
         }
@@ -134,7 +145,7 @@ class Toni_Ticket_Adminhtml_TicketController extends Mage_Adminhtml_Controller_A
     }
 
     public function deleteAction() {
-        if ($id = $this->getRequest()->getParam('id')) {
+        if ($id = $this->getRequest()->getParam('ticket_id')) {
             try {
                 // init model and delete
                 $model = Mage::getModel('ticket/ticket');
@@ -162,11 +173,22 @@ class Toni_Ticket_Adminhtml_TicketController extends Mage_Adminhtml_Controller_A
             $this->_redirect('*/*/edit', array('id' => $id));
             return;
         }
-// display error message
+    // display error message
         $this->_getSession()->addError(
             Mage::helper('toni_ticket')->__('Unable to find a AdminTest to delete.')
         );
-// go to grid
+    // go to grid
+        $this->_redirect('*/*/index');
+    }
+    public function closeAction() {
+        $id = $this->_request->getParam('id');
+        $ticket = Mage::getModel('ticket/ticket');
+        $ticket->load($id);
+        $ticket->setData('active',0);
+        $ticket->save();
+        $this->_getSession()->addSuccess(
+            Mage::helper('toni_ticket')->__('The Ticket was succesfully closed.')
+        );
         $this->_redirect('*/*/index');
     }
 }

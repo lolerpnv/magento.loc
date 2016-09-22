@@ -1,6 +1,6 @@
 <?php
-/*
- * $installer
+/**
+ * @var $installer Mage_Core_Model_Resource_Setup
  */
 
 
@@ -70,9 +70,9 @@ try {
             'user_id', $installer->getTable('customer_entity'), 'entity_id',
             Varien_Db_Ddl_Table::ACTION_CASCADE,
             Varien_Db_Ddl_Table::ACTION_CASCADE)
-        ->addColumn('subject', Varien_Db_Ddl_Table::TYPE_TEXT,
+        ->addColumn('subject', Varien_Db_Ddl_Table::TYPE_VARCHAR,
 
-            null, array(
+            255, array(
 
                 'nullable' => false,
 

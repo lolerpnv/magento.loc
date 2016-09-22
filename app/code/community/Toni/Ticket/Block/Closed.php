@@ -4,7 +4,7 @@ class Toni_Ticket_Block_Closed extends Mage_Adminhtml_Block_Widget_Grid_Containe
     public function __construct()
     {
         $this->_blockGroup      = 'ticket';
-        $this->_controller      = 'gridtest';
+        $this->_controller      = 'closed';
         $this->_headerText      = $this->__('Closed Tickets');
         //$this->_addButtonLabel  = $this->__('Add Button Label');
         parent::__construct();

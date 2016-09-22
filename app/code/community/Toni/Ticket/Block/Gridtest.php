@@ -17,7 +17,7 @@ class Toni_Ticket_Block_Gridtest extends Mage_Adminhtml_Block_Widget_Grid_Contai
     }
     public function getCreateUrl()
     {
-        return $this->getUrl('*/*/new');
+        return $this->getUrl('*/*/newticket');
     }
 
 }

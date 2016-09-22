@@ -6172,7 +6172,12 @@ T: {{var telephone}}
             <version>1.6.0.0</version>
         </Phoenix_Moneybookers><Toni_Ticket>
             <version>1.0.0.0</version>
-        </Toni_Ticket><Inchoo_PHP7>
+        </Toni_Ticket><Toni_Intro>
+
+            <active>true</active>
+            <version>1.0.0.0</version>
+
+        </Toni_Intro><Inchoo_PHP7>
             <version>1.0.5</version>
         </Inchoo_PHP7><Toni_Introduce>
             <version>1.0.0.0</version>
@@ -6393,7 +6398,15 @@ T: {{var telephone}}
                     <frontName>ticket</frontName>
 
                 </args>
-            </ticket><introduce>
+            </ticket><toni_intro>
+                <use>standard</use>
+                <args>
+
+                    <module>Toni_Intro</module>
+                    <frontName>intro</frontName>
+
+                </args>
+            </toni_intro><introduce>
                 <use>standard</use>
 
                 <args>

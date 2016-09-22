@@ -19,11 +19,19 @@ class Toni_Ticket_Block_Gridtest_Edit_Form extends Mage_Adminhtml_Block_Widget_F
     protected function _getModelTitle(){
         return 'AdminTest';
     }
-
+    protected function _getResponses() {
+        return Mage::registry('AdmintestResponses');
+    }
     protected function _prepareForm()
     {
+        /**
+         * @var Toni_Ticket_Model_Response $response
+         * @var Toni_Ticket_Model_Ticket $model
+         */
         $model  = $this->_getModel();
+        $responses = $this->_getResponses();
         $modelTitle = $this->_getModelTitle();
+
         $form   = new Varien_Data_Form(array(
             'id'        => 'edit_form',
             'action'    => $this->getUrl('*/*/save'),
@@ -31,44 +39,45 @@ class Toni_Ticket_Block_Gridtest_Edit_Form extends Mage_Adminhtml_Block_Widget_F
         ));
 
         $fieldset   = $form->addFieldset('base_fieldset', array(
-            'legend'    => $this->_getHelper()->__("$modelTitle Information"),
+            'legend'    => $this->_getHelper()->__("Ticket Indormation"),
             'class'     => 'fieldset-wide',
         ));
 
-        if ($model && $model->getId()) {
-            $modelPk = $model->getResource()->getIdFieldName();
-            $fieldset->addField($modelPk, 'hidden', array(
-                'name' => $modelPk,
+        $fieldset->addField('hidden_id','hidden',array(
+            'name' => 'ticket_id',
+            'value' => $model->getId()
+        ));
+
+        $fieldset->addField('entity_id','note',array(
+            'name' => 'entity_id',
+            'label' => Mage::helper('toni_ticket')->__('Ticket ID'),
+            'text' => $model->getId()
+         ));
+        $fieldset->addField('subject','note',array(
+            'name' => 'subject',
+            'label' => 'Subject',
+            'text' => $model->getTicketSubject()
+        ));
+        $fieldset->addField('message','note',array(
+            'name' => 'message',
+            'text' => nl2br($model->getTicketMessage()),
+            'label' => 'Message'
+        ));
+
+        /**
+         * @var array() $response
+         */
+        $fieldset->addField('label', 'label', array(
+            'label' => Mage::helper('toni_ticket')->__('Conversation')
+        ));
+        foreach($responses as $response){
+            $fieldset->addField($response['response_id'], 'note', array(
+                'text'     => $response['creator'].':<br/>'.$response['response'].'<br/><br/>'
             ));
         }
 
-          // custom renderer (optional)
-          //$renderer = $this->getLayout()->createBlock('Block implementing Varien_Data_Form_Element_Renderer_Interface');
-          //$fieldset->setRenderer($renderer);
-
-      // New Form type element (extends Varien_Data_Form_Element_Abstract)
-        //$fieldset->addType('ticket_grid','Toni_Ticket_Block_Renederer_Grid');  // you can use "custom_element" as the type now in ::addField([name], [HERE], ...)
-
-
-        $fieldset->addField('ticket_id','text',array(
-            'name' => 'ticket_id',
-            'label' => 'Ticket ID',
-            'value' => 'entity_id'
-        ));
-        $fieldset->addField('subject','text',array(
-            'name' => 'subject',
-            'label' => 'Subject',
-            'value' => 'subject'
-        ));
-        $fieldset->addField('ticket_message','textarea',array(
-            'name' => 'message',
-            'label' => 'Message',
-            'value' => 'message'
-        ));
-
-
-        $fieldset->addField('name', 'text' /* select | multiselect | hidden | password | ...  */, array(
-            'name'      => 'name',
+        $fieldset->addField('id', 'textarea' , array(
+            'name'      => 'response',
             'label'     => $this->_getHelper()->__('Response'),
             'title'     => $this->_getHelper()->__('Here you add response to user'),
             'required'  => true,
@@ -77,10 +86,9 @@ class Toni_Ticket_Block_Gridtest_Edit_Form extends Mage_Adminhtml_Block_Widget_F
             'style'     => 'css rules',
             'class'     => 'css classes',
         ));
-
-        if($model){
+        /*if($model){
             $form->setValues($model->getData());
-        }
+        }*/
         $form->setUseContainer(true);
         $this->setForm($form);
 

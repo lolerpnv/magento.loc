@@ -5,7 +5,9 @@
  */
 
 $ticket = $this->getTicket();
-
+if($ticket == null) {
+    return;
+}
 
 ?>
 <div class="page-title">
@@ -16,9 +18,10 @@ $ticket = $this->getTicket();
     <h3 class="notice-text">
         <?php echo $ticket->getTicketSubject(); ?>
     </h3>
-    <div class="textarea">
-        <?php echo $ticket->getTicketMessage() ?>
+    <div class="text">
+        <?php echo nl2br($ticket->getTicketMessage()) ?>
     </div>
+    <br/>
     <?php echo $this->getChildHtml('response.ticket.block'); ?>
 </div>
 <form action="<?php echo $this->getCloseTicketUrl(); ?>" method="post">

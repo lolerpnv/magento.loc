@@ -23,9 +23,12 @@ if(!empty($tickets)): ?>
     <tbody>
     <?php foreach ($tickets as $ticket): ?>
         <tr>
-            <td class="number"><?php echo $ticket->getEntityId(); ?></td>
-            <td class="textarea"><?php echo $ticket->getMessage(); ?></td>
+            <td class="number"><p><?php echo $ticket->getEntityId(); ?></p></td>
+            <td class="text"><?php echo $ticket->getTicketSubject(); ?></td>
             <th class="a-center view"><span class="nobr"> <a href="<?php echo $this->getTicketViewUrl($ticket); ?>" class="current">View Ticket</a></span></th>
+        </tr>
+        <tr>
+
         </tr>
     <?php endforeach; ?>
     </tbody>

@@ -14,10 +14,10 @@ class Toni_Ticket_Block_Gridtest_Edit extends Mage_Adminhtml_Block_Widget_Form_C
         $this->_blockGroup      = 'ticket';
         $this->_controller      = 'gridtest';
         $this->_mode            = 'edit';
-        $modelTitle = $this->_getModelTitle();
-        $this->_updateButton('save', 'label', $this->_getHelper()->__("Save $modelTitle"));
+        $this->_updateButton('save', 'label', $this->_getHelper()->__("Save Response"));
+
         $this->_addButton('saveandcontinue', array(
-            'label'     => $this->_getHelper()->__('Save and Continue Edit'),
+            'label'     => $this->_getHelper()->__('Save Response and Continue Edit'),
             'onclick'   => 'saveAndContinueEdit()',
             'class'     => 'save',
         ), -100);
@@ -27,8 +27,21 @@ class Toni_Ticket_Block_Gridtest_Edit extends Mage_Adminhtml_Block_Widget_Form_C
                 editForm.submit($('edit_form').action+'back/edit/');
             }
         ";
+        $this->_addButton('close', array(
+            'label'     => Mage::helper('adminhtml')->__('Close Ticket'),
+            'class'     => 'delete',
+            'onclick'   => 'deleteConfirm(\''
+                . Mage::helper('core')->jsQuoteEscape(
+                    Mage::helper('adminhtml')->__('Are you sure you want to do this?')
+                )
+                .'\', \''
+                . $this->getCloseUrl()
+                . '\')',
+        ));
     }
-
+    protected function getCloseUrl() {
+        return $this->getUrl('*/*/close',array($this->_objectId => $this->getRequest()->getParam($this->_objectId)));
+    }
     protected function _getHelper(){
         return Mage::helper('toni_ticket');
     }

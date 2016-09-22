@@ -11,11 +11,24 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
             $this->setFlag('', self::FLAG_NO_DISPATCH, true);
         }
     }
+    protected function checkAccess() {
+        $id = $this->_request->getParam('entity_id');
+        $ticket = Mage::getModel('ticket/ticket')->load($id);
+        $data = $ticket->getData('entity_id');
+        if($data === null) {
+            $this->_redirect('*/*/ticket');
+        }if($ticket->getData('user_id') != Mage::getModel('customer/session')->getCustomerId()) {
+            $this->_redirect('*/*/ticket');
+        }
+        return 1;
+    }
     public function ticketAction() {
         $this->_initLayout();
     }
     public function viewAction() {
+        $this->checkAccess();
         $this->_initLayout();
+
     }
     public function newticketAction() {
         $this->_initLayout();
@@ -40,6 +53,7 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
         $this->_redirect('*/*/ticket');
     }
     public function closeAction() {
+        $this->checkAccess();
         //Close
         /**
          * @var Toni_Ticket_Model_Resource_Ticket_Collection $tickets
@@ -62,6 +76,7 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
 
     }
     public function newresponseAction() {
+        $this->checkAccess();
         //save
         $response = Mage::getModel("ticket/response");
         $response->setData(array(
@@ -82,12 +97,5 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
             $block->setRefererUrl($this->_getRefererUrl());
         }
         $this->renderLayout();
-    }
-    public function isItMine($ticket_id) {
-        $ticket = Mage::getModel('ticket/ticket');
-        $ticket->getCollection()
-            ->addFieldToSelect('*')
-            ->addFieldToFilter('user_id', Mage::getSingleton('customer/session')->getCustomer()->getId())
-            ->load();
     }
 }
