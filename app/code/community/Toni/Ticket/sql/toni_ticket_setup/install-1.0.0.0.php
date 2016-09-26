@@ -7,8 +7,6 @@
 $installer = $this;
 
 $installer->startSetup();
-try {
-
     /*
      * Create Responses table
      */
@@ -103,9 +101,4 @@ try {
 
 
 
-    $installer->endSetup();
-}
-catch (Exception $e){
-    echo $e;
-    die;
-}
+$installer->endSetup();

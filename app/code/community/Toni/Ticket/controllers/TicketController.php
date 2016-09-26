@@ -26,9 +26,8 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
         $this->_initLayout();
     }
     public function viewAction() {
-        $this->checkAccess();
-        $this->_initLayout();
-
+        if($this->checkAccess())
+            $this->_initLayout();
     }
     public function newticketAction() {
         $this->_initLayout();
@@ -45,8 +44,11 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
 
         $ticket = Mage::getModel('ticket/ticket');
         $ticket->setData($data);
-        $ticket->save();
-
+        try{
+            $ticket->save();
+        } catch (Exception $e) {
+            Mage::log($e->getMessage());
+        }
 
         //Redirect
         Mage::getSingleton('customer/session')->addSuccess(Mage::helper('contacts')->__('Your inquiry was submitted and will be responded to as soon as possible. Thank you for contacting us.'));
@@ -61,7 +63,7 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
          */
         $Id = $this->_request->getParam('entity_id');
         $tickets = Mage::getModel('ticket/ticket')->getCollection();
-        $ticket = $tickets->getItemById($Id);
+        $ticket = $tickets->load($Id);
         $ticket->setData(array(
             'active'=>0
         ));
@@ -84,7 +86,11 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
             'ticket_id'=>$this->_request->getParam('entity_id'),
             'response'=>$this->_request->getParam('response')
         ));
-        $response->save();
+        try{
+            $response->save();
+        }catch (Exception $e) {
+            Mage::log($e->getMessage());
+        }
         $this->_redirect("*/*/view/",array('entity_id'=>$this->_request->getParam('entity_id')));
     }
     public function _initLayout() {
