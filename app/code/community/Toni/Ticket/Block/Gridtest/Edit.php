@@ -7,10 +7,10 @@
  */
 class Toni_Ticket_Block_Gridtest_Edit extends Mage_Adminhtml_Block_Widget_Form_Container
 {
-    public function __construct()
+    public function _construct()
     {
         // $this->_objectId = 'id';
-        parent::__construct();
+        parent::_construct();
         $this->_blockGroup      = 'ticket';
         $this->_controller      = 'gridtest';
         $this->_mode            = 'edit';
