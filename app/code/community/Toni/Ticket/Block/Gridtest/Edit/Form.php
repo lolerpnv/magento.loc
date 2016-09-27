@@ -72,7 +72,7 @@ class Toni_Ticket_Block_Gridtest_Edit_Form extends Mage_Adminhtml_Block_Widget_F
         ));
         foreach($responses as $response){
             $fieldset->addField($response['response_id'], 'note', array(
-                'text'     => $response['creator'].':<br/>'.$response['response'].'<br/><br/>'
+                'text'     => $response['creator'].':<br/>'.$this->escapeHtml($response['response']).'<br/><br/>'
             ));
         }
 

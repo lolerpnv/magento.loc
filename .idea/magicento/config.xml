@@ -8153,11 +8153,11 @@ T: {{var telephone}}
     <admin>
             <design>
                 <package>
-                    <name>default</name>
-                </package>
+                    
+                <name>default</name></package>
                 <theme>
                     <default>default</default>
-                </theme>
+                <template>inchoo</template><skin>inchoo</skin><layout>inchoo</layout></theme>
             </design>
         </admin></stores><crontab>
         <jobs>

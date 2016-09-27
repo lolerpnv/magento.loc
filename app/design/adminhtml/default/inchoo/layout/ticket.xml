@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<layout>
+	<adminhtml_ticket_index>
+		<reference name="content">
+			<block type="ticket/gridtest" name="block.index.ticket.adminhtml" as="block.index.ticket.adminhtml"  />
+		</reference>
+	</adminhtml_ticket_index>
+	<adminhtml_ticket_closed>
+		<reference name="content">
+			<block type="ticket/closed" name="block.closed.ticket.adminhtml" as="block.closed.ticket.adminhtml"  />
+		</reference>
+	</adminhtml_ticket_closed>
+	<adminhtml_ticket_edit>
+		<reference name="content">
+			<block type="ticket/gridtest_edit" name="block.closed.ticket.adminhtml" as="block.closed.ticket.adminhtml"/>
+		</reference>
+	</adminhtml_ticket_edit>
+</layout>

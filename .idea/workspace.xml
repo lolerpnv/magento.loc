@@ -4,13 +4,19 @@
     <bookmark url="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/customer/account/navigation.phtml" description="Where nav goes" line="32" />
     <bookmark url="file://$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Varien/Action.php" description="Event controller-action-layout-load-before" line="298" />
     <bookmark url="file://$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Varien/Action.php" description="Event controller_action_layout_generate_blocks_before" line="335" />
+    <bookmark url="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/grid.phtml" description="where grid is made" line="163" />
+    <bookmark url="file://$PROJECT_DIR$/app/code/core/Mage/Customer/controllers/AccountController.php" description="Account controller email" line="338" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b049ecdc-c41e-4195-b1b4-06e7e8a42ef7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/magicento.xml" afterPath="$PROJECT_DIR$/.idea/magicento.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/magicento/config.xml" afterPath="$PROJECT_DIR$/.idea/magicento/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit.php" afterPath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit/Form.php" afterPath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit/Form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Grid.php" afterPath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Grid.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Response.php" afterPath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Ticket.php" afterPath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Ticket.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/config.xml" />
     </list>
     <ignored path="magento.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,7 +28,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -32,10 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TicketController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TicketController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/Adminhtml/TicketController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13043478">
+            <state relative-caret-position="180">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="n#exportCsvAction#0;n#Toni_Ticket_Adminhtml_TicketController#0;n#!!top" expanded="false" />
@@ -72,37 +77,68 @@
       <file leaf-file-name="Form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit/Form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="48.88889">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1332">
+              <caret line="74" column="113" selection-start-line="74" selection-start-column="113" selection-end-line="74" selection-end-column="113" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/share/phpmyadmin/index.php">
+      <file leaf-file-name="TicketController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/TicketController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3333335">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <marker date="1454075732000" expanded="true" signature="4126:4153" placeholder="..." />
-                <marker date="1454075732000" expanded="true" signature="6321:6327" placeholder="..." />
-                <marker date="1454075732000" expanded="true" signature="16845:16851" placeholder="..." />
-                <marker date="1454075732000" expanded="true" signature="16851:16857" placeholder="..." />
-                <marker date="1454075732000" expanded="true" signature="16857:16863" placeholder="..." />
-                <marker date="1454075732000" expanded="true" signature="16863:16869" placeholder="..." />
-                <marker date="1454075732000" expanded="true" signature="16869:16875" placeholder="..." />
-                <marker date="1454075732000" expanded="true" signature="16875:16881" placeholder="..." />
-              </folding>
+            <state relative-caret-position="1170">
+              <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ticket.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/ticket.xml">
+      <file leaf-file-name="AccountController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/controllers/AccountController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0">
-              <caret line="9" column="87" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
+            <state relative-caret-position="5670">
+              <caret line="338" column="26" selection-start-line="338" selection-start-column="26" selection-end-line="338" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/Model/Customer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11574">
+              <caret line="666" column="23" selection-start-line="666" selection-start-column="23" selection-end-line="666" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../magentoent/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../magentoent/info.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Response.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Response.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -111,58 +147,18 @@
       <file leaf-file-name="Edit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0">
+            <state relative-caret-position="756">
               <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="widget.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/widget.xml">
+      <file leaf-file-name="Gridtest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/ticket/view.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ticket.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/ticket/ticket.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6666667">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ticket.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Ticket.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.111111">
-              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/View.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.444445">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="378">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -184,8 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/design/frontend/rwd/inchoo/layout/local.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/ticket/table.phtml" />
         <option value="$PROJECT_DIR$/app/code/core/Mage/Sales/Block/Order/History.php" />
         <option value="$PROJECT_DIR$/lib/Varien/Db/Ddl/Table.php" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Logger/Model/Log/Writer/Stream.php" />
@@ -217,31 +211,34 @@
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Closed.php" />
         <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/ticket/newticket.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/ticket/ticket.phtml" />
-        <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit/Form.php" />
         <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/ticket/view.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/layout/ticket.xml" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/sql/toni_ticket_setup/install-1.0.0.0.php" />
-        <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/Adminhtml/TicketController.php" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/TicketController.php" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Resource/Ticket.php" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest.php" />
         <option value="$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget/Grid.php" />
-        <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Grid.php" />
-        <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Ticket.php" />
-        <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Response.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Ticket.php" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/View.php" />
         <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/ticket.xml" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/inchoo/etc/theme.xml" />
+        <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Response.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Grid.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Ticket.php" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/grid.phtml" />
+        <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit/Form.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpDebugGeneral" xdebug_debug_port="9002" />
   <component name="PhpServers">
@@ -254,8 +251,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="1535" />
-    <option name="height" value="876" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -282,6 +279,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -298,7 +296,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -308,11 +306,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -322,97 +320,15 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminhtml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminhtml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -422,27 +338,19 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="community" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Toni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ticket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -452,31 +360,23 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="community" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Toni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ticket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -486,31 +386,61 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="community" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Toni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ticket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="Customer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Customer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -520,35 +450,61 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="community" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Toni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Ticket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento.loc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toni" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ticket" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Adminhtml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -558,31 +514,23 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="community" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Toni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ticket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Block" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -592,130 +540,23 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="community" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Toni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ticket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Block" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gridtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Toni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ticket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Block" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gridtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Edit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Toni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -726,13 +567,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ticket" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/code/community/Toni/Ticket" />
-      <recent name="$PROJECT_DIR$/app/design/frontend/rwd/default/layout" />
-      <recent name="$PROJECT_DIR$/app/design/frontend/rwd/inchoo/template" />
-      <recent name="$PROJECT_DIR$/app/design/frontend/rwd/inchoo/layout" />
-      <recent name="$PROJECT_DIR$/app/design/frontend/rwd/inchoo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block" />
       <recent name="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Adminhtml" />
@@ -740,9 +574,19 @@
       <recent name="$PROJECT_DIR$/app/design/frontend/rwd/inchoo/template" />
       <recent name="$PROJECT_DIR$/app/design/frontend/base/default/template" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/design/adminhtml/default/inchoo/layout" />
+      <recent name="$PROJECT_DIR$/app/design/adminhtml/default/inchoo" />
+      <recent name="$PROJECT_DIR$/app/code/community/Toni/Ticket" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/rwd/default/layout" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/rwd/inchoo/template" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -757,6 +601,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -767,11 +612,27 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -780,6 +641,7 @@
       <changelist id="b049ecdc-c41e-4195-b1b4-06e7e8a42ef7" name="Default" comment="" />
       <created>1472466257779</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1472466257779</updated>
       <workItem from="1472466260519" duration="10267000" />
       <workItem from="1472534485347" duration="15978000" />
@@ -813,34 +675,37 @@
       <workItem from="1474624359335" duration="253000" />
       <workItem from="1474624630346" duration="4972000" />
       <workItem from="1474866854814" duration="17660000" />
+      <workItem from="1474953562032" duration="5683000" />
+      <workItem from="1474966484758" duration="68000" />
+      <workItem from="1474976294021" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="361781000" />
+    <option name="totallyTimeSpent" value="367534000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1535" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18697068" sideWeight="0.48995364" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19194704" sideWeight="0.47663552" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.50634307" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20354906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21125206" sideWeight="0.51004636" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24064837" sideWeight="0.49365693" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19194704" sideWeight="0.5233645" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20353064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23987539" sideWeight="0.49365693" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -898,155 +763,47 @@
           <option name="timeStamp" value="348" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit/Form.php</url>
-          <line>69</line>
-          <option name="timeStamp" value="373" />
+          <url>file://$PROJECT_DIR$/../magentoent/index.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="385" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="374" />
+      <option name="time" value="386" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/adminhtml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Api/RoleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Catalog/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/Block/Account/Navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/sql/toni_ticket_setup/install-1.0.0.0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/layout/ticket.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/controllers/AccountController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Front/Action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/customer/account/navigation.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="223" column="21" selection-start-line="223" selection-start-column="21" selection-end-line="223" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Resource/Db/Abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="719" column="5" selection-start-line="719" selection-start-column="5" selection-end-line="719" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/tag.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Introduce/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/search.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/adminnotification.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="37" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Closed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Report/Grid.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="389" column="35" selection-start-line="389" selection-start-column="35" selection-end-line="389" selection-end-column="35" />
           <folding>
             <element signature="n#_prepareCollection#0;n#Mage_Adminhtml_Block_Report_Grid#0;n#!!top" expanded="false" />
@@ -1056,263 +813,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Edit/Tab/Super/Config/Grid.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="395" column="32" selection-start-line="395" selection-start-column="32" selection-end-line="395" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Closed/Grid.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="79" column="77" selection-start-line="79" selection-start-column="77" selection-end-line="79" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Api/Role/Grid/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget/Grid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="879" column="25" selection-start-line="879" selection-start-column="25" selection-end-line="879" selection-end-column="25" />
-          <folding>
-            <element signature="e#964#1116#0#PHP" expanded="false" />
-            <element signature="e#1198#1581#0#PHP" expanded="false" />
-            <element signature="e#1653#1731#0#PHP" expanded="false" />
-            <element signature="e#1772#1843#0#PHP" expanded="false" />
-            <element signature="e#2263#2317#0#PHP" expanded="false" />
-            <element signature="e#2357#2421#0#PHP" expanded="false" />
-            <element signature="e#2455#2529#0#PHP" expanded="false" />
-            <element signature="e#2581#2643#0#PHP" expanded="false" />
-            <element signature="e#2689#2760#0#PHP" expanded="false" />
-            <element signature="e#2808#2871#0#PHP" expanded="false" />
-            <element signature="e#2918#2988#0#PHP" expanded="false" />
-            <element signature="e#3092#3150#0#PHP" expanded="false" />
-            <element signature="e#3193#3254#0#PHP" expanded="false" />
-            <element signature="e#3300#3358#0#PHP" expanded="false" />
-            <element signature="e#3391#3444#0#PHP" expanded="false" />
-            <element signature="e#3487#3548#0#PHP" expanded="false" />
-            <element signature="e#3593#3659#0#PHP" expanded="false" />
-            <element signature="e#3704#3772#0#PHP" expanded="false" />
-            <element signature="e#3820#3889#0#PHP" expanded="false" />
-            <element signature="e#3938#4004#0#PHP" expanded="false" />
-            <element signature="e#4084#4132#0#PHP" expanded="false" />
-            <element signature="e#4174#4236#0#PHP" expanded="false" />
-            <element signature="e#4282#4345#0#PHP" expanded="false" />
-            <element signature="e#4392#4457#0#PHP" expanded="false" />
-            <element signature="e#4838#5194#0#PHP" expanded="false" />
-            <element signature="e#4883#5184#0#PHP" expanded="false" />
-            <element signature="e#4968#5183#1#PHP" expanded="false" />
-            <element signature="e#5204#5535#0#PHP" expanded="false" />
-            <element signature="e#5255#5525#0#PHP" expanded="false" />
-            <element signature="e#5340#5524#1#PHP" expanded="false" />
-            <element signature="e#5545#5901#0#PHP" expanded="false" />
-            <element signature="e#5590#5891#0#PHP" expanded="false" />
-            <element signature="e#5675#5890#1#PHP" expanded="false" />
-            <element signature="n#getExportButtonHtml#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getResetFilterButtonHtml#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getSearchButtonHtml#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getMainButtonsHtml#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="e#6361#6509#0#PHP" expanded="false" />
-            <element signature="e#6543#6639#0#PHP" expanded="false" />
-            <element signature="n#setCollection#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="e#6818#6903#0#PHP" expanded="false" />
-            <element signature="n#getCollection#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="e#6992#7165#0#PHP" expanded="false" />
-            <element signature="n#addColumn#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="e#7230#7667#0#PHP" expanded="false" />
-            <element signature="e#7296#7394#0#PHP" expanded="false" />
-            <element signature="e#7296#7427#0#PHP" expanded="false" />
-            <element signature="e#7447#7554#0#PHP" expanded="false" />
-            <element signature="e#7563#7667#0#PHP" expanded="false" />
-            <element signature="e#7798#7925#0#PHP" expanded="false" />
-            <element signature="n#removeColumn#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="e#7984#8209#0#PHP" expanded="false" />
-            <element signature="e#8084#8199#0#PHP" expanded="false" />
-            <element signature="e#8243#8467#0#PHP" expanded="false" />
-            <element signature="n#addColumnAfter#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="e#8667#8821#0#PHP" expanded="false" />
-            <element signature="n#addColumnsOrder#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="e#8966#9035#0#PHP" expanded="false" />
-            <element signature="n#getColumnsOrder#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="e#9128#9234#0#PHP" expanded="false" />
-            <element signature="n#sortColumnsByOrder#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="e#9385#10030#0#PHP" expanded="false" />
-            <element signature="e#9457#10020#0#PHP" expanded="false" />
-            <element signature="n#getLastColumnId#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getColumnCount#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="e#10329#10460#0#PHP" expanded="false" />
-            <element signature="e#10648#10720#0#PHP" expanded="false" />
-            <element signature="n#_setFilterValues#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="e#10860#11241#0#PHP" expanded="false" />
-            <element signature="e#10928#11231#0#PHP" expanded="false" />
-            <element signature="n#_addColumnFilterToCollection#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="e#11346#11887#0#PHP" expanded="false" />
-            <element signature="e#11490#11877#0#PHP" expanded="false" />
-            <element signature="e#11653#11877#0#PHP" expanded="false" />
-            <element signature="e#11738#11863#0#PHP" expanded="false" />
-            <element signature="e#11921#12090#0#PHP" expanded="false" />
-            <element signature="n#_setCollectionOrder#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="e#12203#12431#0#PHP" expanded="false" />
-            <element signature="e#12465#12569#0#PHP" expanded="false" />
-            <element signature="e#12954#13040#0#PHP" expanded="false" />
-            <element signature="e#13054#13477#0#PHP" expanded="false" />
-            <element signature="e#13241#13477#0#PHP" expanded="false" />
-            <element signature="e#13358#13477#0#PHP" expanded="false" />
-            <element signature="e#13491#13785#0#PHP" expanded="false" />
-            <element signature="e#13799#13932#0#PHP" expanded="false" />
-            <element signature="n#_decodeFilter#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_preparePage#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_prepareColumns#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_prepareMassactionBlock#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_prepareMassaction#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_prepareMassactionColumn#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_prepareGrid#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_beforeToHtml#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_afterLoadCollection#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getVarNameLimit#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getVarNamePage#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getVarNameSort#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getVarNameDir#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getVarNameFilter#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setVarNameLimit#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setVarNamePage#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setVarNameSort#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setVarNameDir#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setVarNameFilter#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setHeadersVisibility#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getHeadersVisibility#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setPagerVisibility#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getPagerVisibility#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setFilterVisibility#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getFilterVisibility#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setMessageBlockVisibility#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getMessageBlockVisibility#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setDefaultLimit#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setDefaultPage#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setDefaultSort#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setDefaultDir#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setDefaultFilter#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getExportTypes#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#addExportType#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getRssLists#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_getRssUrl#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#addRssList#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_getFileContainerContent#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_getExportHeaders#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_getExportTotals#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_exportIterateCollection#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_exportCsvItem#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getCsvFile#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getCsv#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getXml#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#_exportExcelItem#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getExcelFile#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getExcel#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#canDisplayContainer#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getGridUrl#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getAbsoluteGridUrl#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getParam#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setSaveParametersInSession#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getJsObjectName#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getRowId#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getMassactionIdField#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setMassactionIdField#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getMassactionIdFilter#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setMassactionIdFilter#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getMassactionBlockName#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setMassactionBlockName#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getMassactionBlock#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getMassactionBlockHtml#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setEmptyText#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getEmptyText#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setEmptyTextClass#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getEmptyTextClass#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setCountTotals#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getCountTotals#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setTotals#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getTotals#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setCountSubTotals#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getCountSubTotals#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setSubTotals#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getSubTotalItem#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getSubTotals#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#shouldRenderSubTotal#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getSubTotalColumns#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getRowspan#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#isColumnGrouped#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getMultipleRows#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getMultipleRowColumns#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#shouldRenderCell#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#shouldRenderEmptyCell#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getEmptyCellColspan#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getEmptyCellLabel#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#setEmptyCellLabel#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-            <element signature="n#getRowUrl#0;n#Mage_Adminhtml_Block_Widget_Grid#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Resource/Ticket.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Varien/Object.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="400" column="69" selection-start-line="400" selection-start-column="8" selection-end-line="400" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Mage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.5087247">
+        <state relative-caret-position="0">
           <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Varien/Data/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.383893">
+        <state relative-caret-position="0">
           <caret line="370" column="0" selection-start-line="370" selection-start-column="0" selection-end-line="370" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Helper/Data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.6590605">
+        <state relative-caret-position="0">
           <caret line="340" column="22" selection-start-line="340" selection-start-column="22" selection-end-line="340" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_0.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="371" column="9" selection-start-line="371" selection-start-column="9" selection-end-line="371" selection-end-column="9" />
           <folding />
         </state>
@@ -1320,176 +877,200 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Helper/Abstract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.759732">
+        <state relative-caret-position="0">
           <caret line="220" column="40" selection-start-line="220" selection-start-column="40" selection-end-line="220" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Ticket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6666667">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="27.42282">
-          <caret line="1158" column="20" selection-start-line="1158" selection-start-column="20" selection-end-line="1158" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65284973">
+        <state relative-caret-position="0">
           <caret line="121" column="17" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Response.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.333333">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0">
+        <state relative-caret-position="0">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <marker date="1474387553906" expanded="true" signature="1035:1081" placeholder="..." />
-            <marker date="1474387553906" expanded="true" signature="1082:1505" placeholder="..." />
-            <marker date="1474387553906" expanded="false" signature="1096:1144" placeholder="..." />
-            <marker date="1474387553906" expanded="true" signature="1145:1324" placeholder="..." />
-            <marker date="1474387553906" expanded="false" signature="1158:1257" placeholder="..." />
-            <marker date="1474387553906" expanded="true" signature="1258:1318" placeholder="..." />
-            <marker date="1474387553906" expanded="true" signature="1327:1499" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Grid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.851852">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/TicketController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.666666">
-          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/ticket/ticket.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6666667">
+        <state relative-caret-position="18">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Ticket.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.111111">
+        <state relative-caret-position="468">
           <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/View.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.444445">
+        <state relative-caret-position="594">
           <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/ticket/view.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0">
+        <state relative-caret-position="54">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/widget.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/catalog.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5869565">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/ticket.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="9" column="87" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit/Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="48.88889">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="162">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/share/phpmyadmin/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335">
+        <state relative-caret-position="198">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/etc/theme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/layout/ticket.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/grid/massaction.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/grid/serializer.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/etc/theme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="916" column="0" selection-start-line="916" selection-start-column="0" selection-end-line="916" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/grid/container.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget/Grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="880" column="5" selection-start-line="880" selection-start-column="5" selection-end-line="880" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/form.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Varien/Object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="367" column="0" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Ticket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/grid.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="163" column="69" selection-start-line="163" selection-start-column="69" selection-end-line="163" selection-end-column="69" />
           <folding>
-            <marker date="1454075732000" expanded="true" signature="4126:4153" placeholder="..." />
-            <marker date="1454075732000" expanded="true" signature="6321:6327" placeholder="..." />
-            <marker date="1454075732000" expanded="true" signature="16845:16851" placeholder="..." />
-            <marker date="1454075732000" expanded="true" signature="16851:16857" placeholder="..." />
-            <marker date="1454075732000" expanded="true" signature="16857:16863" placeholder="..." />
-            <marker date="1454075732000" expanded="true" signature="16863:16869" placeholder="..." />
-            <marker date="1454075732000" expanded="true" signature="16869:16875" placeholder="..." />
-            <marker date="1454075732000" expanded="true" signature="16875:16881" placeholder="..." />
+            <element signature="e#6#971#0#PHP" expanded="true" />
+            <element signature="e#5712#5718#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/form/element.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="73" column="122" selection-start-line="73" selection-start-column="122" selection-end-line="73" selection-end-column="122" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/Adminhtml/TicketController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13043478">
+        <state relative-caret-position="180">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="n#exportCsvAction#0;n#Toni_Ticket_Adminhtml_TicketController#0;n#!!top" expanded="false" />
@@ -1519,6 +1100,78 @@
             <element signature="e#5740#5926#0#PHP" expanded="false" />
             <element signature="e#6148#6274#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="74" column="113" selection-start-line="74" selection-start-column="113" selection-end-line="74" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/TicketController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/controllers/AccountController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5670">
+          <caret line="338" column="26" selection-start-line="338" selection-start-column="26" selection-end-line="338" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/Model/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11574">
+          <caret line="666" column="23" selection-start-line="666" selection-start-column="23" selection-end-line="666" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../magentoent/info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../magentoent/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

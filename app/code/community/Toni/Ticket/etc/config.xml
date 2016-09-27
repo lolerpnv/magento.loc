@@ -84,4 +84,18 @@
             </adminhtml>
         </routers>
     </admin>
+    <stores>
+        <admin>
+            <design>
+                <package>
+                    <name>default</name>
+                </package>
+                <theme>
+                    <template>inchoo</template>
+                    <skin>inchoo</skin>
+                    <layout>inchoo</layout>
+                </theme>
+            </design>
+        </admin>
+    </stores>
 </config>
