@@ -50,9 +50,39 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
             Mage::log($e->getMessage());
         }
 
+        $this->sendmail();
+
         //Redirect
         Mage::getSingleton('customer/session')->addSuccess(Mage::helper('contacts')->__('Your inquiry was submitted and will be responded to as soon as possible. Thank you for contacting us.'));
         $this->_redirect('*/*/ticket');
+    }
+    public function sendmail() {
+        /**
+         * @var Mage_Core_Model_Email_Queue $emailQueue
+         * @var Mage_Core_Model_Email_Template $emailTemplate
+         */
+        $emailTemplate  = Mage::getModel('core/email_template')
+            ->loadDefault('custom_email_template1');
+
+        //Create an array of variables to assign to template
+        $emailTemplateVariables = array();
+        $emailTemplateVariables['myvar1'] = 'Branko';
+        $emailTemplateVariables['myvar2'] = 'Ajzele';
+        $emailTemplateVariables['myvar3'] = 'ActiveCodeline';
+
+        /**
+         * The best part 🙂
+         * Opens the activecodeline_custom_email1.html, throws in the variable array
+         * and returns the 'parsed' content that you can use as body of email
+         */
+        $processedTemplate = $emailTemplate->getProcessedTemplate($emailTemplateVariables);
+
+        /*
+         * Or you can send the email directly,
+         * note getProcessedTemplate is called inside send()
+         */
+        $emailTemplate->send('lolerpnv@gmail.com','John Doe', $emailTemplateVariables);
+
     }
     public function closeAction() {
         $this->checkAccess();

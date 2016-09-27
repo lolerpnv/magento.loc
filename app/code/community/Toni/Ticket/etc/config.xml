@@ -45,6 +45,15 @@
             </toni_ticket_setup>
 
         </resources>
+        <template>
+            <email>
+                <custom_email_template1 module="ticket">
+                    <label>ActiveCodeline custom email module</label>
+                    <file>activecodeline_custom_email1.html</file>
+                    <type>html</type>
+                </custom_email_template1>
+            </email>
+        </template>
     </global>
     <frontend>
         <routers>
