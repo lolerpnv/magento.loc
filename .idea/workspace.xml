@@ -9,14 +9,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b049ecdc-c41e-4195-b1b4-06e7e8a42ef7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/magicento.xml" afterPath="$PROJECT_DIR$/.idea/magicento.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/magicento/config.xml" afterPath="$PROJECT_DIR$/.idea/magicento/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/w/s/wsd005a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/w/s/wsd005b_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/w/s/wsd005t_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/w/s/wsd005t_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/w/s/wsd005t_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/w/s/wsd005t_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/w/s/wsd005t_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/thumbnail/180x/9df78eab33525d08d6e5fb8d27136e95/w/s/wsd005t_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/thumbnail/50x50/9df78eab33525d08d6e5fb8d27136e95/w/s/wsd005t_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/thumbnail/75x/9df78eab33525d08d6e5fb8d27136e95/w/s/wsd005a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/thumbnail/75x/9df78eab33525d08d6e5fb8d27136e95/w/s/wsd005b_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/product/cache/1/thumbnail/75x/9df78eab33525d08d6e5fb8d27136e95/w/s/wsd005t_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/catalog/swatches/1/21x21/media/purple.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit/Form.php" afterPath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit/Form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Grid.php" afterPath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Grid.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Response.php" afterPath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Response.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Ticket.php" afterPath="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Ticket.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/config.xml" />
     </list>
     <ignored path="magento.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,39 +103,285 @@
       <file leaf-file-name="AccountController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/controllers/AccountController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5670">
-              <caret line="338" column="26" selection-start-line="338" selection-start-column="26" selection-end-line="338" selection-end-column="26" />
+            <state relative-caret-position="302">
+              <caret line="338" column="31" selection-start-line="338" selection-start-column="31" selection-end-line="338" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Customer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/Model/Customer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11574">
-              <caret line="666" column="23" selection-start-line="666" selection-start-column="23" selection-end-line="666" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../magentoent/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../magentoent/info.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-1247">
+              <caret line="670" column="25" selection-start-line="670" selection-start-column="25" selection-end-line="670" selection-end-column="25" />
+              <folding>
+                <element signature="e#963#1103#0#PHP" expanded="false" />
+                <element signature="e#2192#2259#0#PHP" expanded="false" />
+                <element signature="e#2490#2525#0#PHP" expanded="false" />
+                <element signature="e#2646#2709#0#PHP" expanded="false" />
+                <element signature="e#2757#2826#0#PHP" expanded="false" />
+                <element signature="e#2874#2932#0#PHP" expanded="false" />
+                <element signature="e#2972#3050#0#PHP" expanded="false" />
+                <element signature="e#3084#3189#0#PHP" expanded="false" />
+                <element signature="e#3229#3342#0#PHP" expanded="false" />
+                <element signature="e#3385#3450#0#PHP" expanded="false" />
+                <element signature="e#3493#3556#0#PHP" expanded="false" />
+                <element signature="e#3598#3705#0#PHP" expanded="false" />
+                <element signature="e#3755#3830#0#PHP" expanded="false" />
+                <element signature="e#3881#3925#0#PHP" expanded="false" />
+                <element signature="n#_construct#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#4012#4131#0#PHP" expanded="false" />
+                <element signature="n#getSharingConfig#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#4248#4418#0#PHP" expanded="false" />
+                <element signature="n#authenticate#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#4521#4775#0#PHP" expanded="false" />
+                <element signature="e#4606#4764#0#PHP" expanded="false" />
+                <element signature="e#4784#5016#0#PHP" expanded="false" />
+                <element signature="e#4845#5005#0#PHP" expanded="false" />
+                <element signature="e#5025#5165#0#PHP" expanded="false" />
+                <element signature="e#5080#5164#0#PHP" expanded="false" />
+                <element signature="e#5200#5331#0#PHP" expanded="false" />
+                <element signature="n#loadByEmail#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#5487#5591#0#PHP" expanded="false" />
+                <element signature="n#_beforeSave#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#5715#5814#0#PHP" expanded="false" />
+                <element signature="e#5878#6009#0#PHP" expanded="false" />
+                <element signature="n#changePassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#6166#6236#0#PHP" expanded="false" />
+                <element signature="n#getName#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#6353#6498#0#PHP" expanded="false" />
+                <element signature="e#6547#6704#0#PHP" expanded="false" />
+                <element signature="e#6759#6904#0#PHP" expanded="false" />
+                <element signature="e#6938#7095#0#PHP" expanded="false" />
+                <element signature="n#addAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#7335#7475#0#PHP" expanded="false" />
+                <element signature="n#getAddressById#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#7610#7697#0#PHP" expanded="false" />
+                <element signature="e#7760#7919#0#PHP" expanded="false" />
+                <element signature="n#getAddressItemById#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#8061#8186#0#PHP" expanded="false" />
+                <element signature="n#getAddressCollection#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#8317#8433#0#PHP" expanded="false" />
+                <element signature="n#getAddressesCollection#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#8493#8830#0#PHP" expanded="false" />
+                <element signature="e#8579#8651#0#PHP" expanded="false" />
+                <element signature="e#8579#8695#0#PHP" expanded="false" />
+                <element signature="e#8709#8820#0#PHP" expanded="false" />
+                <element signature="e#8887#8965#0#PHP" expanded="false" />
+                <element signature="n#getAddresses#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#9125#9204#0#PHP" expanded="false" />
+                <element signature="n#getAttributes#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#9255#9430#0#PHP" expanded="false" />
+                <element signature="e#9323#9383#0#PHP" expanded="false" />
+                <element signature="e#9477#9636#0#PHP" expanded="false" />
+                <element signature="n#getAttribute#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#9732#9845#0#PHP" expanded="false" />
+                <element signature="e#9878#10008#0#PHP" expanded="false" />
+                <element signature="n#setPassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#10248#10381#0#PHP" expanded="false" />
+                <element signature="n#hashPassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#10461#10586#0#PHP" expanded="false" />
+                <element signature="e#10599#10718#0#PHP" expanded="false" />
+                <element signature="n#_getHelper#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#10825#10926#0#PHP" expanded="false" />
+                <element signature="n#generatePassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#11307#11421#0#PHP" expanded="false" />
+                <element signature="n#validatePassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#11526#11575#0#PHP" expanded="false" />
+                <element signature="e#11657#11755#0#PHP" expanded="false" />
+                <element signature="n#encryptPassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#11877#11975#0#PHP" expanded="false" />
+                <element signature="n#decryptPassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#12097#12276#0#PHP" expanded="false" />
+                <element signature="n#getPrimaryAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#12511#12616#0#PHP" expanded="false" />
+                <element signature="n#getPrimaryBillingAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#12741#12846#0#PHP" expanded="false" />
+                <element signature="n#getDefaultBillingAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#12961#13067#0#PHP" expanded="false" />
+                <element signature="n#getPrimaryShippingAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#13194#13300#0#PHP" expanded="false" />
+                <element signature="n#getDefaultShippingAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#13417#13497#0#PHP" expanded="false" />
+                <element signature="n#getPrimaryAddressIds#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#13579#13671#0#PHP" expanded="false" />
+                <element signature="e#13680#13774#0#PHP" expanded="false" />
+                <element signature="e#13807#13893#0#PHP" expanded="false" />
+                <element signature="n#getPrimaryAddresses#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#14041#14173#0#PHP" expanded="false" />
+                <element signature="e#14246#14559#0#PHP" expanded="false" />
+                <element signature="e#14282#14549#0#PHP" expanded="false" />
+                <element signature="e#14418#14549#0#PHP" expanded="false" />
+                <element signature="e#14598#14675#0#PHP" expanded="false" />
+                <element signature="n#getAdditionalAddresses#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#14818#14999#0#PHP" expanded="false" />
+                <element signature="e#14886#14989#0#PHP" expanded="false" />
+                <element signature="e#15038#15165#0#PHP" expanded="false" />
+                <element signature="n#isAddressPrimary#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#15255#15316#0#PHP" expanded="false" />
+                <element signature="e#15448#15687#0#PHP" expanded="false" />
+                <element signature="n#sendNewAccountEmail#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#15804#16157#0#PHP" expanded="false" />
+                <element signature="e#16167#16311#0#PHP" expanded="false" />
+                <element signature="e#16321#16427#0#PHP" expanded="false" />
+                <element signature="e#16437#16591#0#PHP" expanded="false" />
+                <element signature="e#16627#16725#0#PHP" expanded="false" />
+                <element signature="n#isConfirmationRequired#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#16785#16856#0#PHP" expanded="false" />
+                <element signature="e#16865#17104#0#PHP" expanded="false" />
+                <element signature="e#17164#17244#0#PHP" expanded="false" />
+                <element signature="n#getRandomConfirmationKey#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#17339#17446#0#PHP" expanded="false" />
+                <element signature="n#sendPasswordReminderEmail#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#17549#17627#0#PHP" expanded="false" />
+                <element signature="e#17637#17788#0#PHP" expanded="false" />
+                <element signature="e#17824#18139#0#PHP" expanded="false" />
+                <element signature="e#18941#19059#0#PHP" expanded="false" />
+                <element signature="n#sendPasswordResetConfirmationEmail#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#19184#19262#0#PHP" expanded="false" />
+                <element signature="e#19272#19423#0#PHP" expanded="false" />
+                <element signature="e#19459#19538#0#PHP" expanded="false" />
+                <element signature="n#getGroupId#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#19586#19884#0#PHP" expanded="false" />
+                <element signature="e#19939#20022#0#PHP" expanded="false" />
+                <element signature="n#getTaxClassId#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#20073#20225#0#PHP" expanded="false" />
+                <element signature="e#20284#20419#0#PHP" expanded="false" />
+                <element signature="n#isInStore#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#20472#20616#0#PHP" expanded="false" />
+                <element signature="e#20569#20616#0#PHP" expanded="false" />
+                <element signature="e#20737#20841#0#PHP" expanded="false" />
+                <element signature="n#getStore#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#20949#21021#0#PHP" expanded="false" />
+                <element signature="n#getSharedStoreIds#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#21128#21557#0#PHP" expanded="false" />
+                <element signature="e#21189#21493#0#PHP" expanded="false" />
+                <element signature="e#21346#21493#0#PHP" expanded="false" />
+                <element signature="e#21369#21479#0#PHP" expanded="false" />
+                <element signature="e#21591#21664#0#PHP" expanded="false" />
+                <element signature="n#getSharedWebsiteIds#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#21775#22174#0#PHP" expanded="false" />
+                <element signature="e#21836#22108#0#PHP" expanded="false" />
+                <element signature="e#21955#22108#0#PHP" expanded="false" />
+                <element signature="e#21978#22094#0#PHP" expanded="false" />
+                <element signature="e#22207#22341#0#PHP" expanded="false" />
+                <element signature="n#setStore#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#22544#22753#0#PHP" expanded="false" />
+                <element signature="n#validate#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#22826#22993#0#PHP" expanded="false" />
+                <element signature="e#23003#23168#0#PHP" expanded="false" />
+                <element signature="e#23178#23352#0#PHP" expanded="false" />
+                <element signature="e#23404#23569#0#PHP" expanded="false" />
+                <element signature="e#23578#23765#0#PHP" expanded="false" />
+                <element signature="e#23832#23971#0#PHP" expanded="false" />
+                <element signature="e#24155#24318#0#PHP" expanded="false" />
+                <element signature="e#24421#24588#0#PHP" expanded="false" />
+                <element signature="e#24691#24846#0#PHP" expanded="false" />
+                <element signature="e#24856#24912#0#PHP" expanded="false" />
+                <element signature="e#24948#25079#0#PHP" expanded="false" />
+                <element signature="n#importFromTextArray#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#25395#25676#0#PHP" expanded="false" />
+                <element signature="e#25548#25676#0#PHP" expanded="false" />
+                <element signature="e#25712#25927#0#PHP" expanded="false" />
+                <element signature="e#25864#25927#0#PHP" expanded="false" />
+                <element signature="e#25937#26758#0#PHP" expanded="false" />
+                <element signature="e#25981#26187#0#PHP" expanded="false" />
+                <element signature="e#26198#26758#0#PHP" expanded="false" />
+                <element signature="e#26217#26748#0#PHP" expanded="false" />
+                <element signature="e#26431#26748#0#PHP" expanded="false" />
+                <element signature="e#26538#26734#0#PHP" expanded="false" />
+                <element signature="e#26768#26928#0#PHP" expanded="false" />
+                <element signature="e#26938#27014#0#PHP" expanded="false" />
+                <element signature="e#27024#27184#0#PHP" expanded="false" />
+                <element signature="e#27193#27351#0#PHP" expanded="false" />
+                <element signature="e#27361#27578#0#PHP" expanded="false" />
+                <element signature="e#27626#27761#0#PHP" expanded="false" />
+                <element signature="e#27771#27861#0#PHP" expanded="false" />
+                <element signature="e#27871#29753#0#PHP" expanded="false" />
+                <element signature="e#28048#29753#0#PHP" expanded="false" />
+                <element signature="e#28172#28319#0#PHP" expanded="false" />
+                <element signature="e#28422#28520#0#PHP" expanded="false" />
+                <element signature="e#28780#28874#0#PHP" expanded="false" />
+                <element signature="e#29023#29272#0#PHP" expanded="false" />
+                <element signature="e#29176#29272#0#PHP" expanded="false" />
+                <element signature="e#29285#29412#0#PHP" expanded="false" />
+                <element signature="e#29426#29711#0#PHP" expanded="false" />
+                <element signature="e#29535#29645#0#PHP" expanded="false" />
+                <element signature="e#29763#31561#0#PHP" expanded="false" />
+                <element signature="e#29942#31561#0#PHP" expanded="false" />
+                <element signature="e#30069#30217#0#PHP" expanded="false" />
+                <element signature="e#30322#30419#0#PHP" expanded="false" />
+                <element signature="e#30685#30780#0#PHP" expanded="false" />
+                <element signature="e#30933#31188#0#PHP" expanded="false" />
+                <element signature="e#31090#31188#0#PHP" expanded="false" />
+                <element signature="e#31201#31332#0#PHP" expanded="false" />
+                <element signature="e#31346#31506#0#PHP" expanded="false" />
+                <element signature="e#31570#31760#0#PHP" expanded="false" />
+                <element signature="e#31815#31903#0#PHP" expanded="false" />
+                <element signature="n#unsetSubscription#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#31951#32036#0#PHP" expanded="false" />
+                <element signature="e#32070#32159#0#PHP" expanded="false" />
+                <element signature="n#cleanAllAddresses#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#32294#32373#0#PHP" expanded="false" />
+                <element signature="n#addError#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#32478#32540#0#PHP" expanded="false" />
+                <element signature="n#getErrors#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#32614#32702#0#PHP" expanded="false" />
+                <element signature="n#resetErrors#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#32803#32904#0#PHP" expanded="false" />
+                <element signature="n#printError#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#32965#33022#0#PHP" expanded="false" />
+                <element signature="e#33259#33345#0#PHP" expanded="false" />
+                <element signature="e#33379#33494#0#PHP" expanded="false" />
+                <element signature="n#validateAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#33732#34511#0#PHP" expanded="false" />
+                <element signature="e#33757#34450#0#PHP" expanded="false" />
+                <element signature="e#33803#33893#0#PHP" expanded="false" />
+                <element signature="e#33910#34436#0#PHP" expanded="false" />
+                <element signature="e#34046#34146#0#PHP" expanded="false" />
+                <element signature="e#34178#34276#0#PHP" expanded="false" />
+                <element signature="e#34298#34382#0#PHP" expanded="false" />
+                <element signature="e#34545#34591#0#PHP" expanded="false" />
+                <element signature="n#_beforeDelete#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#34727#34815#0#PHP" expanded="false" />
+                <element signature="n#getCreatedAtTimestamp#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#34913#34987#0#PHP" expanded="false" />
+                <element signature="e#35020#35110#0#PHP" expanded="false" />
+                <element signature="n#reset#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#35277#35352#0#PHP" expanded="false" />
+                <element signature="n#isDeleteable#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#35442#35563#0#PHP" expanded="false" />
+                <element signature="n#setIsDeleteable#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#35692#35765#0#PHP" expanded="false" />
+                <element signature="n#isReadonly#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#35851#35970#0#PHP" expanded="false" />
+                <element signature="n#setIsReadonly#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#36095#36227#0#PHP" expanded="false" />
+                <element signature="n#canSkipConfirmation#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#36454#36493#0#PHP" expanded="false" />
+                <element signature="n#__clone#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#36765#36867#0#PHP" expanded="false" />
+                <element signature="e#36879#36974#0#PHP" expanded="false" />
+                <element signature="n#getEntityType#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#37083#37149#0#PHP" expanded="false" />
+                <element signature="n#getEntityTypeId#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#37260#37413#0#PHP" expanded="false" />
+                <element signature="e#37455#37617#0#PHP" expanded="false" />
+                <element signature="n#_getWebsiteStoreId#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#37698#37934#0#PHP" expanded="false" />
+                <element signature="e#37978#38179#0#PHP" expanded="false" />
+                <element signature="n#changeResetPasswordLinkToken#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#38267#38537#0#PHP" expanded="false" />
+                <element signature="e#38368#38526#0#PHP" expanded="false" />
+                <element signature="e#38667#38769#0#PHP" expanded="false" />
+                <element signature="n#isResetPasswordLinkTokenExpired#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+                <element signature="e#38967#39082#0#PHP" expanded="false" />
+                <element signature="e#39389#39466#0#PHP" expanded="false" />
+                <element signature="e#39564#39646#0#PHP" expanded="false" />
+                <element signature="e#39681#39817#0#PHP" expanded="false" />
+                <element signature="n#cleanPasswordsValidationData#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,7 +432,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Sales/Block/Order/History.php" />
         <option value="$PROJECT_DIR$/lib/Varien/Db/Ddl/Table.php" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Logger/Model/Log/Writer/Stream.php" />
         <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/sales/order/history.phtml" />
@@ -231,6 +482,7 @@
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Ticket.php" />
         <option value="$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/grid.phtml" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit/Form.php" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Customer/Model/Customer.php" />
       </list>
     </option>
   </component>
@@ -468,70 +720,6 @@
               <option name="myItemId" value="Toni" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ticket" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Toni" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ticket" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Toni" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -677,18 +865,18 @@
       <workItem from="1474866854814" duration="17660000" />
       <workItem from="1474953562032" duration="5683000" />
       <workItem from="1474966484758" duration="68000" />
-      <workItem from="1474976294021" duration="2000" />
+      <workItem from="1474976294021" duration="1536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367534000" />
+    <option name="totallyTimeSpent" value="369068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19194704" sideWeight="0.47663552" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19194704" sideWeight="0.47663552" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.50634307" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -696,7 +884,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19194704" sideWeight="0.5233645" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19194704" sideWeight="0.5233645" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -761,11 +949,6 @@
           <url>file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Report/Grid.php</url>
           <line>96</line>
           <option name="timeStamp" value="348" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/../magentoent/index.php</url>
-          <line>26</line>
-          <option name="timeStamp" value="385" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="386" />
@@ -850,6 +1033,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,6 +1224,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="367" column="0" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,22 +1328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/controllers/AccountController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5670">
-          <caret line="338" column="26" selection-start-line="338" selection-start-column="26" selection-end-line="338" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/Model/Customer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11574">
-          <caret line="666" column="23" selection-start-line="666" selection-start-column="23" selection-end-line="666" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../magentoent/info.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1171,7 +1340,297 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1474967944164" expanded="true" signature="1035:1081" ph="..." />
+            <marker date="1474967944164" expanded="true" signature="1082:1505" ph="..." />
+            <marker date="1474967944164" expanded="false" signature="1096:1144" ph="..." />
+            <marker date="1474967944164" expanded="true" signature="1145:1324" ph="..." />
+            <marker date="1474967944164" expanded="false" signature="1158:1257" ph="..." />
+            <marker date="1474967944164" expanded="true" signature="1258:1318" ph="..." />
+            <marker date="1474967944164" expanded="true" signature="1327:1499" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/controllers/AccountController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="338" column="31" selection-start-line="338" selection-start-column="31" selection-end-line="338" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/Model/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1247">
+          <caret line="670" column="25" selection-start-line="670" selection-start-column="25" selection-end-line="670" selection-end-column="25" />
+          <folding>
+            <element signature="e#963#1103#0#PHP" expanded="false" />
+            <element signature="e#2192#2259#0#PHP" expanded="false" />
+            <element signature="e#2490#2525#0#PHP" expanded="false" />
+            <element signature="e#2646#2709#0#PHP" expanded="false" />
+            <element signature="e#2757#2826#0#PHP" expanded="false" />
+            <element signature="e#2874#2932#0#PHP" expanded="false" />
+            <element signature="e#2972#3050#0#PHP" expanded="false" />
+            <element signature="e#3084#3189#0#PHP" expanded="false" />
+            <element signature="e#3229#3342#0#PHP" expanded="false" />
+            <element signature="e#3385#3450#0#PHP" expanded="false" />
+            <element signature="e#3493#3556#0#PHP" expanded="false" />
+            <element signature="e#3598#3705#0#PHP" expanded="false" />
+            <element signature="e#3755#3830#0#PHP" expanded="false" />
+            <element signature="e#3881#3925#0#PHP" expanded="false" />
+            <element signature="n#_construct#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#4012#4131#0#PHP" expanded="false" />
+            <element signature="n#getSharingConfig#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#4248#4418#0#PHP" expanded="false" />
+            <element signature="n#authenticate#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#4521#4775#0#PHP" expanded="false" />
+            <element signature="e#4606#4764#0#PHP" expanded="false" />
+            <element signature="e#4784#5016#0#PHP" expanded="false" />
+            <element signature="e#4845#5005#0#PHP" expanded="false" />
+            <element signature="e#5025#5165#0#PHP" expanded="false" />
+            <element signature="e#5080#5164#0#PHP" expanded="false" />
+            <element signature="e#5200#5331#0#PHP" expanded="false" />
+            <element signature="n#loadByEmail#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#5487#5591#0#PHP" expanded="false" />
+            <element signature="n#_beforeSave#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#5715#5814#0#PHP" expanded="false" />
+            <element signature="e#5878#6009#0#PHP" expanded="false" />
+            <element signature="n#changePassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#6166#6236#0#PHP" expanded="false" />
+            <element signature="n#getName#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#6353#6498#0#PHP" expanded="false" />
+            <element signature="e#6547#6704#0#PHP" expanded="false" />
+            <element signature="e#6759#6904#0#PHP" expanded="false" />
+            <element signature="e#6938#7095#0#PHP" expanded="false" />
+            <element signature="n#addAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#7335#7475#0#PHP" expanded="false" />
+            <element signature="n#getAddressById#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#7610#7697#0#PHP" expanded="false" />
+            <element signature="e#7760#7919#0#PHP" expanded="false" />
+            <element signature="n#getAddressItemById#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#8061#8186#0#PHP" expanded="false" />
+            <element signature="n#getAddressCollection#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#8317#8433#0#PHP" expanded="false" />
+            <element signature="n#getAddressesCollection#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#8493#8830#0#PHP" expanded="false" />
+            <element signature="e#8579#8651#0#PHP" expanded="false" />
+            <element signature="e#8579#8695#0#PHP" expanded="false" />
+            <element signature="e#8709#8820#0#PHP" expanded="false" />
+            <element signature="e#8887#8965#0#PHP" expanded="false" />
+            <element signature="n#getAddresses#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#9125#9204#0#PHP" expanded="false" />
+            <element signature="n#getAttributes#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#9255#9430#0#PHP" expanded="false" />
+            <element signature="e#9323#9383#0#PHP" expanded="false" />
+            <element signature="e#9477#9636#0#PHP" expanded="false" />
+            <element signature="n#getAttribute#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#9732#9845#0#PHP" expanded="false" />
+            <element signature="e#9878#10008#0#PHP" expanded="false" />
+            <element signature="n#setPassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#10248#10381#0#PHP" expanded="false" />
+            <element signature="n#hashPassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#10461#10586#0#PHP" expanded="false" />
+            <element signature="e#10599#10718#0#PHP" expanded="false" />
+            <element signature="n#_getHelper#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#10825#10926#0#PHP" expanded="false" />
+            <element signature="n#generatePassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#11307#11421#0#PHP" expanded="false" />
+            <element signature="n#validatePassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#11526#11575#0#PHP" expanded="false" />
+            <element signature="e#11657#11755#0#PHP" expanded="false" />
+            <element signature="n#encryptPassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#11877#11975#0#PHP" expanded="false" />
+            <element signature="n#decryptPassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#12097#12276#0#PHP" expanded="false" />
+            <element signature="n#getPrimaryAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#12511#12616#0#PHP" expanded="false" />
+            <element signature="n#getPrimaryBillingAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#12741#12846#0#PHP" expanded="false" />
+            <element signature="n#getDefaultBillingAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#12961#13067#0#PHP" expanded="false" />
+            <element signature="n#getPrimaryShippingAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#13194#13300#0#PHP" expanded="false" />
+            <element signature="n#getDefaultShippingAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#13417#13497#0#PHP" expanded="false" />
+            <element signature="n#getPrimaryAddressIds#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#13579#13671#0#PHP" expanded="false" />
+            <element signature="e#13680#13774#0#PHP" expanded="false" />
+            <element signature="e#13807#13893#0#PHP" expanded="false" />
+            <element signature="n#getPrimaryAddresses#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#14041#14173#0#PHP" expanded="false" />
+            <element signature="e#14246#14559#0#PHP" expanded="false" />
+            <element signature="e#14282#14549#0#PHP" expanded="false" />
+            <element signature="e#14418#14549#0#PHP" expanded="false" />
+            <element signature="e#14598#14675#0#PHP" expanded="false" />
+            <element signature="n#getAdditionalAddresses#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#14818#14999#0#PHP" expanded="false" />
+            <element signature="e#14886#14989#0#PHP" expanded="false" />
+            <element signature="e#15038#15165#0#PHP" expanded="false" />
+            <element signature="n#isAddressPrimary#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#15255#15316#0#PHP" expanded="false" />
+            <element signature="e#15448#15687#0#PHP" expanded="false" />
+            <element signature="n#sendNewAccountEmail#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#15804#16157#0#PHP" expanded="false" />
+            <element signature="e#16167#16311#0#PHP" expanded="false" />
+            <element signature="e#16321#16427#0#PHP" expanded="false" />
+            <element signature="e#16437#16591#0#PHP" expanded="false" />
+            <element signature="e#16627#16725#0#PHP" expanded="false" />
+            <element signature="n#isConfirmationRequired#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#16785#16856#0#PHP" expanded="false" />
+            <element signature="e#16865#17104#0#PHP" expanded="false" />
+            <element signature="e#17164#17244#0#PHP" expanded="false" />
+            <element signature="n#getRandomConfirmationKey#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#17339#17446#0#PHP" expanded="false" />
+            <element signature="n#sendPasswordReminderEmail#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#17549#17627#0#PHP" expanded="false" />
+            <element signature="e#17637#17788#0#PHP" expanded="false" />
+            <element signature="e#17824#18139#0#PHP" expanded="false" />
+            <element signature="e#18941#19059#0#PHP" expanded="false" />
+            <element signature="n#sendPasswordResetConfirmationEmail#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#19184#19262#0#PHP" expanded="false" />
+            <element signature="e#19272#19423#0#PHP" expanded="false" />
+            <element signature="e#19459#19538#0#PHP" expanded="false" />
+            <element signature="n#getGroupId#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#19586#19884#0#PHP" expanded="false" />
+            <element signature="e#19939#20022#0#PHP" expanded="false" />
+            <element signature="n#getTaxClassId#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#20073#20225#0#PHP" expanded="false" />
+            <element signature="e#20284#20419#0#PHP" expanded="false" />
+            <element signature="n#isInStore#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#20472#20616#0#PHP" expanded="false" />
+            <element signature="e#20569#20616#0#PHP" expanded="false" />
+            <element signature="e#20737#20841#0#PHP" expanded="false" />
+            <element signature="n#getStore#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#20949#21021#0#PHP" expanded="false" />
+            <element signature="n#getSharedStoreIds#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#21128#21557#0#PHP" expanded="false" />
+            <element signature="e#21189#21493#0#PHP" expanded="false" />
+            <element signature="e#21346#21493#0#PHP" expanded="false" />
+            <element signature="e#21369#21479#0#PHP" expanded="false" />
+            <element signature="e#21591#21664#0#PHP" expanded="false" />
+            <element signature="n#getSharedWebsiteIds#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#21775#22174#0#PHP" expanded="false" />
+            <element signature="e#21836#22108#0#PHP" expanded="false" />
+            <element signature="e#21955#22108#0#PHP" expanded="false" />
+            <element signature="e#21978#22094#0#PHP" expanded="false" />
+            <element signature="e#22207#22341#0#PHP" expanded="false" />
+            <element signature="n#setStore#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#22544#22753#0#PHP" expanded="false" />
+            <element signature="n#validate#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#22826#22993#0#PHP" expanded="false" />
+            <element signature="e#23003#23168#0#PHP" expanded="false" />
+            <element signature="e#23178#23352#0#PHP" expanded="false" />
+            <element signature="e#23404#23569#0#PHP" expanded="false" />
+            <element signature="e#23578#23765#0#PHP" expanded="false" />
+            <element signature="e#23832#23971#0#PHP" expanded="false" />
+            <element signature="e#24155#24318#0#PHP" expanded="false" />
+            <element signature="e#24421#24588#0#PHP" expanded="false" />
+            <element signature="e#24691#24846#0#PHP" expanded="false" />
+            <element signature="e#24856#24912#0#PHP" expanded="false" />
+            <element signature="e#24948#25079#0#PHP" expanded="false" />
+            <element signature="n#importFromTextArray#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#25395#25676#0#PHP" expanded="false" />
+            <element signature="e#25548#25676#0#PHP" expanded="false" />
+            <element signature="e#25712#25927#0#PHP" expanded="false" />
+            <element signature="e#25864#25927#0#PHP" expanded="false" />
+            <element signature="e#25937#26758#0#PHP" expanded="false" />
+            <element signature="e#25981#26187#0#PHP" expanded="false" />
+            <element signature="e#26198#26758#0#PHP" expanded="false" />
+            <element signature="e#26217#26748#0#PHP" expanded="false" />
+            <element signature="e#26431#26748#0#PHP" expanded="false" />
+            <element signature="e#26538#26734#0#PHP" expanded="false" />
+            <element signature="e#26768#26928#0#PHP" expanded="false" />
+            <element signature="e#26938#27014#0#PHP" expanded="false" />
+            <element signature="e#27024#27184#0#PHP" expanded="false" />
+            <element signature="e#27193#27351#0#PHP" expanded="false" />
+            <element signature="e#27361#27578#0#PHP" expanded="false" />
+            <element signature="e#27626#27761#0#PHP" expanded="false" />
+            <element signature="e#27771#27861#0#PHP" expanded="false" />
+            <element signature="e#27871#29753#0#PHP" expanded="false" />
+            <element signature="e#28048#29753#0#PHP" expanded="false" />
+            <element signature="e#28172#28319#0#PHP" expanded="false" />
+            <element signature="e#28422#28520#0#PHP" expanded="false" />
+            <element signature="e#28780#28874#0#PHP" expanded="false" />
+            <element signature="e#29023#29272#0#PHP" expanded="false" />
+            <element signature="e#29176#29272#0#PHP" expanded="false" />
+            <element signature="e#29285#29412#0#PHP" expanded="false" />
+            <element signature="e#29426#29711#0#PHP" expanded="false" />
+            <element signature="e#29535#29645#0#PHP" expanded="false" />
+            <element signature="e#29763#31561#0#PHP" expanded="false" />
+            <element signature="e#29942#31561#0#PHP" expanded="false" />
+            <element signature="e#30069#30217#0#PHP" expanded="false" />
+            <element signature="e#30322#30419#0#PHP" expanded="false" />
+            <element signature="e#30685#30780#0#PHP" expanded="false" />
+            <element signature="e#30933#31188#0#PHP" expanded="false" />
+            <element signature="e#31090#31188#0#PHP" expanded="false" />
+            <element signature="e#31201#31332#0#PHP" expanded="false" />
+            <element signature="e#31346#31506#0#PHP" expanded="false" />
+            <element signature="e#31570#31760#0#PHP" expanded="false" />
+            <element signature="e#31815#31903#0#PHP" expanded="false" />
+            <element signature="n#unsetSubscription#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#31951#32036#0#PHP" expanded="false" />
+            <element signature="e#32070#32159#0#PHP" expanded="false" />
+            <element signature="n#cleanAllAddresses#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#32294#32373#0#PHP" expanded="false" />
+            <element signature="n#addError#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#32478#32540#0#PHP" expanded="false" />
+            <element signature="n#getErrors#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#32614#32702#0#PHP" expanded="false" />
+            <element signature="n#resetErrors#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#32803#32904#0#PHP" expanded="false" />
+            <element signature="n#printError#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#32965#33022#0#PHP" expanded="false" />
+            <element signature="e#33259#33345#0#PHP" expanded="false" />
+            <element signature="e#33379#33494#0#PHP" expanded="false" />
+            <element signature="n#validateAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#33732#34511#0#PHP" expanded="false" />
+            <element signature="e#33757#34450#0#PHP" expanded="false" />
+            <element signature="e#33803#33893#0#PHP" expanded="false" />
+            <element signature="e#33910#34436#0#PHP" expanded="false" />
+            <element signature="e#34046#34146#0#PHP" expanded="false" />
+            <element signature="e#34178#34276#0#PHP" expanded="false" />
+            <element signature="e#34298#34382#0#PHP" expanded="false" />
+            <element signature="e#34545#34591#0#PHP" expanded="false" />
+            <element signature="n#_beforeDelete#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#34727#34815#0#PHP" expanded="false" />
+            <element signature="n#getCreatedAtTimestamp#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#34913#34987#0#PHP" expanded="false" />
+            <element signature="e#35020#35110#0#PHP" expanded="false" />
+            <element signature="n#reset#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#35277#35352#0#PHP" expanded="false" />
+            <element signature="n#isDeleteable#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#35442#35563#0#PHP" expanded="false" />
+            <element signature="n#setIsDeleteable#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#35692#35765#0#PHP" expanded="false" />
+            <element signature="n#isReadonly#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#35851#35970#0#PHP" expanded="false" />
+            <element signature="n#setIsReadonly#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#36095#36227#0#PHP" expanded="false" />
+            <element signature="n#canSkipConfirmation#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#36454#36493#0#PHP" expanded="false" />
+            <element signature="n#__clone#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#36765#36867#0#PHP" expanded="false" />
+            <element signature="e#36879#36974#0#PHP" expanded="false" />
+            <element signature="n#getEntityType#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#37083#37149#0#PHP" expanded="false" />
+            <element signature="n#getEntityTypeId#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#37260#37413#0#PHP" expanded="false" />
+            <element signature="e#37455#37617#0#PHP" expanded="false" />
+            <element signature="n#_getWebsiteStoreId#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#37698#37934#0#PHP" expanded="false" />
+            <element signature="e#37978#38179#0#PHP" expanded="false" />
+            <element signature="n#changeResetPasswordLinkToken#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#38267#38537#0#PHP" expanded="false" />
+            <element signature="e#38368#38526#0#PHP" expanded="false" />
+            <element signature="e#38667#38769#0#PHP" expanded="false" />
+            <element signature="n#isResetPasswordLinkTokenExpired#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+            <element signature="e#38967#39082#0#PHP" expanded="false" />
+            <element signature="e#39389#39466#0#PHP" expanded="false" />
+            <element signature="e#39564#39646#0#PHP" expanded="false" />
+            <element signature="e#39681#39817#0#PHP" expanded="false" />
+            <element signature="n#cleanPasswordsValidationData#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
