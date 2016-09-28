@@ -6,12 +6,13 @@
     <bookmark url="file://$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Varien/Action.php" description="Event controller_action_layout_generate_blocks_before" line="335" />
     <bookmark url="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/grid.phtml" description="where grid is made" line="163" />
     <bookmark url="file://$PROJECT_DIR$/app/code/core/Mage/Customer/controllers/AccountController.php" description="Account controller email" line="338" />
-    <bookmark url="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Template.php" line="381" />
-    <bookmark url="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Template.php" line="425" />
+    <bookmark url="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Template.php" line="378" />
+    <bookmark url="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Template.php" line="422" />
     <bookmark url="file://$PROJECT_DIR$/app/code/core/Mage/Sales/Model/Order.php" line="1353" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b049ecdc-c41e-4195-b1b4-06e7e8a42ef7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/local.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/magicento/config.xml" afterPath="$PROJECT_DIR$/.idea/magicento/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/TicketController.php" afterPath="$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/TicketController.php" />
@@ -39,100 +40,19 @@
       <file leaf-file-name="TicketController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/TicketController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-522">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="486">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="n#preDispatch#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
-                <element signature="n#checkAccess#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
-                <element signature="e#723#865#0#PHP" expanded="false" />
+                <element signature="e#820#962#0#PHP" expanded="false" />
                 <element signature="n#ticketAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
                 <element signature="n#viewAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
-                <element signature="n#newticketAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
+                <element signature="n#postnewAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
+                <element signature="n#sendmail#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
                 <element signature="n#closeAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
                 <element signature="n#newresponseAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
                 <element signature="n#_initLayout#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-49">
-              <caret line="397" column="60" selection-start-line="397" selection-start-column="60" selection-end-line="397" selection-end-column="60" />
-              <folding>
-                <element signature="e#3095#3160#0#PHP" expanded="false" />
-                <element signature="e#3579#3636#0#PHP" expanded="false" />
-                <element signature="n#_construct#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
-                <element signature="e#3735#3815#0#PHP" expanded="false" />
-                <element signature="n#getMail#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
-                <element signature="e#3860#3949#0#PHP" expanded="false" />
-                <element signature="e#3990#4144#0#PHP" expanded="false" />
-                <element signature="n#setTemplateFilter#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
-                <element signature="e#4296#4421#0#PHP" expanded="false" />
-                <element signature="n#getTemplateFilter#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
-                <element signature="e#4476#4759#0#PHP" expanded="false" />
-                <element signature="e#4608#4748#0#PHP" expanded="false" />
-                <element signature="e#4810#4942#0#PHP" expanded="false" />
-                <element signature="n#loadByCode#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
-                <element signature="e#5101#5238#0#PHP" expanded="false" />
-                <element signature="e#5369#5450#0#PHP" expanded="false" />
-                <element signature="e#5617#5717#0#PHP" expanded="false" />
-                <element signature="e#5728#5939#0#PHP" expanded="false" />
-                <element signature="e#5949#6201#0#PHP" expanded="false" />
-                <element signature="e#6211#6418#0#PHP" expanded="false" />
-                <element signature="e#6428#6475#0#PHP" expanded="false" />
-                <element signature="e#6669#6753#0#PHP" expanded="false" />
-                <element signature="n#getDefaultTemplates#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
-                <element signature="e#6817#6975#0#PHP" expanded="false" />
-                <element signature="e#7029#7118#0#PHP" expanded="false" />
-                <element signature="n#getDefaultTemplatesAsOptionsArray#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
-                <element signature="e#7207#7268#0#PHP" expanded="false" />
-                <element signature="e#7307#7644#0#PHP" expanded="false" />
-                <element signature="e#7382#7556#0#PHP" expanded="false" />
-                <element signature="e#7497#7556#0#PHP" expanded="false" />
-                <element signature="e#7678#7808#0#PHP" expanded="false" />
-                <element signature="e#7846#7906#0#PHP" expanded="false" />
-                <element signature="n#getId#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
-                <element signature="e#7991#8053#0#PHP" expanded="false" />
-                <element signature="n#setId#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
-                <element signature="e#8150#8274#0#PHP" expanded="false" />
-                <element signature="n#getType#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
-                <element signature="n#getProcessedTemplate#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
-                <element signature="n#getPreparedTemplateText#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
-                <element signature="n#getInclude#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Sales/Model/Order.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="1339" column="44" selection-start-line="1338" selection-start-column="8" selection-end-line="1339" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mailer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Template/Mailer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360">
-              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -142,8 +62,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="XML" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -153,9 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/design/frontend/rwd/default/template/sales/order/history.phtml" />
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Sales/controllers/OrderController.php" />
-        <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Resource/Ticket/Collection.php" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Resource/Response.php" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Resource/Response/Collection.php" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Response.php" />
@@ -199,10 +116,13 @@
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Ticket.php" />
         <option value="$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/grid.phtml" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit/Form.php" />
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Customer/Model/Customer.php" />
         <option value="$PROJECT_DIR$/app/code/core/Mage/Core/etc/config.xml" />
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Template.php" />
+        <option value="$PROJECT_DIR$/app/etc/local.xml" />
+        <option value="$PROJECT_DIR$/app/locale/en_US/template/email/ticket/ticketTemplate.html" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Core/Model/Source/Email/Variables.php" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Customer/Model/Customer.php" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Template.php" />
         <option value="$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/TicketController.php" />
       </list>
     </option>
@@ -300,7 +220,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
+              <option name="myItemId" value="locale" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en_US" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,75 +242,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
+              <option name="myItemId" value="locale" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
+              <option name="myItemId" value="en_US" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -394,249 +254,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sales" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sales" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="order" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminhtml" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminhtml" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminhtml" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sales" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminhtml" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sales" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="order" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminhtml" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
+              <option name="myItemId" value="email" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -732,7 +350,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sales" />
+              <option name="myItemId" value="Customer" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -762,121 +380,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mage" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
+              <option name="myItemId" value="Customer" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mage" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Email" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mage" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Email" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -907,74 +415,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Ticket" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Toni" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ticket" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento.loc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Toni" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ticket" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1149,29 +589,29 @@
       <workItem from="1474953562032" duration="5683000" />
       <workItem from="1474966484758" duration="68000" />
       <workItem from="1474976294021" duration="1536000" />
-      <workItem from="1475039228938" duration="5113000" />
+      <workItem from="1475039228938" duration="21606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="374181000" />
+    <option name="totallyTimeSpent" value="390674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26533997" sideWeight="0.46500778" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26533997" sideWeight="0.4651852" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917705" sideWeight="0.5087948" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2954071" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2954071" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26533997" sideWeight="0.5349922" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881" sideWeight="0.49120522" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26533997" sideWeight="0.53481483" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27244258" sideWeight="0.49120522" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1205,19 +645,9 @@
           <option name="timeStamp" value="145" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Layer.php</url>
-          <line>127</line>
-          <option name="timeStamp" value="178" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/design/frontend/default/iphone/template/catalog/product/list.phtml</url>
           <line>34</line>
           <option name="timeStamp" value="180" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Layer.php</url>
-          <line>293</line>
-          <option name="timeStamp" value="186" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Customer/Edit/Tab/Newsletter/Grid/Renderer/Action.php</url>
@@ -1235,18 +665,13 @@
           <option name="timeStamp" value="348" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Queue.php</url>
-          <line>116</line>
-          <option name="timeStamp" value="407" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Template.php</url>
-          <line>460</line>
+          <line>457</line>
           <option name="timeStamp" value="408" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Template.php</url>
-          <line>463</line>
+          <line>460</line>
           <option name="timeStamp" value="409" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -1254,443 +679,12 @@
           <line>99</line>
           <option name="timeStamp" value="411" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/TicketController.php</url>
-          <line>98</line>
-          <option name="timeStamp" value="415" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="416" />
+      <option name="time" value="426" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Ticket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/rwd/default/template/ticket/view.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/widget.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/catalog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/ticket.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/etc/theme.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/layout/ticket.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/grid/massaction.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/grid/serializer.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/etc/theme.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="916" column="0" selection-start-line="916" selection-start-column="0" selection-end-line="916" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/grid/container.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget/Grid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="880" column="5" selection-start-line="880" selection-start-column="5" selection-end-line="880" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/form.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Grid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Ticket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/grid.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="163" column="69" selection-start-line="163" selection-start-column="69" selection-end-line="163" selection-end-column="69" />
-          <folding>
-            <element signature="e#6#971#0#PHP" expanded="false" />
-            <element signature="e#5712#5718#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/inchoo/template/widget/form/element.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="73" column="122" selection-start-line="73" selection-start-column="122" selection-end-line="73" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Model/Response.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Block/Gridtest/Edit/Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="74" column="113" selection-start-line="74" selection-start-column="113" selection-end-line="74" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/controllers/AccountController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="338" column="31" selection-start-line="338" selection-start-column="31" selection-end-line="338" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/Model/Customer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="670" column="25" selection-start-line="670" selection-start-column="25" selection-end-line="670" selection-end-column="25" />
-          <folding>
-            <element signature="e#963#1103#0#PHP" expanded="false" />
-            <element signature="e#2192#2259#0#PHP" expanded="false" />
-            <element signature="e#2490#2525#0#PHP" expanded="false" />
-            <element signature="e#2646#2709#0#PHP" expanded="false" />
-            <element signature="e#2757#2826#0#PHP" expanded="false" />
-            <element signature="e#2874#2932#0#PHP" expanded="false" />
-            <element signature="e#2972#3050#0#PHP" expanded="false" />
-            <element signature="e#3084#3189#0#PHP" expanded="false" />
-            <element signature="e#3229#3342#0#PHP" expanded="false" />
-            <element signature="e#3385#3450#0#PHP" expanded="false" />
-            <element signature="e#3493#3556#0#PHP" expanded="false" />
-            <element signature="e#3598#3705#0#PHP" expanded="false" />
-            <element signature="e#3755#3830#0#PHP" expanded="false" />
-            <element signature="e#3881#3925#0#PHP" expanded="false" />
-            <element signature="n#_construct#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#4012#4131#0#PHP" expanded="false" />
-            <element signature="n#getSharingConfig#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#4248#4418#0#PHP" expanded="false" />
-            <element signature="n#authenticate#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#4521#4775#0#PHP" expanded="false" />
-            <element signature="e#4606#4764#0#PHP" expanded="false" />
-            <element signature="e#4784#5016#0#PHP" expanded="false" />
-            <element signature="e#4845#5005#0#PHP" expanded="false" />
-            <element signature="e#5025#5165#0#PHP" expanded="false" />
-            <element signature="e#5080#5164#0#PHP" expanded="false" />
-            <element signature="e#5200#5331#0#PHP" expanded="false" />
-            <element signature="n#loadByEmail#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#5487#5591#0#PHP" expanded="false" />
-            <element signature="n#_beforeSave#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#5715#5814#0#PHP" expanded="false" />
-            <element signature="e#5878#6009#0#PHP" expanded="false" />
-            <element signature="n#changePassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#6166#6236#0#PHP" expanded="false" />
-            <element signature="n#getName#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#6353#6498#0#PHP" expanded="false" />
-            <element signature="e#6547#6704#0#PHP" expanded="false" />
-            <element signature="e#6759#6904#0#PHP" expanded="false" />
-            <element signature="e#6938#7095#0#PHP" expanded="false" />
-            <element signature="n#addAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#7335#7475#0#PHP" expanded="false" />
-            <element signature="n#getAddressById#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#7610#7697#0#PHP" expanded="false" />
-            <element signature="e#7760#7919#0#PHP" expanded="false" />
-            <element signature="n#getAddressItemById#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#8061#8186#0#PHP" expanded="false" />
-            <element signature="n#getAddressCollection#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#8317#8433#0#PHP" expanded="false" />
-            <element signature="n#getAddressesCollection#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#8493#8830#0#PHP" expanded="false" />
-            <element signature="e#8579#8651#0#PHP" expanded="false" />
-            <element signature="e#8579#8695#0#PHP" expanded="false" />
-            <element signature="e#8709#8820#0#PHP" expanded="false" />
-            <element signature="e#8887#8965#0#PHP" expanded="false" />
-            <element signature="n#getAddresses#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#9125#9204#0#PHP" expanded="false" />
-            <element signature="n#getAttributes#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#9255#9430#0#PHP" expanded="false" />
-            <element signature="e#9323#9383#0#PHP" expanded="false" />
-            <element signature="e#9477#9636#0#PHP" expanded="false" />
-            <element signature="n#getAttribute#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#9732#9845#0#PHP" expanded="false" />
-            <element signature="e#9878#10008#0#PHP" expanded="false" />
-            <element signature="n#setPassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#10248#10381#0#PHP" expanded="false" />
-            <element signature="n#hashPassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#10461#10586#0#PHP" expanded="false" />
-            <element signature="e#10599#10718#0#PHP" expanded="false" />
-            <element signature="n#_getHelper#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#10825#10926#0#PHP" expanded="false" />
-            <element signature="n#generatePassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#11307#11421#0#PHP" expanded="false" />
-            <element signature="n#validatePassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#11526#11575#0#PHP" expanded="false" />
-            <element signature="e#11657#11755#0#PHP" expanded="false" />
-            <element signature="n#encryptPassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#11877#11975#0#PHP" expanded="false" />
-            <element signature="n#decryptPassword#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#12097#12276#0#PHP" expanded="false" />
-            <element signature="n#getPrimaryAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#12511#12616#0#PHP" expanded="false" />
-            <element signature="n#getPrimaryBillingAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#12741#12846#0#PHP" expanded="false" />
-            <element signature="n#getDefaultBillingAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#12961#13067#0#PHP" expanded="false" />
-            <element signature="n#getPrimaryShippingAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#13194#13300#0#PHP" expanded="false" />
-            <element signature="n#getDefaultShippingAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#13417#13497#0#PHP" expanded="false" />
-            <element signature="n#getPrimaryAddressIds#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#13579#13671#0#PHP" expanded="false" />
-            <element signature="e#13680#13774#0#PHP" expanded="false" />
-            <element signature="e#13807#13893#0#PHP" expanded="false" />
-            <element signature="n#getPrimaryAddresses#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#14041#14173#0#PHP" expanded="false" />
-            <element signature="e#14246#14559#0#PHP" expanded="false" />
-            <element signature="e#14282#14549#0#PHP" expanded="false" />
-            <element signature="e#14418#14549#0#PHP" expanded="false" />
-            <element signature="e#14598#14675#0#PHP" expanded="false" />
-            <element signature="n#getAdditionalAddresses#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#14818#14999#0#PHP" expanded="false" />
-            <element signature="e#14886#14989#0#PHP" expanded="false" />
-            <element signature="e#15038#15165#0#PHP" expanded="false" />
-            <element signature="n#isAddressPrimary#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#15255#15316#0#PHP" expanded="false" />
-            <element signature="e#15448#15687#0#PHP" expanded="false" />
-            <element signature="n#sendNewAccountEmail#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#15804#16157#0#PHP" expanded="false" />
-            <element signature="e#16167#16311#0#PHP" expanded="false" />
-            <element signature="e#16321#16427#0#PHP" expanded="false" />
-            <element signature="e#16437#16591#0#PHP" expanded="false" />
-            <element signature="e#16627#16725#0#PHP" expanded="false" />
-            <element signature="n#isConfirmationRequired#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#16785#16856#0#PHP" expanded="false" />
-            <element signature="e#16865#17104#0#PHP" expanded="false" />
-            <element signature="e#17164#17244#0#PHP" expanded="false" />
-            <element signature="n#getRandomConfirmationKey#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#17339#17446#0#PHP" expanded="false" />
-            <element signature="n#sendPasswordReminderEmail#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="e#17549#17627#0#PHP" expanded="false" />
-            <element signature="e#17637#17788#0#PHP" expanded="false" />
-            <element signature="e#17824#18139#0#PHP" expanded="false" />
-            <element signature="n#sendPasswordResetConfirmationEmail#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#getGroupId#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#getTaxClassId#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#isInStore#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#getStore#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#getSharedStoreIds#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#getSharedWebsiteIds#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#setStore#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#validate#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#importFromTextArray#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#unsetSubscription#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#cleanAllAddresses#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#addError#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#getErrors#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#resetErrors#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#printError#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#validateAddress#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#_beforeDelete#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#getCreatedAtTimestamp#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#reset#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#isDeleteable#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#setIsDeleteable#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#isReadonly#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#setIsReadonly#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#canSkipConfirmation#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#__clone#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#getEntityType#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#getEntityTypeId#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#_getWebsiteStoreId#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#changeResetPasswordLinkToken#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#isResetPasswordLinkTokenExpired#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-            <element signature="n#cleanPasswordsValidationData#0;n#Mage_Customer_Model_Customer#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="326" column="15" selection-start-line="326" selection-start-column="15" selection-end-line="326" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/Adminhtml/TicketController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="n#exportCsvAction#0;n#Toni_Ticket_Adminhtml_TicketController#0;n#!!top" expanded="false" />
-            <element signature="n#massDeleteAction#0;n#Toni_Ticket_Adminhtml_TicketController#0;n#!!top" expanded="false" />
-            <element signature="e#970#1881#0#PHP" expanded="false" />
-            <element signature="e#1089#1881#0#PHP" expanded="false" />
-            <element signature="e#1108#1871#0#PHP" expanded="false" />
-            <element signature="e#1130#1286#0#PHP" expanded="false" />
-            <element signature="e#1304#1442#0#PHP" expanded="false" />
-            <element signature="e#1458#1570#0#PHP" expanded="false" />
-            <element signature="e#1571#1871#0#PHP" expanded="false" />
-            <element signature="e#1610#1792#0#PHP" expanded="false" />
-            <element signature="e#2128#2688#0#PHP" expanded="false" />
-            <element signature="e#2182#2440#0#PHP" expanded="false" />
-            <element signature="e#2222#2359#0#PHP" expanded="false" />
-            <element signature="e#2465#2531#0#PHP" expanded="false" />
-            <element signature="e#2465#2583#0#PHP" expanded="false" />
-            <element signature="e#2629#2688#0#PHP" expanded="false" />
-            <element signature="e#2755#2821#0#PHP" expanded="false" />
-            <element signature="e#3464#3751#0#PHP" expanded="false" />
-            <element signature="e#3508#3653#0#PHP" expanded="false" />
-            <element signature="e#4922#5981#0#PHP" expanded="false" />
-            <element signature="e#5078#5235#0#PHP" expanded="false" />
-            <element signature="e#5329#5467#0#PHP" expanded="false" />
-            <element signature="e#5588#5700#0#PHP" expanded="false" />
-            <element signature="e#5701#5981#0#PHP" expanded="false" />
-            <element signature="e#5740#5926#0#PHP" expanded="false" />
-            <element signature="e#6148#6274#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Admin/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="85" column="59" selection-start-line="85" selection-start-column="59" selection-end-line="85" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Newsletter/Model/Queue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="211" column="36" selection-start-line="211" selection-start-column="36" selection-end-line="211" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/email/order/items.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/bundle/email/order/items/order/default.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1698,41 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="107" column="18" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="350" column="27" selection-start-line="350" selection-start-column="27" selection-end-line="350" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Varien/Object.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="630" column="0" selection-start-line="630" selection-start-column="0" selection-end-line="630" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/share/phpmyadmin/navigation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Queue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1761,10 +724,302 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="752" column="9" selection-start-line="752" selection-start-column="9" selection-end-line="752" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/authorizenet/directpost/form.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="39" column="199" selection-start-line="39" selection-start-column="199" selection-end-line="39" selection-end-column="199" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/local.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/locale/en_US/template/email/account_new_confirmed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/locale/en_US/template/email/account_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/locale/en_US/template/email/currency_update_warning.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/locale/en_US/template/email/token.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Sales/Model/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="1426" column="32" selection-start-line="1426" selection-start-column="32" selection-end-line="1426" selection-end-column="32" />
+          <folding>
+            <element signature="n#queueNewOrderEmail#0;n#Mage_Sales_Model_Order#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Newsletter/Model/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="312" column="37" selection-start-line="312" selection-start-column="37" selection-end-line="312" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Sales/controllers/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-642">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/System/Email/Template/Preview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Checkout/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="227" column="34" selection-start-line="227" selection-start-column="34" selection-end-line="227" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/locale/en_US/template/email/contact_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Layer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="293" column="0" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Template/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Varien/Object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="262" column="20" selection-start-line="262" selection-start-column="20" selection-end-line="262" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/share/phpmyadmin/sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Sales/Model/Order/Item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Sales/Model/Order/Creditmemo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="758" column="11" selection-start-line="758" selection-start-column="11" selection-end-line="758" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Template/Mailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        <state relative-caret-position="2412">
+          <caret line="157" column="51" selection-start-line="157" selection-start-column="50" selection-end-line="157" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/locale/en_US/template/email/sales/order_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/locale/en_US/template/email/sales/shipment_update_guest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Sales/etc/system.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="341" column="27" selection-start-line="341" selection-start-column="27" selection-end-line="341" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/locale/en_US/template/email/sales/shipment_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Sales/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="1155" column="17" selection-start-line="1155" selection-start-column="17" selection-end-line="1155" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/locale/en_US/template/email/toni_ticket/ticketTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/adminhtml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Page/Menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="324" column="0" selection-start-line="324" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="546" column="0" selection-start-line="546" selection-start-column="0" selection-end-line="546" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/share/phpmyadmin/js/get_scripts.js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/System/Email/Template/Edit/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="176" column="39" selection-start-line="176" selection-start-column="39" selection-end-line="176" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/System/VariableController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="191" column="25" selection-start-line="191" selection-start-column="25" selection-end-line="191" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="329" column="17" selection-start-line="329" selection-start-column="17" selection-end-line="329" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/share/phpmyadmin/import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1786,26 +1041,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/share/phpmyadmin/sql.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Source/Email/Variables.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="1008">
+          <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Variable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="752" column="9" selection-start-line="752" selection-start-column="9" selection-end-line="752" selection-end-column="9" />
+        <state relative-caret-position="298">
+          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+          <folding>
+            <element signature="e#959#1398#0#PHP" expanded="false" />
+            <element signature="e#1560#1599#0#PHP" expanded="false" />
+            <element signature="e#1722#1825#0#PHP" expanded="false" />
+            <element signature="e#1942#1997#0#PHP" expanded="false" />
+            <element signature="e#2080#2194#0#PHP" expanded="false" />
+            <element signature="n#loadByCode#0;n#Mage_Core_Model_Variable#0;n#!!top" expanded="false" />
+            <element signature="e#2328#2445#0#PHP" expanded="false" />
+            <element signature="n#getValue#0;n#Mage_Core_Model_Variable#0;n#!!top" expanded="false" />
+            <element signature="e#2503#2571#0#PHP" expanded="false" />
+            <element signature="e#2580#2956#0#PHP" expanded="false" />
+            <element signature="e#2800#2919#0#PHP" expanded="false" />
+            <element signature="e#3013#3131#0#PHP" expanded="false" />
+            <element signature="n#validate#0;n#Mage_Core_Model_Variable#0;n#!!top" expanded="false" />
+            <element signature="e#3177#3517#0#PHP" expanded="false" />
+            <element signature="e#3316#3482#0#PHP" expanded="false" />
+            <element signature="e#3596#3708#0#PHP" expanded="false" />
+            <element signature="n#getVariablesOptionArray#0;n#Mage_Core_Model_Variable#0;n#!!top" expanded="false" />
+            <element signature="e#3937#4203#0#PHP" expanded="false" />
+            <element signature="e#4018#4192#0#PHP" expanded="false" />
+            <element signature="e#4212#4411#0#PHP" expanded="false" />
+            <element signature="e#4269#4400#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/Model/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="106" column="23" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/Model/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="674" column="36" selection-start-line="674" selection-start-column="33" selection-end-line="674" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Queue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="140" column="11" selection-start-line="140" selection-start-column="11" selection-end-line="140" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Email/Template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="397" column="60" selection-start-line="397" selection-start-column="60" selection-end-line="397" selection-end-column="60" />
+        <state relative-caret-position="420">
+          <caret line="422" column="0" selection-start-line="422" selection-start-column="0" selection-end-line="422" selection-end-column="0" />
           <folding>
             <element signature="e#3095#3160#0#PHP" expanded="false" />
             <element signature="e#3579#3636#0#PHP" expanded="false" />
@@ -1832,12 +1133,7 @@
             <element signature="n#getDefaultTemplates#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
             <element signature="e#6817#6975#0#PHP" expanded="false" />
             <element signature="e#7029#7118#0#PHP" expanded="false" />
-            <element signature="n#getDefaultTemplatesAsOptionsArray#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
             <element signature="e#7207#7268#0#PHP" expanded="false" />
-            <element signature="e#7307#7644#0#PHP" expanded="false" />
-            <element signature="e#7382#7556#0#PHP" expanded="false" />
-            <element signature="e#7497#7556#0#PHP" expanded="false" />
-            <element signature="e#7678#7808#0#PHP" expanded="false" />
             <element signature="e#7846#7906#0#PHP" expanded="false" />
             <element signature="n#getId#0;n#Mage_Core_Model_Email_Template#0;n#!!top" expanded="false" />
             <element signature="e#7991#8053#0#PHP" expanded="false" />
@@ -1851,43 +1147,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Sales/Model/Order.php">
+    <entry file="file:///usr/share/phpmyadmin/tbl_change.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="1339" column="44" selection-start-line="1338" selection-start-column="8" selection-end-line="1339" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/authorizenet/directpost/form.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="39" column="199" selection-start-line="39" selection-start-column="199" selection-end-line="39" selection-end-column="199" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        <state relative-caret-position="234">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/TicketController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="486">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="n#preDispatch#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
-            <element signature="n#checkAccess#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
-            <element signature="e#723#865#0#PHP" expanded="false" />
+            <element signature="e#820#962#0#PHP" expanded="false" />
             <element signature="n#ticketAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
             <element signature="n#viewAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
-            <element signature="n#newticketAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
+            <element signature="n#postnewAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
+            <element signature="n#sendmail#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
             <element signature="n#closeAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
             <element signature="n#newresponseAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
             <element signature="n#_initLayout#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />

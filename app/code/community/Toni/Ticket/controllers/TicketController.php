@@ -11,6 +11,11 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
             $this->setFlag('', self::FLAG_NO_DISPATCH, true);
         }
     }
+
+    /**
+     * Checks whether that user has access to current ticket
+     * @return int
+     */
     protected function checkAccess() {
         $id = $this->_request->getParam('entity_id');
         $ticket = Mage::getModel('ticket/ticket')->load($id);
@@ -22,16 +27,24 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
         }
         return 1;
     }
+
+    /**
+     * View Ticket list
+     */
     public function ticketAction() {
         $this->_initLayout();
     }
+
+    /**
+     * View for Ticket
+     */
     public function viewAction() {
         if($this->checkAccess())
             $this->_initLayout();
     }
-    public function newticketAction() {
-        $this->_initLayout();
-    }
+    /**
+     * Post new  ticket
+     */
     public function postnewAction() {
         //Save
         $data = array(
@@ -50,55 +63,60 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
             Mage::log($e->getMessage());
         }
 
+        //Send Email confirmation
         $this->sendmail();
 
         //Redirect
         Mage::getSingleton('customer/session')->addSuccess(Mage::helper('contacts')->__('Your inquiry was submitted and will be responded to as soon as possible. Thank you for contacting us.'));
         $this->_redirect('*/*/ticket');
     }
+    /**
+     * Sends Ticket confirmation email
+     */
     public function sendmail() {
-        /**
+
+        $customer = Mage::getSingleton('customer/session')->getCustomer();
+
+        /**Prep Email template
+         *
          * @var Mage_Core_Model_Email_Queue $emailQueue
          * @var Mage_Core_Model_Email_Template $emailTemplate
          */
-
-        $emailTemplate  = Mage::getModel('core/email_template')
-            ->loadDefault('ticket_template');
-
-        //Create an array of variables to assign to template
-        $emailTemplateVariables = array();
-        $emailTemplateVariables['myvar1'] = 'Branko';
-        $emailTemplateVariables['myvar2'] = 'Ajzele';
-        $emailTemplateVariables['myvar3'] = 'ActiveCodeline';
-
+        $emailTemplate  = Mage::getModel('core/email_template')->load(1);
         $emailTemplate->setSenderName('lolerpnv@gmail.com');
         $emailTemplate->setSenderEmail('lolerpnv@gmail.com');
-        $emailTemplate->setTemplateSubject('Subejct');
-        $emailTemplate->setTemplateText('THIS IS TEXT\nYES\nYES\nYES');
+        $emailTemplate->setTemplateSubject('Ticket Confirmation');
 
-        //$emailTemplate->setStoreId($storeId);
-        //$mailer->setTemplateId($templateId);
 
         /**
-         * The best part 🙂
-         * Opens the activecodeline_custom_email1.html, throws in the variable array
-         * and returns the 'parsed' content that you can use as body of email
-         */
-        $processedTemplate = $emailTemplate->getProcessedTemplate($emailTemplateVariables);
+         * Set Custim vars
+         **/
+        $this->setCustimVar('company','ZeenCoo');
+        $this->setCustimVar('name',$customer->getName());
 
-        /*
-         * Or you can send the email directly,
-         * note getProcessedTemplate is called inside send()
+
+        /**     Prep queue
+         *
+         * @var $emailQueue Mage_Core_Model_Email_Queue
+         * @var $customer Mage_Customer_Model_Customer
          */
-        /** @var $emailQueue Mage_Core_Model_Email_Queue */
         $emailQueue = Mage::getModel('core/email_queue');
-        /*$emailQueue->setEntityId($this->getId())
-            ->setEntityType(self::ENTITY)
-            ->setEventType(self::EMAIL_EVENT_NAME_NEW_ORDER);*/
-
-        $emailTemplate->setQueue($emailQueue)->send('lolerpnv@gmail.com','John Doe');
-
-
+        $emailQueue->setEntityId($customer->getEntityId())
+            ->setEntityType($customer->getEntityType())
+            ->setEventType('new ticket');
+        /**
+         * Add to queue
+         */
+        $emailTemplate->setQueue($emailQueue)->send($customer->getEmail());
+    }
+    /**
+     * Sets html value of custim var
+     */
+    public function setCustimVar($code,$value) {
+        $code = $code;
+        $variable = Mage::getModel('core/variable')->loadByCode($code);
+        $variable->setHtmlValue($value)
+            ->save();
     }
     public function closeAction() {
         $this->checkAccess();

@@ -41,17 +41,15 @@
                 <setup>
                     <module>Toni_Ticket</module>
                 </setup>
-
             </toni_ticket_setup>
-
         </resources>
         <template>
             <email>
-                <ticket_template module="ticket">
+                <ticket module="toni_ticket">
                     <label>Ticket Mail</label>
-                    <file>ticket/ticketTemplate.html</file>
+                    <file>toni_ticket/ticketTemplate.html</file>
                     <type>html</type>
-                </ticket_template>
+                </ticket>
             </email>
         </template>
     </global>
