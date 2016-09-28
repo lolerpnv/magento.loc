@@ -2092,7 +2092,11 @@
                    <label>Moneybookers activate email</label>
                    <file>moneybookers_activateemail.html</file>
                    <type>html</type>
-               </moneybookers_activateemail></email>
+               </moneybookers_activateemail><custom_email_template1 module="ticket">
+                    <label>ActiveCodeline custom email module</label>
+                    <file>activecodeline_custom_email1.html</file>
+                    <type>html</type>
+                </custom_email_template1></email>
         </template><cache>
             <types>
                 <config translate="label,description" module="core">

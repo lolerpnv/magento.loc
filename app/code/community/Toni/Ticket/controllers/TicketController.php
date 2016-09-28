@@ -61,14 +61,23 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
          * @var Mage_Core_Model_Email_Queue $emailQueue
          * @var Mage_Core_Model_Email_Template $emailTemplate
          */
+
         $emailTemplate  = Mage::getModel('core/email_template')
-            ->loadDefault('custom_email_template1');
+            ->loadDefault('ticket_template');
 
         //Create an array of variables to assign to template
         $emailTemplateVariables = array();
         $emailTemplateVariables['myvar1'] = 'Branko';
         $emailTemplateVariables['myvar2'] = 'Ajzele';
         $emailTemplateVariables['myvar3'] = 'ActiveCodeline';
+
+        $emailTemplate->setSenderName('lolerpnv@gmail.com');
+        $emailTemplate->setSenderEmail('lolerpnv@gmail.com');
+        $emailTemplate->setTemplateSubject('Subejct');
+        $emailTemplate->setTemplateText('THIS IS TEXT\nYES\nYES\nYES');
+
+        //$emailTemplate->setStoreId($storeId);
+        //$mailer->setTemplateId($templateId);
 
         /**
          * The best part 🙂
@@ -81,7 +90,14 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
          * Or you can send the email directly,
          * note getProcessedTemplate is called inside send()
          */
-        $emailTemplate->send('lolerpnv@gmail.com','John Doe', $emailTemplateVariables);
+        /** @var $emailQueue Mage_Core_Model_Email_Queue */
+        $emailQueue = Mage::getModel('core/email_queue');
+        /*$emailQueue->setEntityId($this->getId())
+            ->setEntityType(self::ENTITY)
+            ->setEventType(self::EMAIL_EVENT_NAME_NEW_ORDER);*/
+
+        $emailTemplate->setQueue($emailQueue)->send('lolerpnv@gmail.com','John Doe');
+
 
     }
     public function closeAction() {
