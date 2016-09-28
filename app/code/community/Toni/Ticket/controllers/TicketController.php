@@ -19,10 +19,9 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
     protected function checkAccess() {
         $id = $this->_request->getParam('entity_id');
         $ticket = Mage::getModel('ticket/ticket')->load($id);
-        $data = $ticket->getData('entity_id');
-        if($data === null) {
+        if($ticket->getData('entity_id') === null) {
             $this->_redirect('*/*/ticket');
-        }if($ticket->getData('user_id') != Mage::getModel('customer/session')->getCustomerId()) {
+        } if ($ticket->getData('user_id') != Mage::getModel('customer/session')->getCustomerId()) {
             $this->_redirect('*/*/ticket');
         }
         return 1;
@@ -118,8 +117,15 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
         $variable->setHtmlValue($value)
             ->save();
     }
+
+    /**
+     * Close Ticket Action
+     */
     public function closeAction() {
-        $this->checkAccess();
+        if(!$this->checkAccess()) {
+            $this->_redirect('*/*/ticket');
+            return;
+        }
         //Close
         /**
          * @var Toni_Ticket_Model_Resource_Ticket_Collection $tickets

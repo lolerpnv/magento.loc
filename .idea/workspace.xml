@@ -12,11 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b049ecdc-c41e-4195-b1b4-06e7e8a42ef7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/etc/local.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/magicento/config.xml" afterPath="$PROJECT_DIR$/.idea/magicento/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/TicketController.php" afterPath="$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/TicketController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/community/Toni/Ticket/etc/config.xml" />
     </list>
     <ignored path="magento.loc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,16 +36,15 @@
       <file leaf-file-name="TicketController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/TicketController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="100">
+              <caret line="124" column="35" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
               <folding>
                 <element signature="n#preDispatch#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
-                <element signature="e#820#962#0#PHP" expanded="false" />
                 <element signature="n#ticketAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
                 <element signature="n#viewAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
                 <element signature="n#postnewAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
                 <element signature="n#sendmail#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
-                <element signature="n#closeAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
+                <element signature="n#setCustimVar#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
                 <element signature="n#newresponseAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
                 <element signature="n#_initLayout#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
               </folding>
@@ -589,12 +584,12 @@
       <workItem from="1474953562032" duration="5683000" />
       <workItem from="1474966484758" duration="68000" />
       <workItem from="1474976294021" duration="1536000" />
-      <workItem from="1475039228938" duration="21606000" />
+      <workItem from="1475039228938" duration="22403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390674000" />
+    <option name="totallyTimeSpent" value="391471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -611,7 +606,7 @@
       <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26533997" sideWeight="0.53481483" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27244258" sideWeight="0.49120522" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27244258" sideWeight="0.49120522" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1157,16 +1152,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/community/Toni/Ticket/controllers/TicketController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="100">
+          <caret line="124" column="35" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
           <folding>
             <element signature="n#preDispatch#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
-            <element signature="e#820#962#0#PHP" expanded="false" />
             <element signature="n#ticketAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
             <element signature="n#viewAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
             <element signature="n#postnewAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
             <element signature="n#sendmail#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
-            <element signature="n#closeAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
+            <element signature="n#setCustimVar#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
             <element signature="n#newresponseAction#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
             <element signature="n#_initLayout#0;n#Toni_Ticket_TicketController#0;n#!!top" expanded="false" />
           </folding>
