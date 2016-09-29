@@ -44,10 +44,11 @@ class Toni_Ticket_Model_Ticket extends Mage_Core_Model_Abstract
         if(!$this->getId()) {
             return;
         }else {
-            $responses = Mage::getModel('res')->getCollction();
-            $responses->addFieldToFilter('ticket_id', $this->getId());
+            $this->responses = Mage::getModel('ticket/response')->getCollection()
+                                ->addFieldToSelect('*')
+                                ->addFieldToFilter('ticket_id', $this->getId());
         }
-        return $responses;
+        return $this->responses->load();
     }
 
 

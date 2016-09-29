@@ -69,10 +69,19 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
         Mage::getSingleton('customer/session')->addSuccess(Mage::helper('contacts')->__('Your inquiry was submitted and will be responded to as soon as possible. Thank you for contacting us.'));
         $this->_redirect('*/*/ticket');
     }
+    public function newticketAction() {
+        $this->_initLayout();
+    }
     /**
      * Sends Ticket confirmation email
      */
     public function sendmail() {
+
+        $enable = Mage::getStoreConfig('ticket/settings/ticket_yesno');
+        $template = Mage::getStoreConfig('ticket/settings/ticket_dropdown');
+        if(!$enable) {
+            return;
+        }
 
         $customer = Mage::getSingleton('customer/session')->getCustomer();
 
@@ -81,18 +90,24 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
          * @var Mage_Core_Model_Email_Queue $emailQueue
          * @var Mage_Core_Model_Email_Template $emailTemplate
          */
-        $emailTemplate  = Mage::getModel('core/email_template')->load(1);
-        $emailTemplate->setSenderName('lolerpnv@gmail.com');
-        $emailTemplate->setSenderEmail('lolerpnv@gmail.com');
-        $emailTemplate->setTemplateSubject('Ticket Confirmation');
+        $emailTemplate  = Mage::getModel('core/email_template')
+            ->setSenderName('lolerpnv@gmail.com')
+            ->setSenderEmail('lolerpnv@gmail.com')
+            ->setTemplateSubject('Ticket Confirmation');
+        $emailTemplate->setId($template);
 
 
         /**
          * Set Custim vars
          **/
-        $this->setCustimVar('company','ZeenCoo');
-        $this->setCustimVar('name',$customer->getName());
-
+        $vars = array(
+            'company'=>'ZeenCoo',
+            'name'=>$customer->getName()
+        );
+        $sender = array(
+            'email' => 'zeenCoo@gmail.com',
+            'name' => 'ZeenCoo'
+        );
 
         /**     Prep queue
          *
@@ -106,7 +121,8 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
         /**
          * Add to queue
          */
-        $emailTemplate->setQueue($emailQueue)->send($customer->getEmail());
+        $emailTemplate->setQueue($emailQueue)->sendTransactional($template,$sender,$customer->getEmail(),
+            $customer->getName(),$vars);
     }
     /**
      * Sets html value of custim var
@@ -147,8 +163,15 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
         $this->_redirect('*/*/ticket');
 
     }
+
+    /**
+     * Adds new response to selected ticket
+     */
     public function newresponseAction() {
-        $this->checkAccess();
+        if(!$this->checkAccess()) {
+            $this->_redirect('*/*/ticket');
+            return;
+        }
         //save
         $response = Mage::getModel("ticket/response");
         $response->setData(array(
@@ -163,6 +186,10 @@ class Toni_Ticket_TicketController extends Mage_Core_Controller_Front_Action
         }
         $this->_redirect("*/*/view/",array('entity_id'=>$this->_request->getParam('entity_id')));
     }
+
+    /**
+     * Just for layout initialization
+     */
     public function _initLayout() {
         $this->loadLayout();
         $this->_initLayoutMessages('catalog/session');

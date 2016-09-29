@@ -6013,7 +6013,16 @@ T: {{var telephone}}
             <settings>
                 <activationstatus>0</activationstatus>
             </settings>
-        </moneybookers><introduce>
+        </moneybookers><ticket>
+            <settings>
+                <ticket_yesno>
+                    <![CDATA[1]]>
+                </ticket_yesno>
+                <ticket_dropdown>
+                    <![CDATA[0]]>
+                </ticket_dropdown>
+            </settings>
+        </ticket><introduce>
 
             <settings>
 

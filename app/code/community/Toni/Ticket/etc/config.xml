@@ -45,11 +45,11 @@
         </resources>
         <template>
             <email>
-                <ticket module="toni_ticket">
+                <ticket_settings_ticket_dropdown module="toni_ticket">
                     <label>Ticket Mail</label>
                     <file>toni_ticket/ticketTemplate.html</file>
                     <type>html</type>
-                </ticket>
+                </ticket_settings_ticket_dropdown>
             </email>
         </template>
     </global>
@@ -105,4 +105,16 @@
             </design>
         </admin>
     </stores>
+    <default>
+        <ticket>
+            <settings>
+                <ticket_yesno>
+                    <![CDATA[1]]>
+                </ticket_yesno>
+                <ticket_dropdown>
+                    <![CDATA[ticket_settings_ticket_dropdown]]>
+                </ticket_dropdown>
+            </settings>
+        </ticket>
+    </default>
 </config>

@@ -7,27 +7,39 @@ class Toni_Ticket_Adminhtml_TicketController extends Mage_Adminhtml_Controller_A
         return parent::preDispatch();
     }
 
+    /**
+     * Grid showing open tickets
+     */
     public function indexAction() {
         $this->loadLayout();
         $this->renderLayout();
     }
 
+    /**
+     * Grid showing closed tickets
+     */
     public function closedAction() {
         $this->loadLayout();
         $this->renderLayout();
     }
+
+    /**
+     * Export
+     */
     public function exportCsvAction() {
         $fileName = 'AdminTest_export.csv';
         $content = $this->getLayout()->createBlock('ticket/gridtest_grid')->getCsv();
         $this->_prepareDownloadResponse($fileName, $content);
     }
-
     public function exportExcelAction() {
         $fileName = 'AdminTest_export.xml';
         $content = $this->getLayout()->createBlock('ticket/gridtest_grid')->getExcel();
         $this->_prepareDownloadResponse($fileName, $content);
     }
 
+    /**
+     * mass delete
+     */
     public function massDeleteAction() {
         $ids = $this->getRequest()->getParam('ids');
         if (!is_array($ids)) {
@@ -55,6 +67,9 @@ class Toni_Ticket_Adminhtml_TicketController extends Mage_Adminhtml_Controller_A
         $this->_redirect('*/*/index');
     }
 
+    /**
+     * Form for viewing ticket and adding responses
+     */
     public function editAction() {
         $id = $this->getRequest()->getParam('id');
         $model = Mage::getModel('ticket/ticket');
@@ -91,10 +106,9 @@ class Toni_Ticket_Adminhtml_TicketController extends Mage_Adminhtml_Controller_A
         $this->renderLayout();
     }
 
-    public function newTicketAction() {
-
-    }
-
+    /**
+     * Saves admins response to specific ticket
+     */
     public function saveAction()
     {
         $redirectBack = $this->getRequest()->getParam('back', false);
@@ -141,6 +155,9 @@ class Toni_Ticket_Adminhtml_TicketController extends Mage_Adminhtml_Controller_A
         $this->_redirect('*/*/index');
     }
 
+    /**
+     * Delete Ticket
+     */
     public function deleteAction() {
         if ($id = $this->getRequest()->getParam('ticket_id')) {
             try {
@@ -177,6 +194,10 @@ class Toni_Ticket_Adminhtml_TicketController extends Mage_Adminhtml_Controller_A
     // go to grid
         $this->_redirect('*/*/index');
     }
+
+    /**
+     * Close given ticket
+     */
     public function closeAction() {
         $id = $this->_request->getParam('id');
         $ticket = Mage::getModel('ticket/ticket');

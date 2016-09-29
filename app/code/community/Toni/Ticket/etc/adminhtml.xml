@@ -20,4 +20,24 @@
             </children>
         </ticket>
     </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <ticket translate="title" module="toni_ticket">
+                                        <title>Ticket</title>
+                                        <sort_order>1</sort_order>
+                                    </ticket>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
 </config>

@@ -3,6 +3,7 @@
  * @var Toni_Ticket_Model_Response $response
  */
 $responses = $this->getResponses();
+$responses = $responses->getItems();
 if(empty($responses)):
     echo "<span class='text' >You have no responses to this ticket</span>";
 else :

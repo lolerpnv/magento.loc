@@ -160,7 +160,11 @@
                                         <sort_order>135</sort_order>
                                     </rss><configswatches>
                                         <title>ConfigurableSwatches</title>
-                                    </configswatches><introduce translate="label" module="introduce">
+                                    </configswatches><ticket translate="label" module="toni_ticket">
+
+                                        <title>Ticket adminhtml</title>
+
+                                    </ticket><introduce translate="label" module="introduce">
 
                                             <title>Introduce adminhtml</title>
 
@@ -1189,14 +1193,14 @@
             <sort_order>20</sort_order>
             <depends><module>Toni_Ticket</module></depends>
             <children>
-                <open translate="title" module="sales">
+                <open translate="title" module="toni_ticket">
                     <title>Open</title>
                     <action>adminhtml/ticket/index</action>
                     <sort_order>10</sort_order>
                 </open>
                 <closed translate="title" module="toni_ticket">
                     <title>Closed</title>
-                    <action>adminhtml/sales_order</action>
+                    <action>adminhtml/ticket/closed</action>
                     <sort_order>10</sort_order>
                 </closed>
             </children>
